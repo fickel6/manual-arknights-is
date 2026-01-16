@@ -1117,5 +1117,13 @@
       "key"
     ],
     "progression": true
+  },
+  {
+    "count": 2,
+    "name": "dificulty key is2",
+    "category": [
+      "DIF"
+    ],
+    "progression": true
   }
 ]
