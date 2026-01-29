@@ -208,7 +208,7 @@
   },
   {
     "name": "'The Grand Finale' clear",
-    "region": "|is2 key| AND is2",
+    "region": "is2",
     "category": [
       "stage"
     ],
