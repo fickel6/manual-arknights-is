@@ -5,17 +5,16 @@
   "filler_item_name": "Originite Prime",
   "starting_items": [
     {
-      "item_categories": ["start_floor"],
-      "random": 1
+      "items": ["is2 key"],
+      "_comment": [
+        "deze key (region key) wordt later randomised",
+        "region key is ook gelijk  1st floor key"
+      ]
     },
     {
-      "item_categories": ["starting_squads"],
-      "random": 1
-    },
-    {
+      "item_categories": ["squad"],
       "_comment": "add logic for starting squads",
-      "if_previous_item": ["squad"],
-      "item_categories": ["4 star categorie"]
+      "random": 1
     },
     {
       "_comment": "should also do the starting 6 stars here??"

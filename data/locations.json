@@ -2,13 +2,13 @@
   {
     "name": "invest coins",
     "prehint": true,
-    "requires": "|saved_coins|:40",
+    "requires": "|saved_coins:40|",
     "hint_entrance": "available in shops"
   },
   {
     "name": "get coins",
     "prehint": true,
-    "requires": "|got_coins|:20",
+    "requires": "|got_coins:20|",
     "hint_entrance": "available in shops"
   },
   {
@@ -18,8 +18,7 @@
       "floor",
       "start_floor"
     ],
-    "requires": ["is2 key"],
-    "place_item_category": []
+    "requires": "|is2 key|"
   },
   {
     "name": "floor2 is2",
@@ -27,8 +26,7 @@
     "category": [
       "floor"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2|"
   },
   {
     "name": "floor3 is2",
@@ -36,8 +34,7 @@
     "category": [
       "floor"
     ],
-    "requires": "|floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor3 key is2| AND |floor2 key is2|"
   },
   {
     "name": "floor4 is2",
@@ -45,8 +42,7 @@
     "category": [
       "floor"
     ],
-    "requires": "|floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|"
   },
   {
     "name": "floor5 is2",
@@ -54,8 +50,7 @@
     "category": [
       "floor"
     ],
-    "requires": "|floor5 key is2| AND |floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor5 key is2| AND |floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|"
   },
   {
     "name": "floor6 is2",
@@ -63,8 +58,7 @@
     "category": [
       "floor"
     ],
-    "requires": "(|floor6 key is2| AND (Abrupt Realization OR Act 1)) AND |floor5 key is2| AND |floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND (|floor6 key is2| AND (|Abrupt Realization| OR |Act 1|)) AND |floor5 key is2| AND |floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|"
   },
   {
     "name": "'A date with slugs' clear",
@@ -72,8 +66,7 @@
     "category": [
       "stage"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key|"
   },
   {
     "name": "emergency 'A date with slugs' clear",
@@ -82,8 +75,7 @@
       "stage",
       "emergency"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key|"
   },
   {
     "name": "'Accident' clear",
@@ -91,8 +83,7 @@
     "category": [
       "stage"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key|"
   },
   {
     "name": "emergency 'Accident' clear",
@@ -101,8 +92,7 @@
       "stage",
       "emergency"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key|"
   },
   {
     "name": "'Beast taming' clear",
@@ -110,8 +100,7 @@
     "category": [
       "stage"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key|"
   },
   {
     "name": "emergency 'Beast taming' clear",
@@ -120,8 +109,7 @@
       "stage",
       "emergency"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key|"
   },
   {
     "name": "'Fight to the death' clear",
@@ -129,8 +117,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key|"
+    
   },
   {
     "name": "emergency 'Fight to the death' clear",
@@ -139,8 +127,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key|"
+    
   },
   {
     "name": "'Gun Salute' clear",
@@ -148,8 +136,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key|"
+    
   },
   {
     "name": "emergency 'Gun Salute' clear",
@@ -158,8 +146,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key|"
+    
   },
   {
     "name": "'Destitute Knight' clear",
@@ -167,8 +155,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2|"
+    
   },
   {
     "name": "emergency 'Destitute Knight' clear",
@@ -177,8 +165,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2|"
+    
   },
   {
     "name": "'First Come, Last Served' clear",
@@ -186,8 +174,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2|"
+    
   },
   {
     "name": "emergency 'First Come, Last Served' clear",
@@ -196,8 +184,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2|"
+    
   },
   {
     "name": "'Patrol Squad' clear",
@@ -205,8 +193,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2|"
+    
   },
   {
     "name": "emergency 'Patrol Squad' clear",
@@ -215,17 +203,17 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2|"
+    
   },
   {
     "name": "'The Grand Finale' clear",
-    "region": "is2",
+    "region": "|is2 key| AND is2",
     "category": [
       "stage"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2|"
+    
   },
   {
     "name": "emergency 'The Grand Finale' clear",
@@ -234,8 +222,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2|"
+    
   },
   {
     "name": "'Unequal Split' clear",
@@ -243,8 +231,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2|"
+    
   },
   {
     "name": "emergency 'Unequal Split' clear",
@@ -253,8 +241,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2|"
+    
   },
   {
     "name": "'A Familiar Face' clear",
@@ -262,8 +250,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "emergency 'A Familiar Face' clear",
@@ -272,8 +260,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "'Beast Fighting' clear",
@@ -281,8 +269,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "emergency 'Beast fighting' clear",
@@ -291,8 +279,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "'Justice' clear",
@@ -300,8 +288,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "emergency 'Justice' clear",
@@ -310,8 +298,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "'Premiere' clear",
@@ -319,8 +307,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "emergency 'Premiere' clear",
@@ -329,8 +317,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "'Reform' clear",
@@ -338,8 +326,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "emergency 'Reform' clear",
@@ -348,8 +336,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |is2 key|"
+    
   },
   {
     "name": "'Sculptor And Statue' clear",
@@ -357,8 +345,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "emergency 'Sculptor And Statue' clear",
@@ -367,8 +355,7 @@
       "stage",
       "emergency"
     ],
-    "requires": "|is2 key|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
   },
   {
     "name": "'Vintage Transport' clear",
@@ -376,8 +363,27 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
+  },
+  {
+    "name": "emergency 'Vintage Transport' clear",
+    "region": "is2",
+    "category": [
+      "stage",
+      "emergency"
+    ],
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
+  },
+  {
+    "name": "'With the Crowd' clear",
+    "region": "is2",
+    "category": [
+      "stage"
+    ],
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "emergency 'With the Crowd' clear",
@@ -386,8 +392,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "'A Cold Separation' clear",
@@ -396,8 +402,8 @@
       "stage",
       "boss"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "'Fatal melodies' clear",
@@ -406,8 +412,8 @@
       "stage",
       "boss"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "'Mind the Doors' clear",
@@ -416,8 +422,8 @@
       "stage",
       "boss"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "'Terrifying Legends' clear",
@@ -426,8 +432,8 @@
       "stage",
       "boss"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "'Theft From Above' clear",
@@ -436,8 +442,8 @@
       "stage",
       "boss"
     ],
-    "requires": "|floor3 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
+    
   },
   {
     "name": "'A Dance Together' clear",
@@ -445,8 +451,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "emergency 'A Dance Together' clear",
@@ -455,8 +461,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "'Alpine Visitor' clear",
@@ -464,8 +470,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "emergency 'Alpine Visitor' clear",
@@ -474,27 +480,27 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
-    "name": "'Bob's beer' clear",
+    "name": "'Bob's beers' clear",
     "region": "is2",
     "category": [
       "stage"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
-    "name": "emergency 'Bob's beer' clear",
+    "name": "emergency 'Bob's beers' clear",
     "region": "is2",
     "category": [
       "stage",
       "emergency"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "'Fireworks Show' clear",
@@ -502,8 +508,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "emergency 'Fireworks Show' clear",
@@ -512,8 +518,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "'Pressing Ahead' clear",
@@ -521,8 +527,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "emergency 'Pressing Ahead' clear",
@@ -531,8 +537,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "'Shrouded in Clouds' clear",
@@ -540,8 +546,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "emergency 'Shrouded in Clouds' clear",
@@ -550,8 +556,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "'Traveler of Afar' clear",
@@ -559,8 +565,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "emergency 'Traveler of Afar' clear",
@@ -569,8 +575,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "'Unending' clear",
@@ -578,8 +584,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "emergency 'Unending' clear",
@@ -588,8 +594,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor4 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2|"
+    
   },
   {
     "name": "'Absurd Trickeries' clear",
@@ -597,8 +603,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "emergency 'Absurd Trickeries' clear",
@@ -607,8 +613,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "'Dangers Abound' clear",
@@ -616,8 +622,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "emergency 'Dangers Abound' clear",
@@ -626,8 +632,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "'Drone Landing Zone' clear",
@@ -635,8 +641,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "emergency 'Drone Landing Zone' clear",
@@ -645,8 +651,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "'From Afar' clear",
@@ -654,8 +660,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "emergency 'From Afar' clear",
@@ -664,8 +670,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "'Suprise Factory' clear",
@@ -673,8 +679,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "emergency 'Suprise Factory' clear",
@@ -683,8 +689,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "'The Biting Cold' clear",
@@ -692,8 +698,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "emergency 'The Biting Cold' clear",
@@ -702,8 +708,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "'The Night of Ritual' clear",
@@ -711,8 +717,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "emergency 'The Night of Ritual' clear",
@@ -721,8 +727,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "'The Red Mist' clear",
@@ -730,8 +736,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "emergency 'The Red Mist' clear",
@@ -740,8 +746,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    
   },
   {
     "name": "'All I Ask of You' clear",
@@ -750,8 +756,8 @@
       "stage",
       "boss"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": [],
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2|"
+    ,
     "victory": true
   },
   {
@@ -761,8 +767,8 @@
       "stage",
       "boss"
     ],
-    "requires": "|floor5 key is2| AND |Worn Out Puppet|",
-    "place_item_category": [],
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2| AND |Worn Out Puppet|"
+    ,
     "victory": true
   },
   {
@@ -771,8 +777,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor6 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2| AND |floor6 key is2| AND ((|Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|) OR (|Dance of the Condemned| AND |Act 1|))"
+    
   },
   {
     "name": "emergency 'Sarkaz Desire' clear",
@@ -781,8 +787,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor5 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2| AND |floor5 key is2| AND ((|Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|) OR (|Dance of the Condemned| AND |Act 1|))"
+    
   },
   {
     "name": "'Ursus Desire' clear",
@@ -790,8 +796,8 @@
     "category": [
       "stage"
     ],
-    "requires": "|floor6 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2| AND |floor6 key is2| AND ((|Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|) OR (|Dance of the Condemned| AND |Act 1|))"
+    
   },
   {
     "name": "emergency 'Ursus Desire' clear",
@@ -800,8 +806,8 @@
       "stage",
       "emergency"
     ],
-    "requires": "|floor6 key is2|",
-    "place_item_category": []
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2| AND |floor6 key is2| AND ((|Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|) OR (|Dance of the Condemned| AND |Act 1|))"
+    
   },
   {
     "name": "'New Chapter' clear",
@@ -810,8 +816,7 @@
       "stage",
       "boss"
     ],
-    "requires": "|floor6 key is2| AND |Dance of the Condemned| AND |Act 1|",
-    "place_item_category": [],
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2| AND |floor6 key is2| AND |Dance of the Condemned| AND |Act 1|",
     "victory": true
   },
   {
@@ -821,8 +826,7 @@
       "stage",
       "boss"
     ],
-    "requires": "|floor6 key is2| AND |Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|",
-    "place_item_category": [],
+    "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2| AND |floor6 key is2| AND |Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|",
     "victory": true
   }
 ]
