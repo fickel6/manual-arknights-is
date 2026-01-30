@@ -5,5 +5,13 @@
     },
     "5 star":{
         "yaml_option": ["enable_5_stars"]
+    },
+    "exclude individual 6 star": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "minItems": 0,
+        "uniqueItems": true
     }
 }
