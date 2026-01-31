@@ -4,7 +4,8 @@
     "name": "Aak",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -13,7 +14,8 @@
     "name": "Angelina",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -22,7 +24,8 @@
     "name": "Archetto",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -31,7 +34,8 @@
     "name": "Ascalon",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -42,7 +46,8 @@
       "character",
       "6 star",
       "limited",
-      "crossover"
+      "crossover",
+      "sniper"
     ],
     "useful": true
   },
@@ -51,7 +56,8 @@
     "name": "Bagpipe",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -60,7 +66,8 @@
     "name": "Blaze",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -70,7 +77,8 @@
     "category": [
       "character",
       "6 star",
-      "alter"
+      "alter",
+      "caster"
     ],
     "useful": true
   },
@@ -79,7 +87,8 @@
     "name": "Blemishine",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "defender"
     ],
     "useful": true
   },
@@ -88,7 +97,8 @@
     "name": "Carnelian",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -97,7 +107,8 @@
     "name": "Ceobe",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -106,7 +117,8 @@
     "name": "Ch'en",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -116,7 +128,8 @@
     "category": [
       "character",
       "6 star",
-      "alter"
+      "alter",
+      "sniper"
     ],
     "useful": true
   },
@@ -126,7 +139,8 @@
     "category": [
       "character",
       "6 star",
-      "limited"
+      "limited",
+      "guard"
     ],
     "useful": true
   },
@@ -136,7 +150,8 @@
     "category": [
       "character",
       "6 star", 
-      "wellfare"
+      "wellfare", 
+      "supporter"
     ],
     "useful": true
   },
@@ -146,7 +161,8 @@
     "category": [
       "character",
       "6 star",
-      "wellfare"
+      "wellfare",
+      "specialist"
     ],
     "useful": true
   },
@@ -155,7 +171,8 @@
     "name": "Degenbrecher",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -164,7 +181,8 @@
     "name": "Dorothty",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -174,7 +192,8 @@
     "category": [
       "character",
       "6 star",
-      "limited"
+      "limited",
+      "caster"
     ],
     "useful": true
   },
@@ -183,7 +202,8 @@
     "name": "Ebenholz",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -194,7 +214,8 @@
       "character",
       "6 star",
       "crossover",
-      "limited"
+      "limited",
+      "specialist"
     ],
     "useful": true
   },
@@ -203,7 +224,8 @@
     "name": "Entelechia",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -212,7 +234,8 @@
     "name": "Eunectes",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "defender"
     ],
     "useful": true
   },
@@ -221,7 +244,8 @@
     "name": "Executor the Ex Foedere",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -230,7 +254,8 @@
     "name": "Exusiai",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -241,7 +266,8 @@
       "character",
       "6 star", 
       "alter",
-      "limited"
+      "limited",
+       "sniper"
     ],
     "useful": true
   },
@@ -250,7 +276,8 @@
     "name": "Eyjafjalla",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -261,7 +288,8 @@
       "character",
       "6 star",
       "limited",
-      "alter"
+      "alter",
+      "medic"
     ],
     "useful": true
   },
@@ -270,7 +298,8 @@
     "name": "Fartooth",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -279,7 +308,8 @@
     "name": "Fiametta",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -288,7 +318,8 @@
     "name": "Flametail",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -299,7 +330,8 @@
       "character",
       "6 star",
       "limited",
-      "alter"
+      "alter",
+      "guard"
     ],
     "useful": true
   },
@@ -309,7 +341,8 @@
     "category": [
       "character",
       "6 star",
-      "wellfare"
+      "wellfare",
+      "specialist"
     ],
     "useful": true
   },
@@ -318,7 +351,8 @@
     "name": "Gnosis",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -327,7 +361,8 @@
     "name": "Goldenglow",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -336,7 +371,18 @@
     "name": "Hellagur",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Ho'olheyak",
+    "category": [
+      "character",
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -345,7 +391,8 @@
     "name": "Hoederer",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -354,7 +401,8 @@
     "name": "Horn",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "defender"
     ],
     "useful": true
   },
@@ -363,7 +411,8 @@
     "name": "Hoshiguma",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "defender"
     ],
     "useful": true
   },
@@ -372,7 +421,8 @@
     "name": "Ifrit",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -381,7 +431,8 @@
     "name": "Ines",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -390,7 +441,8 @@
     "name": "Irene",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -401,7 +453,8 @@
       "character",
       "6 star",
       "limited",
-      "alter"
+      "alter", 
+      "defender"
     ],
     "useful": true
   },
@@ -410,7 +463,8 @@
     "name": "Kalt'tsit",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "medic"
     ],
     "useful": true
   },
@@ -422,7 +476,8 @@
       "6 star",
       "alter",
       "crossover",
-      "limited"
+      "limited",
+      "specialist"
     ],
     "useful": true
   },
@@ -433,7 +488,8 @@
       "character",
       "6 star",
       "limited",
-      "alter"
+      "alter",
+      "caster"
     ],
     "useful": true
   },
@@ -442,7 +498,8 @@
     "name": "Lee",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -452,7 +509,8 @@
     "category": [
       "character",
       "6 star",
-      "alter"
+      "alter",
+      "guard"
     ],
     "useful": true
   },
@@ -461,7 +519,18 @@
     "name": "Lemuen",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+       "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Lessing",
+    "category": [
+      "character",
+      "6 star",
+       "guard"
     ],
     "useful": true
   },
@@ -470,7 +539,8 @@
     "name": "Lin",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -480,7 +550,8 @@
     "category": [
       "character",
       "6 star",
-      "limited"
+      "limited",
+      "supporter"
     ],
     "useful": true
   },
@@ -489,7 +560,19 @@
     "name": "Logos",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Lumen",
+    "category": [
+      "character",
+      "6 star",
+      "medic",
+      "wellfare"
     ],
     "useful": true
   },
@@ -498,7 +581,8 @@
     "name": "Magallan",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -508,7 +592,8 @@
     "category": [
       "character",
       "6 star",
-      "crossover"
+      "crossover",
+      "caster"
     ],
     "useful": true
   },
@@ -517,7 +602,8 @@
     "name": "Mizuki",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -526,7 +612,8 @@
     "name": "Mon3tr",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "medic"
     ],
     "useful": true
   },
@@ -535,7 +622,8 @@
     "name": "Mostima",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -544,7 +632,8 @@
     "name": "Mountain",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -553,7 +642,8 @@
     "name": "Mudrock",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "defender"
     ],
     "useful": true
   },
@@ -563,7 +653,8 @@
     "category": [
       "character",
       "6 star",
-      "limited"
+      "limited",
+      "vanguard"
     ],
     "useful": true
   },
@@ -572,7 +663,8 @@
     "name": "Mlynar",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -581,7 +673,8 @@
     "name": "Narantuya",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -592,7 +685,8 @@
       "character",
       "6 star",
       "limited",
-      "alter"
+      "alter",
+      "guard"
     ],
     "useful": true
   },
@@ -601,7 +695,8 @@
     "name": "Necrass",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -611,7 +706,8 @@
     "category": [
       "character",
       "6 star",
-      "limited"
+      "limited",
+      "defender"
     ],
     "useful": true
   },
@@ -620,7 +716,8 @@
     "name": "Nightingale",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "medic"
     ],
     "useful": true
   },
@@ -629,7 +726,8 @@
     "name": "Nymph",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -638,7 +736,8 @@
     "name": "Pallas",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -647,7 +746,8 @@
     "name": "Passenger",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "caster"
     ],
     "useful": true
   },
@@ -656,7 +756,8 @@
     "name": "Penance",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "defender"
     ],
     "useful": true
   },
@@ -666,7 +767,8 @@
     "category": [
       "character",
       "6 star",
-      "limited"
+      "limited",
+      "guard"
     ],
     "useful": true
   },
@@ -675,7 +777,8 @@
     "name": "Phantom",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -684,7 +787,8 @@
     "name": "Pozëmka",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -693,7 +797,8 @@
     "name": "Qiubai",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -703,8 +808,8 @@
     "category": [
       "character",
       "6 star",
-      "is6",
-      "wellfare"
+      "wellfare",
+      "supporter"
     ],
     "useful": true
   },
@@ -713,7 +818,8 @@
     "name": "Ray",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -723,7 +829,8 @@
     "category": [
       "character",
       "6 star",
-      "alter"
+      "alter",
+      "medic"
     ],
     "useful": true
   },
@@ -732,7 +839,8 @@
     "name": "Rosa",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -742,7 +850,8 @@
     "category": [
       "character",
       "6 star",
-      "limited"
+      "limited",
+      "sniper"
     ],
     "useful": true
   },
@@ -751,7 +860,8 @@
     "name": "Saga",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -760,7 +870,8 @@
     "name": "Saileach",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -770,7 +881,8 @@
     "category": [
       "character",
       "6 star",
-      "wellfare"
+      "wellfare",
+      "defender"
     ],
     "useful": true
   },
@@ -779,7 +891,8 @@
     "name": "Saria",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "defender"
     ],
     "useful": true
   },
@@ -788,7 +901,8 @@
     "name": "Schwarz",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -797,7 +911,8 @@
     "name": "Shining",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "medic"
     ],
     "useful": true
   },
@@ -806,7 +921,8 @@
     "name": "Siege",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -817,7 +933,8 @@
       "character",
       "6 star",
       "limited",
-      "wellfare"
+      "wellfare",
+      "supporter"
     ],
     "useful": true
   },
@@ -826,7 +943,8 @@
     "name": "SilverAsh",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -835,7 +953,8 @@
     "name": "Skadi",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -844,7 +963,8 @@
     "name": "Skadi the Corrupting Heart",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -855,7 +975,8 @@
       "character",
       "6 star",
       "alter",
-      "limited"
+      "limited",
+      "specialist"
     ],
     "useful": true
   },
@@ -864,7 +985,8 @@
     "name": "Stainless",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -873,7 +995,8 @@
     "name": "Surtr",
     "category": [
       "character",
-      "6 star"
+      "6 star", 
+      "guard"
     ],
     "useful": true
   },
@@ -882,7 +1005,8 @@
     "name": "Suzuran",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -892,7 +1016,8 @@
     "category": [
       "character",
       "6 star",
-      "alter"
+      "alter",
+      "specialist"
     ],
     "useful": true
   },
@@ -903,7 +1028,8 @@
       "character",
       "6 star",
       "limited",
-      "alter"
+      "alter",
+      "specialist"
     ],
     "useful": true
   },
@@ -912,7 +1038,8 @@
     "name": "Thorns",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -922,7 +1049,8 @@
     "category": [
       "character",
       "6 star",
-      "alter"
+      "alter",
+      "specialist"
     ],
     "useful": true
   },
@@ -932,7 +1060,8 @@
     "category": [
       "character",
       "6 star",
-      "alter"
+      "alter",
+      "supporter"
     ],
     "useful": true
   },
@@ -941,7 +1070,8 @@
     "name": "Typhon",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -950,7 +1080,8 @@
     "name": "Ulpianus",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -960,7 +1091,8 @@
     "category": [
       "character",
       "6 star",
-      "wellfare"
+      "wellfare",
+      "vanguard"
     ],
     "useful": true
   },
@@ -970,7 +1102,8 @@
     "category": [
       "character",
       "6 star",
-      "alter"
+      "alter",
+      "guard"
     ],
     "useful": true
   },
@@ -980,7 +1113,8 @@
     "category": [
       "character",
       "6 star",
-      "limited"
+      "limited",
+      "supporter"
     ],
     "useful": true
   },
@@ -989,7 +1123,8 @@
     "name": "Viviana",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -998,7 +1133,8 @@
     "name": "Vulpisfoglia",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -1008,7 +1144,18 @@
     "category": [
       "character",
       "6 star",
-      "limited"
+      "limited",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Weedy",
+    "category": [
+      "character",
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1019,7 +1166,8 @@
       "character",
       "6 star",
       "limited",
-      "alter"
+      "alter",
+      "sniper"
     ],
     "useful": true
   },
@@ -1029,7 +1177,8 @@
     "category": [
       "character",
       "6 star",
-      "limited"
+      "limited",
+      "defender"
     ],
     "useful": true
   },
@@ -1038,7 +1187,8 @@
     "name": "Zuo Le",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1047,7 +1197,8 @@
     "name": "Haruka",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -1058,7 +1209,8 @@
       "character",
       "6 star",
       "limited",
-      "alter"
+      "alter",
+      "defender"
     ],
     "useful": true
   },
@@ -1067,7 +1219,8 @@
     "name": "Absinthe",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -1076,7 +1229,8 @@
     "name": "Akafuyu",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1085,7 +1239,8 @@
     "name": "Alanna",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -1094,7 +1249,8 @@
     "name": "Almond",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -1103,7 +1259,8 @@
     "name": "Amiya",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -1113,7 +1270,8 @@
     "category": [
       "character",
       "5 star",
-      "alter"
+      "alter",
+      "guard"
     ],
     "useful": true
   },
@@ -1123,7 +1281,8 @@
     "category": [
       "character",
       "5 star",
-      "alter"
+      "alter", 
+      "medic"
     ],
     "useful": true
   },
@@ -1132,7 +1291,8 @@
     "name": "Andreana",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1141,7 +1301,8 @@
     "name": "Aosta",
     "category": [
       "character",
-      "5 star"
+      "5 star", 
+      "sniper"
     ],
     "useful": true
   },
@@ -1150,7 +1311,8 @@
     "name": "April",
     "category": [
       "character",
-      "5 star"
+      "5 star", 
+      "sniper"
     ],
     "useful": true
   },
@@ -1159,7 +1321,8 @@
     "name": "Aroma",
     "category": [
       "character",
-      "5 star"
+      "5 star", 
+      "caster"
     ],
     "useful": true
   },
@@ -1168,7 +1331,8 @@
     "name": "Asbestos",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -1177,7 +1341,8 @@
     "name": "Ashlock",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -1186,7 +1351,8 @@
     "name": "Astesia",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1195,7 +1361,8 @@
     "name": "Astgenne",
     "category": [
       "character",
-      "5 star"
+      "5 star", 
+      "guard"
     ],
     "useful": true
   },
@@ -1204,7 +1371,8 @@
     "name": "Aurora",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -1213,7 +1381,8 @@
     "name": "Ayerscape",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1222,7 +1391,8 @@
     "name": "Bassline",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -1231,7 +1401,8 @@
     "name": "Beeswax",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -1240,7 +1411,8 @@
     "name": "Bena",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -1249,7 +1421,8 @@
     "name": "Bibeak",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1258,7 +1431,8 @@
     "name": "Bison",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -1267,7 +1441,8 @@
     "name": "Blacknight",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -1277,7 +1452,8 @@
     "category": [
       "character",
       "5 star",
-      "limited"
+      "limited",
+      "defender"
     ],
     "useful": true
   },
@@ -1286,7 +1462,8 @@
     "name": "Blue Poison",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1295,7 +1472,8 @@
     "name": "Bobbing",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -1305,7 +1483,8 @@
     "category": [
       "character",
       "5 star", 
-      "free"
+      "wellfare",
+      "medic"
     ],
     "useful": true
   },
@@ -1315,7 +1494,8 @@
     "category": [
       "character",
       "5 star",
-      "free"
+      "wellfare",
+      "sniper"
     ],
     "useful": true
   },
@@ -1324,7 +1504,8 @@
     "name": "Broca",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+       "guard"
     ],
     "useful": true
   },
@@ -1334,7 +1515,8 @@
     "category": [
       "character",
       "5 star",
-      "free"
+      "wellfare",
+      "guard"
     ],
     "useful": true
   },
@@ -1343,7 +1525,8 @@
     "name": "Cantabile",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -1352,7 +1535,8 @@
     "name": "Catherine",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -1361,7 +1545,8 @@
     "name": "Cement",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -1371,7 +1556,8 @@
     "category": [
       "character",
       "5 star",
-      "free"
+      "wellfare",
+      "medic"
     ],
     "useful": true
   },
@@ -1380,7 +1566,8 @@
     "name": "Chiave",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -1390,7 +1577,8 @@
     "category": [
       "character",
       "5 star",
-      "limited"
+      "limited",
+      "vanguard"
     ],
     "useful": true
   },
@@ -1399,7 +1587,8 @@
     "name": "Cliffheart",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -1408,7 +1597,8 @@
     "name": "Coldshot",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1417,7 +1607,8 @@
     "name": "Corroserum",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -1426,7 +1617,8 @@
     "name": "Croissant",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -1436,7 +1628,8 @@
     "category": [
       "character",
       "5 star",
-      "free"
+      "wellfare",
+      "defender"
     ],
     "useful": true
   },
@@ -1445,7 +1638,8 @@
     "name": "Dagda",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1455,7 +1649,8 @@
     "category": [
       "character",
       "5 star",
-      "free"
+      "wellfare",
+      "caster"
     ],
     "useful": true
   },
@@ -1464,7 +1659,8 @@
     "name": "Diamante",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -1474,7 +1670,8 @@
     "category": [
       "character",
       "5 star",
-      "limited"
+      "limited",
+      "guard"
     ],
     "useful": true
   },
@@ -1483,7 +1680,8 @@
     "name": "Elysium",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -1492,7 +1690,8 @@
     "name": "Enforcer",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -1501,7 +1700,8 @@
     "name": "Erato",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1510,7 +1710,8 @@
     "name": "executor",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1520,7 +1721,7 @@
     "category": [
       "character",
       "5 star",
-      "limited"
+       "vanguard"
     ],
     "useful": true
   },
@@ -1529,7 +1730,8 @@
     "name": "FEater",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -1538,7 +1740,8 @@
     "name": "Figurino",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -1547,7 +1750,8 @@
     "name": "Firewatch",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1556,7 +1760,8 @@
     "name": "Firewhistle",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -1565,7 +1770,8 @@
     "name": "Flamebringer",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1574,7 +1780,8 @@
     "name": "Flint",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1583,7 +1790,8 @@
     "name": "Folinic",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -1592,7 +1800,8 @@
     "name": "Franka",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1602,7 +1811,8 @@
     "category": [
       "character",
       "5 star",
-      "limited"
+      "limited",
+      "specialist"
     ],
     "useful": true
   },
@@ -1612,7 +1822,8 @@
     "category": [
       "character",
       "5 star",
-      "limited"
+      "limited",
+      "guard"
     ],
     "useful": true
   },
@@ -1621,7 +1832,8 @@
     "name": "Glaucus",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -1630,7 +1842,8 @@
     "name": "Gracebearer",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1639,7 +1852,8 @@
     "name": "Grain Buds",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -1649,7 +1863,8 @@
     "category": [
       "character",
       "5 star",
-      "free"
+      "wellfare",
+      "vanguard"
     ],
     "useful": true
   },
@@ -1658,7 +1873,8 @@
     "name": "GreyThroat",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1668,7 +1884,8 @@
     "category": [
       "character",
       "5 star",
-      "alter"
+      "alter", 
+      "sniper"
     ],
     "useful": true
   },
@@ -1677,7 +1894,8 @@
     "name": "Harmonie",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -1687,7 +1905,8 @@
     "category": [
       "character",
       "5 star",
-      "free"
+      "wellfare",
+      "medic"
     ],
     "useful": true
   },
@@ -1696,7 +1915,8 @@
     "name": "Heavyrain",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -1706,7 +1926,8 @@
     "category": [
       "character",
       "5 star",
-      "Free"
+      "wellfare",
+      "supporter"
     ],
     "useful": true
   },
@@ -1716,7 +1937,8 @@
     "category": [
       "character",
       "5 star", 
-      "alter"
+      "alter",
+      "medic"
     ],
     "useful": true
   },
@@ -1725,7 +1947,8 @@
     "name": "Honeyberry",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -1735,7 +1958,7 @@
     "category": [
       "character",
       "5 star",
-      "is3"
+      "guard"
     ],
     "useful": true
   },
@@ -1744,7 +1967,8 @@
     "name": "Hung",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -1754,7 +1978,8 @@
     "category": [
       "character",
       "5 star",
-      "limited"
+      "limited",
+      "specialist"
     ],
     "useful": true
   },
@@ -1763,7 +1988,8 @@
     "name": "Indra",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1772,7 +1998,8 @@
     "name": "Insider",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1781,7 +2008,8 @@
     "name": "Iris",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -1790,7 +2018,8 @@
     "name": "Istina",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -1799,7 +2028,8 @@
     "name": "Jieyun",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1808,7 +2038,8 @@
     "name": "Kafka",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -1817,7 +2048,8 @@
     "name": "Kazemaru",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -1826,7 +2058,8 @@
     "name": "Kestrel",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -1835,7 +2068,8 @@
     "name": "Kichisei",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1844,7 +2078,8 @@
     "name": "Kirara",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -1853,7 +2088,8 @@
     "name": "Kjera",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -1863,7 +2099,8 @@
     "category": [
       "character",
       "5 star",
-      "alter"
+      "alter",
+      "sniper"
     ],
     "useful": true
   },
@@ -1872,7 +2109,8 @@
     "name": "La Pluma",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1881,7 +2119,8 @@
     "name": "Laios",
     "category": [
       "character",
-      "6 star"
+      "6 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1890,7 +2129,8 @@
     "name": "Lappland",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -1900,8 +2140,9 @@
     "category": [
       "character",
       "5 star", 
-      "free",
-      "alter"
+      "wellfare",
+      "alter",
+      "caster"
     ],
     "useful": true
   },
@@ -1910,7 +2151,8 @@
     "name": "Leizi",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -1919,7 +2161,8 @@
     "name": "Leonhardt",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -1929,7 +2172,8 @@
     "category": [
       "character",
       "5 star",
-      "free"
+      "wellfare",
+      "guard"
     ],
     "useful": true
   },
@@ -1938,7 +2182,8 @@
     "name": "Liskarm",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -1947,7 +2192,8 @@
     "name": "Lucilla",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -1956,7 +2202,8 @@
     "name": "Lunacub",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -1965,7 +2212,8 @@
     "name": "Manticore",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -1975,7 +2223,8 @@
     "category": [
       "character",
       "5 star",
-      "free"
+      "wellfare",
+      "vanguard"
     ],
     "useful": true
   },
@@ -1984,7 +2233,8 @@
     "name": "Mayer",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -1993,7 +2243,8 @@
     "name": "Melanite",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -2002,7 +2253,8 @@
     "name": "Meteorite",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -2012,7 +2264,8 @@
     "category": [
       "character",
       "5 star", 
-      "free"
+      "wellfare",
+      "caster"
     ],
     "useful": true
   },
@@ -2021,7 +2274,8 @@
     "name": "Mint",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -2030,7 +2284,8 @@
     "name": "Miss.Christine",
     "category": [
       "character",
-      "5 star"
+      "5 star", 
+      "caster"
     ],
     "useful": true
   },
@@ -2039,7 +2294,8 @@
     "name": "Mitm",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -2048,7 +2304,8 @@
     "name": "Morgan",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -2057,7 +2314,8 @@
     "name": "Mr. Nothing",
     "category": [
       "character",
-      "4 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -2066,7 +2324,8 @@
     "name": "Mulberry",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -2075,7 +2334,8 @@
     "name": "Nearl",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -2084,7 +2344,8 @@
     "name": "Nightmare",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -2094,7 +2355,8 @@
     "category": [
       "character",
       "5 star", 
-      "limited"
+      "limited",
+      "supporter"
     ],
     "useful": true
   },
@@ -2103,7 +2365,8 @@
     "name": "Nowell",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -2112,7 +2375,8 @@
     "name": "Odda",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -2121,7 +2385,8 @@
     "name": "Paprika",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -2131,7 +2396,8 @@
     "category": [
       "character",
       "5 star", 
-      "free"
+      "wellfare",
+      "medic"
     ],
     "useful": true
   },
@@ -2141,7 +2407,8 @@
     "category": [
       "character",
       "5 star", 
-      "free"
+      "wellfare",
+      "defender"
     ],
     "useful": true
   },
@@ -2150,7 +2417,8 @@
     "name": "Platinum",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -2159,7 +2427,8 @@
     "name": "Poncirus",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -2168,7 +2437,8 @@
     "name": "Pramanix",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -2177,7 +2447,8 @@
     "name": "Projekt Red",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -2186,7 +2457,8 @@
     "name": "Provence",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -2195,7 +2467,8 @@
     "name": "Proviso",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -2204,7 +2477,8 @@
     "name": "Ptillopsis",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -2213,7 +2487,8 @@
     "name": "Puzzle",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -2223,7 +2498,8 @@
     "category": [
       "character",
       "5 star", 
-      "free"
+      "wellfare",
+      "caster"
     ],
     "useful": true
   },
@@ -2232,7 +2508,8 @@
     "name": "Qeurcus",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -2241,7 +2518,8 @@
     "name": "Rathalos S Noir Corne",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -2250,7 +2528,8 @@
     "name": "Record Keeper",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -2259,7 +2538,8 @@
     "name": "Reed",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -2269,7 +2549,8 @@
     "category": [
       "character",
       "6 star",
-      "free"
+      "wellfare",
+      "specialist"
     ],
     "useful": true
   },
@@ -2278,7 +2559,8 @@
     "name": "Rockrock",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -2287,7 +2569,8 @@
     "name": "Rose Salt",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -2296,7 +2579,8 @@
     "name": "Sand Reckoner",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -2305,7 +2589,8 @@
     "name": "Santalla",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -2314,7 +2599,8 @@
     "name": "Savage",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -2323,7 +2609,8 @@
     "name": "Scene",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -2333,7 +2620,8 @@
     "category": [
       "character",
       "5 star", 
-      "limited"
+      "limited",
+      "defender"
     ],
     "useful": true
   },
@@ -2342,7 +2630,8 @@
     "name": "Sesa",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -2352,7 +2641,7 @@
     "category": [
       "character",
       "5 star", 
-      "is2"
+      "defender"
     ],
     "useful": true
   },
@@ -2362,7 +2651,7 @@
     "category": [
       "character",
       "5 star", 
-      "limited"
+      "supporter"
     ],
     "useful": true
   },
@@ -2371,7 +2660,8 @@
     "name": "Sideroca",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -2380,7 +2670,8 @@
     "name": "Silence",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -2389,7 +2680,8 @@
     "name": "Skyfire",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+       "caster"
     ],
     "useful": true
   },
@@ -2398,7 +2690,8 @@
     "name": "Snowsant",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -2407,7 +2700,8 @@
     "name": "Sora",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -2416,7 +2710,8 @@
     "name": "Specter",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -2425,7 +2720,8 @@
     "name": "Spuria",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -2434,7 +2730,8 @@
     "name": "Surfer",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -2443,7 +2740,8 @@
     "name": "Swire",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -2453,7 +2751,8 @@
     "category": [
       "character",
       "5 star", 
-      "limited"
+      "limited",
+      "guard"
     ],
     "useful": true
   },
@@ -2462,7 +2761,8 @@
     "name": "Tecno",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -2471,7 +2771,8 @@
     "name": "Tequilla",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -2480,7 +2781,8 @@
     "name": "Texas",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -2490,8 +2792,8 @@
     "category": [
       "character",
       "5 star", 
-      "free",
-      "is3"
+      "wellfare",
+      "specialist"
     ],
     "useful": true
   },
@@ -2500,7 +2802,8 @@
     "name": "Tippi",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -2509,7 +2812,8 @@
     "name": "Toddifons",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "sniper"
     ],
     "useful": true
   },
@@ -2518,7 +2822,8 @@
     "name": "Tomimi",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -2527,7 +2832,8 @@
     "name": "Tsukinogi",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -2536,7 +2842,8 @@
     "name": "Tuye",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -2545,7 +2852,8 @@
     "name": "Underflow",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -2555,7 +2863,7 @@
     "category": [
       "character",
       "5 star",
-      "is3"
+      "supporter"
     ],
     "useful": true
   },
@@ -2564,7 +2872,8 @@
     "name": "Vendela",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -2573,7 +2882,8 @@
     "name": "Vulcan",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "defender"
     ],
     "useful": true
   },
@@ -2582,7 +2892,8 @@
     "name": "Waai Fu",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
@@ -2591,7 +2902,8 @@
     "name": "Wanqing",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -2600,7 +2912,18 @@
     "name": "Warfarin",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Warmy",
+    "category": [
+      "character",
+      "5 star",
+      "caster"
     ],
     "useful": true
   },
@@ -2609,7 +2932,8 @@
     "name": "Whislash",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -2618,7 +2942,8 @@
     "name": "Wisperain",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "medic"
     ],
     "useful": true
   },
@@ -2627,7 +2952,8 @@
     "name": "Wilde mane",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -2636,7 +2962,8 @@
     "name": "Wind Chimes",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "guard"
     ],
     "useful": true
   },
@@ -2645,7 +2972,8 @@
     "name": "Windflit",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
     ],
     "useful": true
   },
@@ -2654,16 +2982,28 @@
     "name": "Fulfenite",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "specialist"
     ],
     "useful": true
   },
   {
     "count": "1",
-    "name": "Xingzzhu",
+    "name": "Xingzhu",
     "category": [
       "character",
-      "5 star"
+      "5 star",
+      "supporter"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Zima",
+    "category": [
+      "character",
+      "5 star",
+      "vanguard"
     ],
     "useful": true
   },
@@ -2740,18 +3080,52 @@
     "useful": true
   },
   {
-    "_comment": "is a location for a check, but the coins should be a item. place it here??",
-    "count": 50,
-    "name": "saved_coins",
-    "local": true,
-    "progression_skip_balancing": true
+    "count": "1",
+    "name": "First Move Advantage",
+    "category": [
+      "starting Voucher"
+    ],
+    "useful": true
   },
   {
-    "_comment": "is a location for a check, but the coins should be a item. place it here??",
-    "count": 25,
-    "name": "got_coins",
-    "local": true,
-    "progression_skip_balancing": true
+    "count": "1",
+    "name": "Slow and Steady Wins the Race",
+    "category": [
+      "starting Voucher"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Overcoming Your Weaknesses",
+    "category": [
+      "starting Voucher"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Flexible Deployment",
+    "category": [
+      "starting Voucher"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Indestructible",
+    "category": [
+      "starting Voucher"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "As Your Heart Desiresd",
+    "category": [
+      "starting Voucher"
+    ],
+    "useful": true
   },
   {
     "name": "is2 key",
