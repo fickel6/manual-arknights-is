@@ -1,6 +1,7 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState, Item
+from random import Random
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -75,17 +76,83 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 # IS2: 1 6 star and 2 4 star or lower, 2 5 stars and 1 4 star or lower or 3 4 stars or lower. 
 
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    # Use this hook to remove items from the item pool
-    itemNamesToRemove: list[str] = [] # List of item names
 
-    # Add your code here to calculate which items to remove.
-    #
-    # Because multiple copies of an item can exist, you need to add an item name
-    # to the list multiple times if you want to remove multiple copies of it.
+    # what should be randomized?
+    starting_items = [
+        {
+            "item_categories": ["starting voucher"],
+            "random": 1
+        },
+        {
+            "item_categories": ["squad"],
+            "random": 1
+        }
+    ]
+    chosen_start = []
+    for starting_squads_vouc in starting_items:
+        # get all items that have the correct category/categories we want to remove
+        possible_item_names = []
 
-    for itemName in itemNamesToRemove:
-        item = next(i for i in item_pool if i.name == itemName)
-        item_pool.remove(item)
+        for category in starting_squads_vouc['item_categories']:
+            possible_item_names.extend(
+                [
+                    name for name, i in world.item_name_to_item.items()
+                        if category in i.get("category",[])
+                ]
+            )
+
+        # remove dupes
+        possible_item_names = set(possible_item_names)
+
+        # list of all the items we want to remove (name only)
+        possible_items = [
+            i for i in item_pool 
+                if i.name in possible_item_names
+        ]
+
+        # we only remove 1, so the loop in the example is ignored.
+        random_starting_item = world.random.choice(possible_items)
+        chosen_start.append(random_starting_item)
+        multiworld.push_precollected(random_starting_item)
+        possible_items.remove(random_starting_item) # don't allow choosing the exact same item again
+        item_pool.remove(random_starting_item) # remove it from the pool since we're starting with it
+
+    #now we know the starting vouchers (and squad). We should rando the possible combination of 6 and 5 stars. 
+    #THIS ONLY WORKS IN IS2, 3 AND 4. 
+    # TO DO: MAKE A CHECK WHICH REGION WE ARE STARTING IN
+    # first is 6 star and second is 5 star. all 4 stars aren't in the manual yet (should I at them?)
+    rarity_operators = world.random.choice([[1, 0], [0, 2], [0, 1], [0, 0]])
+    starting_operators = []
+
+    # for rarity in (0, len(rarity_operators)):
+    operator = []
+        # if rarity == 0:
+    operator.extend(
+                [
+                    name for name, i in world.item_name_to_item.items()
+                        if ["6 star"] in i.get("6 star", []) 
+                ]
+            )
+        # elif rarity == 1:
+            # operator.extend(
+            #             [
+            #                 name for name, i in world.item_name_to_item.items()
+            #                     if "5 star" in i.get("5 star", [])
+            #             ]
+            #         )
+        # operators should already be unique, but just to be sure
+    operator_names = set(operator)
+    possible_operators = [
+        i for i in item_pool
+            if i.name in operator_names
+    ]
+    for _ in range(0, 1):
+        random_operator = world.random.choice(possible_operators)
+        multiworld.push_precollected(random_operator)
+        operator.remove(random_operator)
+        item_pool.remove(random_operator)
+
+    return item_pool
 
     return item_pool
 
