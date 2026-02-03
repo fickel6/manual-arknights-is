@@ -150,22 +150,24 @@
                 "spoiler"
             ]
         }, 
-
-        "DLC_enabled":{
-            "display_name": "DLC Enabled",
-            "description": "Is the Dlc enabled?",
-            "type": "Toggle",
-            "visibility": [
-                "simple_ui",
-                "complex_ui",
-                "template"
+        "starting region": {
+            "type": "Choice",
+            "description": [
+                "choose the region you will start in",
+                "1 = is2",
+                "2 = is3",
+                "3 = is4",
+                "4 = is5",
+                "5 = is6"
             ],
-            "default": false,
-            "_comment": [
-                "there is no DLC, only different versions of itself",
-                "when deleted, it still apears, so for now, it stays hidden"
-            ],
-            "hidden": true
+            "values": {
+                "none": 0,
+                "is2": 1,
+                "is3": 2,
+                "is4": 3,
+                "is5": 4,
+                "is6": 5
+            }
         }
     }
 }
