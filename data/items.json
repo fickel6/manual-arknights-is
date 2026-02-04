@@ -3008,7 +3008,7 @@
     "useful": true
   },
   {
-    "count": "1",
+    "count": "2",
     "name": "leader squad",
     "category": [
       "squad"
@@ -3016,7 +3016,7 @@
     "useful": true
   },
   {
-    "count": "1",
+    "count": "2",
     "name": "gathering squad",
     "category": [
       "squad"
@@ -3024,7 +3024,7 @@
     "useful": true
   },
   {
-    "count": "1",
+    "count": "2",
     "name": "support squad",
     "category": [
       "squad"
@@ -3032,7 +3032,7 @@
     "useful": true
   },
   {
-    "count": "1",
+    "count": "2",
     "name": "spearhead sqaud",
     "category": [
       "squad"
@@ -3040,7 +3040,7 @@
     "useful": true
   },
   {
-    "count": "1",
+    "count": "2",
     "name": "tactical assault squad",
     "category": [
       "squad"
@@ -3048,7 +3048,7 @@
     "useful": true
   },
   {
-    "count": "1",
+    "count": "2",
     "name": "tactical fortification squad",
     "category": [
       "squad"
@@ -3056,7 +3056,7 @@
     "useful": true
   },
   {
-    "count": "1",
+    "count": "2",
     "name": "tactical ranged squad",
     "category": [
       "squad"
@@ -3064,7 +3064,7 @@
     "useful": true
   },
   {
-    "count": "1",
+    "count": "2",
     "name": "tactical destruction squad",
     "category": [
       "squad"
@@ -3072,8 +3072,32 @@
     "useful": true
   },
   {
-    "count": "1",
+    "count": "2",
     "name": "First-class squad",
+    "category": [
+      "squad"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Mind Over Matter squad",
+    "category": [
+      "squad"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Resourceful squad",
+    "category": [
+      "squad"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "People-Oriented squad",
     "category": [
       "squad"
     ],
@@ -3133,50 +3157,6 @@
     "useful": true
   },
   {
-    "name": "is2 key",
-    "category": [
-      "region key",
-      "key"
-    ],
-    "progression": true
-  },
-  {
-    "name": "is3 key",
-    
-    "category": [
-      "region key",
-      "key"
-    ],
-    "progression": true
-  },
-  {
-    "name": "is4 key",
-    
-    "category": [
-      "region key",
-      "key"
-    ],
-    "progression": true
-  },
-  {
-    "name": "is5 key",
-    
-    "category": [
-      "region key",
-      "key"
-    ],
-    "progression": true
-  },
-  {
-    "name": "is6 key",
-    
-    "category": [
-      "region key",
-      "key"
-    ],
-    "progression": true
-  },
-  {
     "count": 1,
     "_comment": "this is for ending 2 of is2",
     "name": "Worn Out Puppet",
@@ -3232,6 +3212,122 @@
   },
   {
     "count": 1,
+    "_comment": "this is for ending 2 of is3",
+    "name": "Breath of the Tide",
+    "category": [
+      "collectible"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 2 of is3",
+    "name": "Fate's Favored Child",
+    "category": [
+      "collectible"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 3 of is3",
+    "name": "Bishop's Research",
+    "category": [
+      "collectible"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 3 of is3",
+    "name": "Caerula Animus",
+    "category": [
+      "collectible"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 4 of is3",
+    "name": "Caerula Memory",
+    "category": [
+      "collectible"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 4 of is3",
+    "name": "Determination",
+    "category": [
+      "collectible"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 4 of is3",
+    "name": "Vigil is3 collectible",
+    "category": [
+      "collectible"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 4 of is3",
+    "name": "Hesitation",
+    "category": [
+      "collectible"
+    ],
+    "progression": true
+  },
+  {
+    "name": "is2 key",
+    "category": [
+      "region key",
+      "key"
+    ],
+    "progression": true
+  },
+  {
+    "name": "is3 key",
+    
+    "category": [
+      "region key",
+      "key"
+    ],
+    "progression": true
+  },
+  {
+    "name": "is4 key",
+    
+    "category": [
+      "region key",
+      "key"
+    ],
+    "progression": true
+  },
+  {
+    "name": "is5 key",
+    
+    "category": [
+      "region key",
+      "key"
+    ],
+    "progression": true
+  },
+  {
+    "name": "is6 key",
+    
+    "category": [
+      "region key",
+      "key"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "floor2 key is2",
     "category": [
       "key"
@@ -3265,6 +3361,55 @@
   {
     "count": 1,
     "name": "floor6 key is2",
+    "category": [
+      "key"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor2 key is3",
+    "category": [
+      "key"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor3 key is3",
+    "category": [
+      "key"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor4 key is3",
+    "category": [
+      "key"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor5 key is3",
+    "category": [
+      "key"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor6 key is3",
+    "category": [
+      "key"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "name for this event should be placed here",
+    "name": "Indigo Cradle key is3",
     "category": [
       "key"
     ],
