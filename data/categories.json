@@ -1,17 +1,12 @@
 {
+     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
     "6 star":{
         "_comment": "categories are for hiding certain categories for the player or enabling/disabling categories",
-        "yaml_option": ["enable_6_stars"]
+        "yaml_option": ["include 6 stars"],
+        "hidden": true
     },
     "5 star":{
-        "yaml_option": ["enable_5_stars"]
-    },
-    "exclude individual 6 star": {
-        "type": "array",
-        "items": {
-            "type": "string"
-        },
-        "minItems": 0,
-        "uniqueItems": true
+        "yaml_option": ["include 6 stars"],
+        "hidden": true
     }
 }
