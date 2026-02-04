@@ -124,7 +124,8 @@
         },
         "investment of ingots": {
             "description": [
-                "how many ingots you need to invest to get a check"
+                "how many ingots you need to invest to get a check",
+                "if this number is 0, then this location will be removed"
             ],
             "type": "Range",
             "range_start": 1,
@@ -138,7 +139,8 @@
         },
         "get ingots from investment": {
             "description": [
-                "how many ingots you need to get from the investment to get a check"
+                "how many ingots you need to get from the investment to get a check",
+                "if this number is 0, then this location will be removed"
             ],
             "type": "Range",
             "range_start": 1,
