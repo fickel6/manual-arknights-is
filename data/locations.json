@@ -1,15 +1,19 @@
 [
   {
-    "name": "invest coins",
+    "name": "invest 10 coins",
     "prehint": true,
-    "requires": "|saved_coins:40|",
     "hint_entrance": "available in shops"
   },
   {
-    "name": "get coins",
+    "name": "get 10 coins",
     "prehint": true,
-    "requires": "|got_coins:20|",
     "hint_entrance": "available in shops"
+  },
+  {
+    "name": "10 perfect operations",
+    "region": "is2",
+    "requires": "|is2 key| AND |floor3 key is2| AND |floor2 key is2|",
+    "hint_entrance": "clear 10 operations without leaks in a row"
   },
   {
     "name": "floor1 is2",
