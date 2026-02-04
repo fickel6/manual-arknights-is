@@ -122,37 +122,104 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # TO DO: MAKE A CHECK WHICH REGION WE ARE STARTING IN
     # first is 6 star and second is 5 star. all 4 stars aren't in the manual yet (should I at them?)
     rarity_operators = world.random.choice([[1, 0], [0, 2], [0, 1], [0, 0]])
-    starting_operators = []
+    start_operator_option = []
+    # first element has the string for starting vouchers
+    if chosen_start[0] == "First Move Advantage":
+        start_operator_option.append(
+            {
+                "item_categories": ["6 star", "sniper", "specialist", "vanguard"],
+                "random": rarity_operators[0]
+            }
+        )
+        start_operator_option.append(
+            {
+                "item_categories": ["5 star", "sniper", "specialist", "vanguard"],
+                "random": rarity_operators[1]
+            }
+        )
 
-    # for rarity in (0, len(rarity_operators)):
-    operator = []
-        # if rarity == 0:
-    operator.extend(
+    if chosen_start[0] == "Slow and Steady Wins the Race":
+        start_operator_option.append(
+            {
+                "item_categories": ["6 star", "caster", "defender", "sniper"],
+                "random": rarity_operators[0]
+            }
+        )
+        start_operator_option.append(
+            {
+                "item_categories": ["5 star", "caster", "defender", "sniper"],
+                "random": rarity_operators[1]
+            }
+        )
+        
+    if chosen_start[0] == "Overcoming Your Weaknesses":
+        start_operator_option.append(
+            {
+                "item_categories": ["6 star", "guard", "medic", "supporter"],
+                "random": rarity_operators[0]
+            }
+        )
+        start_operator_option.append(
+            {
+                "item_categories": ["5 star", "guard", "medic", "supporter"],
+                "random": rarity_operators[1]
+            }
+        )
+        
+    if chosen_start[0] == "Flexible Deployment":
+        start_operator_option.append(
+            {
+                "item_categories": ["6 star", "vanguard", "supporter", "specialist"],
+                "random": rarity_operators[0]
+            }
+        )
+        start_operator_option.append(
+            {
+                "item_categories": ["5 star", "vanguard", "supporter", "specialist"],
+                "random": rarity_operators[1]
+            }
+        )
+        
+    if chosen_start[0] == "Indestructible":
+        start_operator_option.append(
+            {
+                "item_categories": ["6 star", "defender", "caster", "medic"],
+                "random": rarity_operators[0]
+            }
+        )
+        start_operator_option.append(
+            {
+                "item_categories": ["5 star", "defender", "caster", "medic"],
+                "random": rarity_operators[1]
+            }
+        )
+
+    for starting_operator in start_operator_option:
+        # get all items that have the correct category/categories we want to remove
+        possible_item_names = []
+
+        for category in starting_operator['item_categories']:
+            possible_item_names.extend(
                 [
                     name for name, i in world.item_name_to_item.items()
-                        if ["6 star"] in i.get("6 star", []) 
+                        if category in i.get("category",[])
                 ]
             )
-        # elif rarity == 1:
-            # operator.extend(
-            #             [
-            #                 name for name, i in world.item_name_to_item.items()
-            #                     if "5 star" in i.get("5 star", [])
-            #             ]
-            #         )
-        # operators should already be unique, but just to be sure
-    operator_names = set(operator)
-    possible_operators = [
-        i for i in item_pool
-            if i.name in operator_names
-    ]
-    for _ in range(0, 1):
-        random_operator = world.random.choice(possible_operators)
-        multiworld.push_precollected(random_operator)
-        operator.remove(random_operator)
-        item_pool.remove(random_operator)
 
-    return item_pool
+        # remove dupes
+        possible_item_names = set(possible_item_names)
+
+        # list of all the items we want to remove (name only)
+        possible_items = [
+            i for i in item_pool 
+                if i.name in possible_item_names
+        ]
+
+        # we only remove 1, so the loop in the example is ignored.
+        random_starting_operator = world.random.choice(possible_items)
+        multiworld.push_precollected(random_starting_operator)
+        possible_items.remove(random_starting_operator) # don't allow choosing the exact same item again
+        item_pool.remove(random_starting_operator) # remove it from the pool since we're starting with it
 
     return item_pool
 
