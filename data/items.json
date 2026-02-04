@@ -3083,7 +3083,8 @@
     "count": "1",
     "name": "First Move Advantage",
     "category": [
-      "starting voucher"
+      "starting voucher",
+      "voucher"
     ],
     "useful": true
   },
@@ -3091,7 +3092,8 @@
     "count": "1",
     "name": "Slow and Steady Wins the Race",
     "category": [
-      "starting voucher"
+      "starting voucher",
+      "voucher"
     ],
     "useful": true
   },
@@ -3099,7 +3101,8 @@
     "count": "1",
     "name": "Overcoming Your Weaknesses",
     "category": [
-      "starting voucher"
+      "starting voucher",
+      "voucher"
     ],
     "useful": true
   },
@@ -3107,7 +3110,8 @@
     "count": "1",
     "name": "Flexible Deployment",
     "category": [
-      "starting voucher"
+      "starting voucher",
+      "voucher"
     ],
     "useful": true
   },
@@ -3115,7 +3119,8 @@
     "count": "1",
     "name": "Indestructible",
     "category": [
-      "starting voucher"
+      "starting voucher",
+      "voucher"
     ],
     "useful": true
   },
@@ -3123,7 +3128,7 @@
     "count": "1",
     "name": "As Your Heart Desiresd",
     "category": [
-      "starting voucher"
+      "voucher"
     ],
     "useful": true
   },

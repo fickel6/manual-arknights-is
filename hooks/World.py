@@ -1,7 +1,6 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState, Item
-from random import Random
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -77,149 +76,150 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
 
-    # what should be randomized?
-    starting_items = [
-        {
-            "item_categories": ["starting voucher"],
-            "random": 1
-        },
-        {
-            "item_categories": ["squad"],
-            "random": 1
-        }
-    ]
-    chosen_start = []
-    for starting_squads_vouc in starting_items:
-        # get all items that have the correct category/categories we want to remove
-        possible_item_names = []
+    # # what should be randomized?
+    # starting_items = [
+    #     {
+    #         "item_categories": ["starting voucher"],
+    #         "random": 1
+    #     },
+    #     {
+    #         "item_categories": ["squad"],
+    #         "random": 1
+    #     }
+    # ]
+    # chosen_start = []
+    # for starting_squads_vouc in starting_items:
+    #     # get all items that have the correct category/categories we want to remove
+    #     possible_item_names = []
 
-        for category in starting_squads_vouc['item_categories']:
-            possible_item_names.extend(
-                [
-                    name for name, i in world.item_name_to_item.items()
-                        if category in i.get("category",[])
-                ]
-            )
+    #     for category in starting_squads_vouc['item_categories']:
+    #         possible_item_names.extend(
+    #             [
+    #                 name for name, i in world.item_name_to_item.items()
+    #                     if category in i.get("category",[])
+    #             ]
+    #         )
 
-        # remove dupes
-        possible_item_names = set(possible_item_names)
+    #     # remove dupes
+    #     possible_item_names = set(possible_item_names)
 
-        # list of all the items we want to remove (name only)
-        possible_items = [
-            i for i in item_pool 
-                if i.name in possible_item_names
-        ]
+    #     # list of all the items we want to remove (name only)
+    #     possible_items = [
+    #         i for i in item_pool 
+    #             if i.name in possible_item_names
+    #     ]
 
-        # we only remove 1, so the loop in the example is ignored.
-        random_starting_item = world.random.choice(possible_items)
-        chosen_start.append(random_starting_item)
-        multiworld.push_precollected(random_starting_item)
-        possible_items.remove(random_starting_item) # don't allow choosing the exact same item again
-        item_pool.remove(random_starting_item) # remove it from the pool since we're starting with it
+    #     # we only remove 1, so the loop in the example is ignored.
+    #     random_starting_item = world.random.choice(possible_items)
+    #     chosen_start.append(random_starting_item)
+    #     multiworld.push_precollected(random_starting_item)
+    #     possible_items.remove(random_starting_item) # don't allow choosing the exact same item again
+    #     item_pool.remove(random_starting_item) # remove it from the pool since we're starting with it
 
     #now we know the starting vouchers (and squad). We should rando the possible combination of 6 and 5 stars. 
     #THIS ONLY WORKS IN IS2, 3 AND 4. 
     # TO DO: MAKE A CHECK WHICH REGION WE ARE STARTING IN
     # first is 6 star and second is 5 star. all 4 stars aren't in the manual yet (should I at them?)
-    rarity_operators = world.random.choice([[1, 0], [0, 2], [0, 1], [0, 0]])
-    start_operator_option = []
-    # first element has the string for starting vouchers
-    if chosen_start[0] == "First Move Advantage":
-        start_operator_option.append(
-            {
-                "item_categories": ["6 star", "sniper", "specialist", "vanguard"],
-                "random": rarity_operators[0]
-            }
-        )
-        start_operator_option.append(
-            {
-                "item_categories": ["5 star", "sniper", "specialist", "vanguard"],
-                "random": rarity_operators[1]
-            }
-        )
 
-    if chosen_start[0] == "Slow and Steady Wins the Race":
-        start_operator_option.append(
-            {
-                "item_categories": ["6 star", "caster", "defender", "sniper"],
-                "random": rarity_operators[0]
-            }
-        )
-        start_operator_option.append(
-            {
-                "item_categories": ["5 star", "caster", "defender", "sniper"],
-                "random": rarity_operators[1]
-            }
-        )
+    # rarity_operators = world.random.choice([[1, 0], [0, 2], [0, 1], [0, 0]])
+    # start_operator_option = []
+    # # first element has the string for starting vouchers
+    # if chosen_start[0] == "First Move Advantage":
+    #     start_operator_option.append(
+    #         {
+    #             "item_categories": ["6 star", "sniper", "specialist", "vanguard"],
+    #             "random": rarity_operators[0]
+    #         }
+    #     )
+    #     start_operator_option.append(
+    #         {
+    #             "item_categories": ["5 star", "sniper", "specialist", "vanguard"],
+    #             "random": rarity_operators[1]
+    #         }
+    #     )
+
+    # if chosen_start[0] == "Slow and Steady Wins the Race":
+    #     start_operator_option.append(
+    #         {
+    #             "item_categories": ["6 star", "caster", "defender", "sniper"],
+    #             "random": rarity_operators[0]
+    #         }
+    #     )
+    #     start_operator_option.append(
+    #         {
+    #             "item_categories": ["5 star", "caster", "defender", "sniper"],
+    #             "random": rarity_operators[1]
+    #         }
+    #     )
         
-    if chosen_start[0] == "Overcoming Your Weaknesses":
-        start_operator_option.append(
-            {
-                "item_categories": ["6 star", "guard", "medic", "supporter"],
-                "random": rarity_operators[0]
-            }
-        )
-        start_operator_option.append(
-            {
-                "item_categories": ["5 star", "guard", "medic", "supporter"],
-                "random": rarity_operators[1]
-            }
-        )
+    # if chosen_start[0] == "Overcoming Your Weaknesses":
+    #     start_operator_option.append(
+    #         {
+    #             "item_categories": ["6 star", "guard", "medic", "supporter"],
+    #             "random": rarity_operators[0]
+    #         }
+    #     )
+    #     start_operator_option.append(
+    #         {
+    #             "item_categories": ["5 star", "guard", "medic", "supporter"],
+    #             "random": rarity_operators[1]
+    #         }
+    #     )
         
-    if chosen_start[0] == "Flexible Deployment":
-        start_operator_option.append(
-            {
-                "item_categories": ["6 star", "vanguard", "supporter", "specialist"],
-                "random": rarity_operators[0]
-            }
-        )
-        start_operator_option.append(
-            {
-                "item_categories": ["5 star", "vanguard", "supporter", "specialist"],
-                "random": rarity_operators[1]
-            }
-        )
+    # if chosen_start[0] == "Flexible Deployment":
+    #     start_operator_option.append(
+    #         {
+    #             "item_categories": ["6 star", "vanguard", "supporter", "specialist"],
+    #             "random": rarity_operators[0]
+    #         }
+    #     )
+    #     start_operator_option.append(
+    #         {
+    #             "item_categories": ["5 star", "vanguard", "supporter", "specialist"],
+    #             "random": rarity_operators[1]
+    #         }
+    #     )
         
-    if chosen_start[0] == "Indestructible":
-        start_operator_option.append(
-            {
-                "item_categories": ["6 star", "defender", "caster", "medic"],
-                "random": rarity_operators[0]
-            }
-        )
-        start_operator_option.append(
-            {
-                "item_categories": ["5 star", "defender", "caster", "medic"],
-                "random": rarity_operators[1]
-            }
-        )
+    # if chosen_start[0] == "Indestructible":
+    #     start_operator_option.append(
+    #         {
+    #             "item_categories": ["6 star", "defender", "caster", "medic"],
+    #             "random": rarity_operators[0]
+    #         }
+    #     )
+    #     start_operator_option.append(
+    #         {
+    #             "item_categories": ["5 star", "defender", "caster", "medic"],
+    #             "random": rarity_operators[1]
+    #         }
+    #     )
 
-    for starting_operator in start_operator_option:
-        # get all items that have the correct category/categories we want to remove
-        possible_item_names = []
+    # for starting_operator in start_operator_option:
+    #     # get all items that have the correct category/categories we want to remove
+    #     possible_item_names = []
 
-        for category in starting_operator['item_categories']:
-            possible_item_names.extend(
-                [
-                    name for name, i in world.item_name_to_item.items()
-                        if category in i.get("category",[])
-                ]
-            )
+    #     for category in starting_operator['item_categories']:
+    #         possible_item_names.extend(
+    #             [
+    #                 name for name, i in world.item_name_to_item.items()
+    #                     if category in i.get("category",[])
+    #             ]
+    #         )
 
-        # remove dupes
-        possible_item_names = set(possible_item_names)
+    #     # remove dupes
+    #     possible_item_names = set(possible_item_names)
 
-        # list of all the items we want to remove (name only)
-        possible_items = [
-            i for i in item_pool 
-                if i.name in possible_item_names
-        ]
+    #     # list of all the items we want to remove (name only)
+    #     possible_items = [
+    #         i for i in item_pool 
+    #             if i.name in possible_item_names
+    #     ]
 
-        # we only remove 1, so the loop in the example is ignored.
-        random_starting_operator = world.random.choice(possible_items)
-        multiworld.push_precollected(random_starting_operator)
-        possible_items.remove(random_starting_operator) # don't allow choosing the exact same item again
-        item_pool.remove(random_starting_operator) # remove it from the pool since we're starting with it
+    #     # we only remove 1, so the loop in the example is ignored.
+    #     random_starting_operator = world.random.choice(possible_items)
+    #     multiworld.push_precollected(random_starting_operator)
+    #     possible_items.remove(random_starting_operator) # don't allow choosing the exact same item again
+    #     item_pool.remove(random_starting_operator) # remove it from the pool since we're starting with it
 
     return item_pool
 
