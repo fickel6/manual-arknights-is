@@ -16,6 +16,74 @@
     "hint_entrance": "clear 10 operations without leaks in a row"
   },
   {
+    "name": "dummy1 is3",
+    "region": "is3",
+    "category": [
+      "floor",
+      "start_floor"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "dummy2 is3",
+    "region": "is3",
+    "category": [
+      "floor"
+    ],
+    "requires": "|is3 key| AND |floor3 key is2|"
+  },
+  {
+    "name": "dummy3 is3",
+    "region": "is3",
+    "category": [
+      "floor",
+      "start_floor"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "dummy4 is3",
+    "region": "is3",
+    "category": [
+      "floor"
+    ],
+    "requires": "|is3 key| AND |floor3 key is2|"
+  },
+  {
+    "name": "dummy1 is4",
+    "region": "is4",
+    "category": [
+      "floor",
+      "start_floor"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "dummy2 is4",
+    "region": "is4",
+    "category": [
+      "floor"
+    ],
+    "requires": "|is3 key| AND |floor3 key is2|"
+  },
+  {
+    "name": "dummy4 is4",
+    "region": "is3",
+    "category": [
+      "floor",
+      "start_floor"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "dummy4 is4",
+    "region": "is4",
+    "category": [
+      "floor"
+    ],
+    "requires": "|is3 key| AND |floor3 key is2|"
+  },
+  {
     "name": "floor1 is2",
     "region": "is2",
     "category": [
