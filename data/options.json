@@ -152,10 +152,65 @@
                 "spoiler"
             ]
         }, 
+        "include is2": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["include IS2 for the randomizer"],
+            "group": "Game Options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include is3": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["include IS3 for the randomizer"],
+            "group": "Game Options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include is4": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["include IS4 for the randomizer"],
+            "group": "Game Options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include is5": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["include IS5 for the randomizer"],
+            "group": "Game Options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include is6": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["include IS6 for the randomizer"],
+            "group": "Game Options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
         "starting region": {
             "type": "Choice",
             "description": [
-                "choose the region you will start in",
+                "choose which is you want to start in",
                 "1 = is2",
                 "2 = is3",
                 "3 = is4",
