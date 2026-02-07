@@ -11,6 +11,10 @@
   },
   {
     "name": "10 perfect operations",
+    "_comment": [
+      "this location is universal across all the IS versions.",
+      "should be outside the regions and reguirement is from all the IS variants"
+    ],
     "region": "is2",
     "requires": "|is2 key| AND |floor3 key is2| AND |floor2 key is2|",
     "hint_entrance": "clear 10 operations without leaks in a row"
@@ -30,7 +34,7 @@
     "category": [
       "floor"
     ],
-    "requires": "|is3 key| AND |floor3 key is2|"
+    "requires": "|is3 key| AND |floor3 key is3|"
   },
   {
     "name": "dummy3 is3",
@@ -47,7 +51,7 @@
     "category": [
       "floor"
     ],
-    "requires": "|is3 key| AND |floor3 key is2|"
+    "requires": "|is3 key| AND |floor3 key is3|"
   },
   {
     "name": "dummy1 is4",
@@ -56,7 +60,7 @@
       "floor",
       "start_floor"
     ],
-    "requires": "|is3 key|"
+    "requires": "|is4 key|"
   },
   {
     "name": "dummy2 is4",
@@ -64,16 +68,16 @@
     "category": [
       "floor"
     ],
-    "requires": "|is3 key| AND |floor3 key is2|"
+    "requires": "|is4 key| AND |floor4 key is4|"
   },
   {
-    "name": "dummy4 is4",
+    "name": "dummy3 is4",
     "region": "is3",
     "category": [
       "floor",
       "start_floor"
     ],
-    "requires": "|is3 key|"
+    "requires": "|is4 key|"
   },
   {
     "name": "dummy4 is4",
@@ -81,7 +85,7 @@
     "category": [
       "floor"
     ],
-    "requires": "|is3 key| AND |floor3 key is2|"
+    "requires": "|is4 key| AND |floor4 key is4|"
   },
   {
     "name": "floor1 is2",

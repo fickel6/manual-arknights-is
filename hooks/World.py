@@ -76,6 +76,25 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
 
+    # depending on the chosen option, give the player the correct key
+    starting_region = world.options.starting_region.value
+    if starting_region == 0:
+        # it sees the correct option, but can't find the item?
+        multiworld.push_precollected("is2 key")
+        item_pool.remove("is2 key")
+    elif starting_region == 1:
+        multiworld.push_precollected("is3 key")
+        item_pool.remove("is3 key")
+    elif starting_region == 2:
+        multiworld.push_precollected("is4 key")
+        item_pool.remove("is4 key")
+    elif starting_region == 3:
+        multiworld.push_precollected("is5 key")
+        item_pool.remove("is5 key")
+    elif starting_region == 4:
+        multiworld.push_precollected("is6 key")
+        item_pool.remove("is6 key")
+
     # # what should be randomized?
     # starting_items = [
     #     {

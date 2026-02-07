@@ -209,6 +209,7 @@
         },
         "starting region": {
             "type": "Choice",
+            "group": "Game Options",
             "description": [
                 "choose which is you want to start in",
                 "1 = is2",
@@ -218,12 +219,11 @@
                 "5 = is6"
             ],
             "values": {
-                "none": 0,
-                "is2": 1,
-                "is3": 2,
-                "is4": 3,
-                "is5": 4,
-                "is6": 5
+                "is2": 0,
+                "is3": 1,
+                "is4": 2,
+                "is5": 3,
+                "is6": 4
             }
         }
     }
