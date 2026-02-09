@@ -1,4 +1,4 @@
-[
+ [
   {
     "name": "invest 10 coins",
     "prehint": true,
@@ -18,7 +18,7 @@
   {
     "name": "10 perfect operations is3",
     "region": "is3",
-    "requires": "|is3 key| AND |floor3 key is3| AND |floor2 key is3|",
+    "requires": "|floor3 unlock is3|",
     "hint_entrance": "clear 10 operations without leaks in a row in is3"
   },
   {
@@ -34,10 +34,10 @@
     "hint_entrance": "clear 10 operations without leaks in a row in is5"
   },
   {
-    "name": "10 perfect operations is5",
+    "name": "10 perfect operations is6",
     "region": "is2",
-    "requires": "|is5 key| AND |floor3 key is5| AND |floor2 key is5|",
-    "hint_entrance": "clear 10 operations without leaks in a row in is5"
+    "requires": "|is6 key| AND |floor3 key is6| AND |floor2 key is6|",
+    "hint_entrance": "clear 10 operations without leaks in a row in is6"
   },
   {
     "name": "floor1 is2",
@@ -396,7 +396,6 @@
       "boss"
     ],
     "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2|"
-    
   },
   {
     "name": "'Fatal melodies' clear",
@@ -838,7 +837,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key|"
+    "requires": "|floor1 unlock is3|"
   },
   {
     "name": "'Cistern' clear",
@@ -846,7 +845,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key|"
+    "requires": "|floor1 unlock is3|"
   },
   {
     "name": "emergency 'Cistern' clear",
@@ -855,7 +854,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key|"
+    "requires": "|floor1 unlock is3|"
   },
   {
     "name": "'Insect Infestation' clear",
@@ -863,7 +862,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key|"
+    "requires": "|floor1 unlock is3|"
   },
   {
     "name": "emergency 'Insect Infestation' clear",
@@ -872,7 +871,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key|"
+    "requires": "|floor1 unlock is3|"
   },
   {
     "name": "'Mutual Aid' clear",
@@ -880,7 +879,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key|"
+    "requires": "|floor1 unlock is3|"
   },
   {
     "name": "emergency 'Mutual Aid' clear",
@@ -889,7 +888,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key|"
+    "requires": "|floor1 unlock is3|"
   },
   {
     "name": "'Sniper Squad' clear",
@@ -897,7 +896,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key|"
+    "requires": "|floor1 unlock is3|"
   },
   {
     "name": "emergency 'Sniper Squad' clear",
@@ -906,7 +905,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key|"
+    "requires": "|floor1 unlock is3|"
   },
   {
     "name": "'Symbiosis' clear",
@@ -914,7 +913,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key|"
+    "requires": "|floor1 unlock is3|"
   },
   {
     "name": "emergency 'Symbiosis' clear",
@@ -923,7 +922,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key|"
+    "requires": "|floor1 unlock is3|"
   },
   {
     "name": "floor2 is3",
@@ -931,7 +930,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "'Ebb' clear",
@@ -939,7 +938,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "emergency 'Ebb' clear",
@@ -948,7 +947,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "'Hunger and Thirst' clear",
@@ -956,7 +955,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "emergency 'Hunger and Thirst' clear",
@@ -965,7 +964,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "'Leviathan Followers' clear",
@@ -973,7 +972,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "emergency 'Leviathan Followers' clear",
@@ -982,7 +981,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "'Malady' clear",
@@ -990,7 +989,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "emergency 'Malady' clear",
@@ -999,7 +998,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "'Omen' clear",
@@ -1007,7 +1006,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "emergency 'Omen' clear",
@@ -1016,7 +1015,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "'Voiceless Summons' clear",
@@ -1024,7 +1023,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "emergency 'Voiceless Summons' clear",
@@ -1033,7 +1032,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|floor 2 unlock is3|"
+    "requires": "|floor2 unlock is3|"
   },
   {
     "name": "floor3 is3",
@@ -1041,101 +1040,550 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3| AND |floor 3 key is3|"
+    "requires": "|floor3 unlock is3|"
   },
-
-
   {
-    "name": "'Cistern' clear",
+    "name": "'Craft Brewer Killer' clear",
     "region": "is3",
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor3 unlock is3|"
   },
   {
-    "name": "emergency 'Cistern' clear",
+    "name": "emergency 'Craft Brewer Killer' clear",
     "region": "is3",
     "category": [
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor3 unlock is3|"
   },
   {
-    "name": "floor1 is3",
+    "name": "'Crime and Punishment' clear",
     "region": "is3",
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor3 unlock is3|"
   },
   {
-    "name": "'Cistern' clear",
-    "region": "is3",
-    "category": [
-      "is3"
-    ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
-  },
-  {
-    "name": "emergency 'Cistern' clear",
+    "name": "emergency 'Crime and Punishment' clear",
     "region": "is3",
     "category": [
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor3 unlock is3|"
   },
   {
-    "name": "floor1 is3",
+    "name": "'Looking Forward, Looking Back' clear",
     "region": "is3",
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor3 unlock is3|"
   },
   {
-    "name": "'Cistern' clear",
-    "region": "is3",
-    "category": [
-      "is3"
-    ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
-  },
-  {
-    "name": "emergency 'Cistern' clear",
+    "name": "emergency 'Looking Forward, Looking Back' clear",
     "region": "is3",
     "category": [
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor3 unlock is3|"
   },
   {
-    "name": "floor1 is3",
+    "name": "'Precarious Defense' clear",
     "region": "is3",
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor3 unlock is3|"
   },
   {
-    "name": "'Cistern' clear",
-    "region": "is3",
-    "category": [
-      "is3"
-    ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
-  },
-  {
-    "name": "emergency 'Cistern' clear",
+    "name": "emergency 'Precarious Defense' clear",
     "region": "is3",
     "category": [
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Sanguinarch's Legacy' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'Sanguinarch's Legacy' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'The Nest' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'The Nest' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Troglodyte Tribe' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'Troglodyte Tribe' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Vortex' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'Vortex' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Course Correction' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Eternal Wrath' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Requiem Aeternam' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Route Revision' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Separation and Unity' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Two Forms, One Heart' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "floor4 is3",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Blaze of Glory' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Blaze of Glory' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Guns and Order' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Guns and Order' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Hunting Grounds' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Hunting Grounds' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Nethersea Brand Land' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Nethersea Brand Land' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Seacavern Sandstorm' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Seacavern Sandstorm' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Territorial Tendencies' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Territorial Tendencies' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'The Revered Abyss' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Underground Ascension' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "floor5 is3",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Ember Phalanx' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'Ember Phalanx' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Mechanical Menace' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'Mechanical Menace' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Out of Control' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'Out of Control' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Pool of Procreation' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'Pool of Procreation' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'The Faithul's Utopia' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'The Faithul's Utopia' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'The Piper's Call' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'The Piper's Call' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'The Spread' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'The Spread' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Ubi bona somnia' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'Ubi bona somnia' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Curse of Cognition' clear",
+    "_comment": "this is ed1",
+    "region": "is3",
+    "category": [
+      "is3",
+      "boss"
+    ],
+    "requires": "|floor5 unlock is3|",
+    "victory": true
+  },
+  {
+    "name": "'\"face's Favored Child\"' clear",
+    "_comment": "this is ed2",
+    "region": "is3",
+    "category": [
+      "is3",
+      "boss"
+    ],
+    "requires": "|floor5 unlock is3|",
+    "victory": true
+  },
+  {
+    "name": "floor6 is3",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor6 unlock is3|"
+  },
+  {
+    "name": "'Deep Cognition' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor6 unlock is3|"
+  },
+  {
+    "name": "emergency 'Deep Cognition' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor6 unlock is3|"
+  },
+  {
+    "name": "'Water and Fire Union' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|floor6 unlock is3|"
+  },
+  {
+    "name": "emergency 'Water and Fire Union' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|floor6 unlock is3|"
+  },
+  {
+    "name": "'Destiny of We Many' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "boss"
+    ],
+    "requires": "|floor6 unlock is3|"
+  },
+  {
+    "name": "'Glory of Humanity' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "boss"
+    ],
+    "requires": "|floor6 unlock is3|"
   },
   {
     "name": "Indigo Cradle is3",

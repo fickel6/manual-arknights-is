@@ -1,62 +1,44 @@
 [
     {
-        "name": "floor 2 unlock is3",
+        "name": "floor1 unlock is3",
         "category": "is3",
         "region": "is3",
-        "reguires:": "|is3 key| AND |floor 2 key is3|"
+        "reguires:": "|is3 key|",
+        "visible": true
     },
     {
-        "name": "floor 2 unlock is3",
+        "name": "floor2 unlock is3",
         "category": "is3",
         "region": "is3",
-        "reguires:": "|is3 key| AND |floor 2 key is3|"
+        "reguires:": "|floor1 unlock is3| AND |floor2 key is3|",
+        "visible": true
     },
     {
-        "name": "floor 2 unlock is3",
+        "name": "floor3 unlock is3",
         "category": "is3",
         "region": "is3",
-        "reguires:": "|is3 key| AND |floor 2 key is3|"
+        "reguires:": "|floor2 unlock is3| AND |floor3 key is3|",
+        "visible": true
     },
     {
-        "name": "floor 2 unlock is3",
+        "name": "floor4 unlock is3",
         "category": "is3",
         "region": "is3",
-        "reguires:": "|is3 key| AND |floor 2 key is3|"
+        "reguires:": "|floor3 unlock is3| AND |floor4 key is3|",
+        "visible": true
     },
     {
-        "name": "floor 2 unlock is3",
+        "name": "floor5 unlock is3",
         "category": "is3",
         "region": "is3",
-        "reguires:": "|is3 key| AND |floor 2 key is3|"
+        "reguires:": "|floor4 unlock is3| AND |floor5 key is3|",
+        "visible": true
     },
     {
-        "name": "floor 2 unlock is3",
+        "name": "floor6 unlock is3",
         "category": "is3",
         "region": "is3",
-        "reguires:": "|is3 key| AND |floor 2 key is3|"
-    },
-    {
-        "name": "floor 2 unlock is3",
-        "category": "is3",
-        "region": "is3",
-        "reguires:": "|is3 key| AND |floor 2 key is3|"
-    },
-    {
-        "name": "floor 2 unlock is3",
-        "category": "is3",
-        "region": "is3",
-        "reguires:": "|is3 key| AND |floor 2 key is3|"
-    },
-    {
-        "name": "floor 2 unlock is3",
-        "category": "is3",
-        "region": "is3",
-        "reguires:": "|is3 key| AND |floor 2 key is3|"
-    },
-    {
-        "name": "floor 2 unlock is3",
-        "category": "is3",
-        "region": "is3",
-        "reguires:": "|is3 key| AND |floor 2 key is3|"
+        "reguires:": "|floor5 unlock is3| AND |floor6 key is3|",
+        "visible": true
     }
 ]

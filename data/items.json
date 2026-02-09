@@ -267,7 +267,7 @@
       "6 star", 
       "alter",
       "limited",
-       "sniper"
+       "specialist"
     ],
     "useful": true
   },
@@ -944,7 +944,7 @@
     "category": [
       "character",
       "6 star",
-      "vanguard"
+      "guard"
     ],
     "useful": true
   },
@@ -986,7 +986,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist"
+      "supporter"
     ],
     "useful": true
   },
@@ -3394,6 +3394,126 @@
     "name": "floor6 key is3",
     "category": [
       "is3"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor2 key is4",
+    "category": [
+      "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor3 key is4",
+    "category": [
+      "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor4 key is4",
+    "category": [
+      "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor5 key is4",
+    "category": [
+      "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor6 key is4",
+    "category": [
+      "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor2 key is5",
+    "category": [
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor3 key is5",
+    "category": [
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor4 key is5",
+    "category": [
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor5 key is5",
+    "category": [
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor6 key is5",
+    "category": [
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor2 key is6",
+    "category": [
+      "is6"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor3 key is6",
+    "category": [
+      "is6"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor4 key is6",
+    "category": [
+      "is6"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor5 key is6",
+    "category": [
+      "is6"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "floor6 key is6",
+    "category": [
+      "is6"
     ],
     "progression": true
   },
