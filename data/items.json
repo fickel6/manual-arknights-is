@@ -3285,44 +3285,35 @@
   {
     "name": "is2 key",
     "category": [
-      "region key",
-      "key"
+      "is2"
     ],
     "progression": true
   },
   {
     "name": "is3 key",
-    
     "category": [
-      "region key",
-      "key"
+      "is3"
     ],
     "progression": true
   },
   {
     "name": "is4 key",
-    
     "category": [
-      "region key",
-      "key"
+      "is4"
     ],
     "progression": true
   },
   {
     "name": "is5 key",
-    
     "category": [
-      "region key",
-      "key"
+      "is5"
     ],
     "progression": true
   },
   {
     "name": "is6 key",
-    
     "category": [
-      "region key",
-      "key"
+      "is6"
     ],
     "progression": true
   },
@@ -3330,7 +3321,7 @@
     "count": 1,
     "name": "floor2 key is2",
     "category": [
-      "key"
+      "is2"
     ],
     "progression": true
   },
@@ -3338,7 +3329,7 @@
     "count": 1,
     "name": "floor3 key is2",
     "category": [
-      "key"
+      "is2"
     ],
     "progression": true
   },
@@ -3346,7 +3337,7 @@
     "count": 1,
     "name": "floor4 key is2",
     "category": [
-      "key"
+      "is2"
     ],
     "progression": true
   },
@@ -3354,7 +3345,7 @@
     "count": 1,
     "name": "floor5 key is2",
     "category": [
-      "key"
+      "is2"
     ],
     "progression": true
   },
@@ -3362,7 +3353,7 @@
     "count": 1,
     "name": "floor6 key is2",
     "category": [
-      "key"
+      "is2"
     ],
     "progression": true
   },
@@ -3370,7 +3361,7 @@
     "count": 1,
     "name": "floor2 key is3",
     "category": [
-      "key"
+      "is3"
     ],
     "progression": true
   },
@@ -3378,7 +3369,7 @@
     "count": 1,
     "name": "floor3 key is3",
     "category": [
-      "key"
+      "is3"
     ],
     "progression": true
   },
@@ -3386,7 +3377,7 @@
     "count": 1,
     "name": "floor4 key is3",
     "category": [
-      "key"
+      "is3"
     ],
     "progression": true
   },
@@ -3394,7 +3385,7 @@
     "count": 1,
     "name": "floor5 key is3",
     "category": [
-      "key"
+      "is3"
     ],
     "progression": true
   },
@@ -3402,16 +3393,20 @@
     "count": 1,
     "name": "floor6 key is3",
     "category": [
-      "key"
+      "is3"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "_comment": "name for this event should be placed here",
+    "_comment": [
+      "IS3 introduced the 'optional floor' in is3",
+      "you can access this floor with 'Wander into Wonderland' node"
+    ],
     "name": "Indigo Cradle key is3",
     "category": [
-      "key"
+      "is3",
+      "optional floor"
     ],
     "progression": true
   }

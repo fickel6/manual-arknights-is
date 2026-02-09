@@ -831,5 +831,344 @@
     ],
     "requires": "|is2 key| AND |floor2 key is2| AND |floor3 key is2| AND |floor4 key is2| AND |floor5 key is2| AND |floor6 key is2| AND |Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|",
     "victory": true
+  },
+  {
+    "name": "floor1 is3",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "emergency 'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "'Insect Infestation' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "emergency 'Insect Infestation' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "'Mutual Aid' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "emergency 'Mutual Aid' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "'Sniper Squad' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "emergency 'Sniper Squad' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "'Symbiosis' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "emergency 'Symbiosis' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key|"
+  },
+  {
+    "name": "floor2 is3",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "'Ebb' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "emergency 'Ebb' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "'Hunger and Thirst' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "emergency 'Hunger and Thirst' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "'Leviathan Followers' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "emergency 'Leviathan Followers' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "'Malady' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "emergency 'Malady' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "'Omen' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "emergency 'Omen' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "'Voiceless Summons' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "emergency 'Voiceless Summons' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "floor3 is3",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3| AND |floor 3 key is3|"
+  },
+  {
+    "name": "'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "emergency 'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "floor1 is3",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "emergency 'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "floor1 is3",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "emergency 'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "floor1 is3",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "emergency 'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "emergency"
+    ],
+    "requires": "|is3 key| AND |floor 2 key is3|"
+  },
+  {
+    "name": "Indigo Cradle is3",
+    "region": "is3",
+    "category": [
+      "is3",
+      "optional floor"
+    ],
+    "requires": "|is3 key| AND |Indigo Cradle key is3|"
+  },
+  {
+    "name": "'Avoid Unsafe Roads' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "optional floor"
+    ],
+    "requires": "|is3 key| AND |Indigo Cradle key is3|"
+  },
+  {
+    "name": "'Chilling Curse' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "optional floor"
+    ],
+    "requires": "|is3 key| AND |Indigo Cradle key is3|"
+  },
+  {
+    "name": "'Hunting Group' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "optional floor"
+    ],
+    "requires": "|is3 key| AND |Indigo Cradle key is3|"
   }
 ]
