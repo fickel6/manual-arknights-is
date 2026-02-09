@@ -931,7 +931,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "'Ebb' clear",
@@ -939,7 +939,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "emergency 'Ebb' clear",
@@ -948,7 +948,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "'Hunger and Thirst' clear",
@@ -956,7 +956,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "emergency 'Hunger and Thirst' clear",
@@ -965,7 +965,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "'Leviathan Followers' clear",
@@ -973,7 +973,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "emergency 'Leviathan Followers' clear",
@@ -982,7 +982,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "'Malady' clear",
@@ -990,7 +990,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "emergency 'Malady' clear",
@@ -999,7 +999,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "'Omen' clear",
@@ -1007,7 +1007,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "emergency 'Omen' clear",
@@ -1016,7 +1016,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "'Voiceless Summons' clear",
@@ -1024,7 +1024,7 @@
     "category": [
       "is3"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "emergency 'Voiceless Summons' clear",
@@ -1033,7 +1033,7 @@
       "is3",
       "emergency"
     ],
-    "requires": "|is3 key| AND |floor 2 key is3|"
+    "requires": "|floor 2 unlock is3|"
   },
   {
     "name": "floor3 is3",
@@ -1043,6 +1043,8 @@
     ],
     "requires": "|is3 key| AND |floor 2 key is3| AND |floor 3 key is3|"
   },
+
+
   {
     "name": "'Cistern' clear",
     "region": "is3",
