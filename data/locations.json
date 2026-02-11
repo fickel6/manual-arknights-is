@@ -1522,7 +1522,7 @@
       "is3",
       "boss"
     ],
-    "requires": "|floor5 unlock is3|",
+    "requires": "|floor5 unlock is3| AND |Breath of the Tide|",
     "victory": true
   },
   {
@@ -1574,7 +1574,7 @@
       "is3",
       "boss"
     ],
-    "requires": "|floor6 unlock is3|"
+    "requires": "|floor6 unlock is3| AND |Bishop's Research| AND |Caerula Animus|"
   },
   {
     "name": "'Glory of Humanity' clear",
@@ -1583,7 +1583,7 @@
       "is3",
       "boss"
     ],
-    "requires": "|floor6 unlock is3|"
+    "requires": "|floor6 unlock is3| AND |Caerula Memory| AND (|Determination| OR |Vigil| OR |Hesitation|)"
   },
   {
     "name": "Indigo Cradle is3",
