@@ -2555,6 +2555,56 @@
     "useful": true
   },
   {
+    "name": "Togawa Sakiko",
+    "count": 1,
+    "category": [
+      "6 star", 
+      "guard",
+      "limited"
+    ],
+    "useful": true
+  },
+  {
+    "name": "Misumi Uika",
+    "count": 1,
+    "category": [
+      "5 star", 
+      "supporter",
+      "limited"
+    ],
+    "useful": true
+  },
+  {
+    "name": "Wakaba Mutsumi",
+    "count": 1,
+    "category": [
+      "5 star", 
+      "guard",
+      "limited"
+    ],
+    "useful": true
+  },
+  {
+    "name": "Yahata Umiri",
+    "count": 1,
+    "category": [
+      "5 star", 
+      "specialist",
+      "limited"
+    ],
+    "useful": true
+  },
+  {
+    "name": "Yutenji Nyamu",
+    "count": 1,
+    "category": [
+      "5 star", 
+      "guard",
+      "limited"
+    ],
+    "useful": true
+  },
+  {
     "count": "1",
     "name": "Rockrock",
     "category": [
