@@ -1,4 +1,5 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
+from typing import Any
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState, Item
 
@@ -12,7 +13,7 @@ from ..Locations import ManualLocation
 from ..Data import game_table, item_table, location_table, region_table
 
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
-from ..Helpers import is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat
+from ..Helpers import is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat, remove_specific_item
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
@@ -35,6 +36,13 @@ import logging
 # Default value is the `filler_item_name` from game.json
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
     return False
+
+def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> None:
+    """
+    This is the earliest hook called during generation, before anything else is done.
+    Use it to check or modify incompatible options, or to set up variables for later use.
+    """
+    pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
@@ -69,176 +77,18 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
-
-# custom code for choosing which 6 star, 5 star and 4 stars you start with
-# all the possible combinations are depended which IS is starting with
-# IS2: 1 6 star and 2 4 star or lower, 2 5 stars and 1 4 star or lower or 3 4 stars or lower. 
-
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    # Use this hook to remove items from the item pool
+    itemNamesToRemove: list[str] = [] # List of item names
 
-    # depending on the chosen option, give the player the correct key
-    starting_region = world.options.starting_region.value
-    if starting_region == 0:
-        # it sees the correct option, but can't find the item?
-        multiworld.push_precollected("is2 key")
-        item_pool.remove("is2 key")
-    elif starting_region == 1:
-        multiworld.push_precollected("is3 key")
-        item_pool.remove("is3 key")
-    elif starting_region == 2:
-        multiworld.push_precollected("is4 key")
-        item_pool.remove("is4 key")
-    elif starting_region == 3:
-        multiworld.push_precollected("is5 key")
-        item_pool.remove("is5 key")
-    elif starting_region == 4:
-        multiworld.push_precollected("is6 key")
-        item_pool.remove("is6 key")
+    # Add your code here to calculate which items to remove.
+    #
+    # Because multiple copies of an item can exist, you need to add an item name
+    # to the list multiple times if you want to remove multiple copies of it.
 
-    # # what should be randomized?
-    # starting_items = [
-    #     {
-    #         "item_categories": ["starting voucher"],
-    #         "random": 1
-    #     },
-    #     {
-    #         "item_categories": ["squad"],
-    #         "random": 1
-    #     }
-    # ]
-    # chosen_start = []
-    # for starting_squads_vouc in starting_items:
-    #     # get all items that have the correct category/categories we want to remove
-    #     possible_item_names = []
-
-    #     for category in starting_squads_vouc['item_categories']:
-    #         possible_item_names.extend(
-    #             [
-    #                 name for name, i in world.item_name_to_item.items()
-    #                     if category in i.get("category",[])
-    #             ]
-    #         )
-
-    #     # remove dupes
-    #     possible_item_names = set(possible_item_names)
-
-    #     # list of all the items we want to remove (name only)
-    #     possible_items = [
-    #         i for i in item_pool 
-    #             if i.name in possible_item_names
-    #     ]
-
-    #     # we only remove 1, so the loop in the example is ignored.
-    #     random_starting_item = world.random.choice(possible_items)
-    #     chosen_start.append(random_starting_item)
-    #     multiworld.push_precollected(random_starting_item)
-    #     possible_items.remove(random_starting_item) # don't allow choosing the exact same item again
-    #     item_pool.remove(random_starting_item) # remove it from the pool since we're starting with it
-
-    #now we know the starting vouchers (and squad). We should rando the possible combination of 6 and 5 stars. 
-    #THIS ONLY WORKS IN IS2, 3 AND 4. 
-    # TO DO: MAKE A CHECK WHICH REGION WE ARE STARTING IN
-    # first is 6 star and second is 5 star. all 4 stars aren't in the manual yet (should I at them?)
-
-    # rarity_operators = world.random.choice([[1, 0], [0, 2], [0, 1], [0, 0]])
-    # start_operator_option = []
-    # # first element has the string for starting vouchers
-    # if chosen_start[0] == "First Move Advantage":
-    #     start_operator_option.append(
-    #         {
-    #             "item_categories": ["6 star", "sniper", "specialist", "vanguard"],
-    #             "random": rarity_operators[0]
-    #         }
-    #     )
-    #     start_operator_option.append(
-    #         {
-    #             "item_categories": ["5 star", "sniper", "specialist", "vanguard"],
-    #             "random": rarity_operators[1]
-    #         }
-    #     )
-
-    # if chosen_start[0] == "Slow and Steady Wins the Race":
-    #     start_operator_option.append(
-    #         {
-    #             "item_categories": ["6 star", "caster", "defender", "sniper"],
-    #             "random": rarity_operators[0]
-    #         }
-    #     )
-    #     start_operator_option.append(
-    #         {
-    #             "item_categories": ["5 star", "caster", "defender", "sniper"],
-    #             "random": rarity_operators[1]
-    #         }
-    #     )
-        
-    # if chosen_start[0] == "Overcoming Your Weaknesses":
-    #     start_operator_option.append(
-    #         {
-    #             "item_categories": ["6 star", "guard", "medic", "supporter"],
-    #             "random": rarity_operators[0]
-    #         }
-    #     )
-    #     start_operator_option.append(
-    #         {
-    #             "item_categories": ["5 star", "guard", "medic", "supporter"],
-    #             "random": rarity_operators[1]
-    #         }
-    #     )
-        
-    # if chosen_start[0] == "Flexible Deployment":
-    #     start_operator_option.append(
-    #         {
-    #             "item_categories": ["6 star", "vanguard", "supporter", "specialist"],
-    #             "random": rarity_operators[0]
-    #         }
-    #     )
-    #     start_operator_option.append(
-    #         {
-    #             "item_categories": ["5 star", "vanguard", "supporter", "specialist"],
-    #             "random": rarity_operators[1]
-    #         }
-    #     )
-        
-    # if chosen_start[0] == "Indestructible":
-    #     start_operator_option.append(
-    #         {
-    #             "item_categories": ["6 star", "defender", "caster", "medic"],
-    #             "random": rarity_operators[0]
-    #         }
-    #     )
-    #     start_operator_option.append(
-    #         {
-    #             "item_categories": ["5 star", "defender", "caster", "medic"],
-    #             "random": rarity_operators[1]
-    #         }
-    #     )
-
-    # for starting_operator in start_operator_option:
-    #     # get all items that have the correct category/categories we want to remove
-    #     possible_item_names = []
-
-    #     for category in starting_operator['item_categories']:
-    #         possible_item_names.extend(
-    #             [
-    #                 name for name, i in world.item_name_to_item.items()
-    #                     if category in i.get("category",[])
-    #             ]
-    #         )
-
-    #     # remove dupes
-    #     possible_item_names = set(possible_item_names)
-
-    #     # list of all the items we want to remove (name only)
-    #     possible_items = [
-    #         i for i in item_pool 
-    #             if i.name in possible_item_names
-    #     ]
-
-    #     # we only remove 1, so the loop in the example is ignored.
-    #     random_starting_operator = world.random.choice(possible_items)
-    #     multiworld.push_precollected(random_starting_operator)
-    #     possible_items.remove(random_starting_operator) # don't allow choosing the exact same item again
-    #     item_pool.remove(random_starting_operator) # remove it from the pool since we're starting with it
+    for itemName in itemNamesToRemove:
+        item = next(i for i in item_pool if i.name == itemName)
+        remove_specific_item(item_pool, item)
 
     return item_pool
 
@@ -248,7 +98,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Location Name")
     # item_to_place = next(i for i in item_pool if i.name == "Item Name")
     # location.place_locked_item(item_to_place)
-    # item_pool.remove(item_to_place)
+    # remove_specific_item(item_pool, item_to_place)
 
 # The complete item pool prior to being set for generation is provided here, in case you want to make changes to it
 def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
@@ -341,3 +191,10 @@ def before_extend_hint_information(hint_data: dict[int, dict[int, str]], world: 
 
 def after_extend_hint_information(hint_data: dict[int, dict[int, str]], world: World, multiworld: MultiWorld, player: int) -> None:
     pass
+
+def hook_interpret_slot_data(world: World, player: int, slot_data: dict[str, Any]) -> dict[str, Any]:
+    """
+        Called when Universal Tracker wants to perform a fake generation
+        Use this if you want to use or modify the slot_data for passed into re_gen_passthrough
+    """
+    return slot_data
