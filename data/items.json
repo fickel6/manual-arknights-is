@@ -3220,7 +3220,8 @@
     "_comment": "this is for ending 3 of is2",
     "name": "Dance of the Condemned",
     "category": [
-      "collectible"
+      "collectible",
+      "is2"
     ],
     "progression": true
   },
@@ -3229,7 +3230,8 @@
     "_comment": "this is for ending 3 of is2",
     "name": "Act 1",
     "category": [
-      "collectible"
+      "collectible",
+      "is2"
     ],
     "progression": true
   },
@@ -3238,7 +3240,8 @@
     "_comment": "this is for ending 4 of is2",
     "name": "Mantle of the Wrongly Condemned",
     "category": [
-      "collectible"
+      "collectible",
+      "is2"
     ],
     "progression": true
   },
@@ -3247,7 +3250,8 @@
     "_comment": "this is for ending 4 of is2",
     "name": "Stand-in Actor",
     "category": [
-      "collectible"
+      "collectible",
+      "is2"
     ],
     "progression": true
   },
@@ -3256,7 +3260,8 @@
     "_comment": "this is for ending 4 of is2",
     "name": "Abrupt Realization",
     "category": [
-      "collectible"
+      "collectible",
+      "is2"
     ],
     "progression": true
   },
@@ -3265,7 +3270,8 @@
     "_comment": "this is for ending 2 of is3",
     "name": "Breath of the Tide",
     "category": [
-      "collectible"
+      "collectible",
+      "is3"
     ],
     "progression": true
   },
@@ -3274,7 +3280,8 @@
     "_comment": "this is for ending 2 of is3",
     "name": "Fate's Favored Child",
     "category": [
-      "collectible"
+      "collectible",
+      "is3"
     ],
     "progression": true
   },
@@ -3283,7 +3290,8 @@
     "_comment": "this is for ending 3 of is3",
     "name": "Bishop's Research",
     "category": [
-      "collectible"
+      "collectible",
+      "is3"
     ],
     "progression": true
   },
@@ -3292,7 +3300,8 @@
     "_comment": "this is for ending 3 of is3",
     "name": "Caerula Animus",
     "category": [
-      "collectible"
+      "collectible",
+      "is3"
     ],
     "progression": true
   },
@@ -3301,7 +3310,8 @@
     "_comment": "this is for ending 4 of is3",
     "name": "Caerula Memory",
     "category": [
-      "collectible"
+      "collectible",
+      "is3"
     ],
     "progression": true
   },
@@ -3310,7 +3320,8 @@
     "_comment": "this is for ending 4 of is3",
     "name": "Determination",
     "category": [
-      "collectible"
+      "collectible",
+      "is3"
     ],
     "progression": true
   },
@@ -3319,16 +3330,118 @@
     "_comment": "this is for ending 4 of is3",
     "name": "Vigil is3 collectible",
     "category": [
-      "collectible"
+      "collectible",
+      "is3"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "_comment": "this is for ending 4 of is3",
-    "name": "Hesitation",
+    "_comment": "this is for ending 3 of is3",
+    "name": "Routeweave Net",
     "category": [
-      "collectible"
+      "collectible",
+      "is3"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 3 of is4",
+    "name": "Boundless Gift",
+    "category": [
+      "collectible",
+      "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 4 of is4",
+    "name": "Horizon Invitation",
+    "category": [
+      "collectible",
+      "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 4 of is4",
+    "name": "Dimensional Fluid",
+    "category": [
+      "collectible",
+      "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 3 of is5",
+    "name": "Prophet Horn",
+    "category": [
+      "collectible",
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 4 of is5",
+    "name": "Time and Light",
+    "category": [
+      "collectible",
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 4 of is5",
+    "name": "Petal",
+    "category": [
+      "collectible",
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 4 of is5",
+    "name": "Anasa's Karma",
+    "category": [
+      "collectible",
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 5 of is5",
+    "name": "Prophetic Image",
+    "category": [
+      "collectible",
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 5 of is5",
+    "name": "Despair",
+    "category": [
+      "collectible",
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 5 of is5",
+    "name": "Endless Key",
+    "category": [
+      "collectible",
+      "is5"
     ],
     "progression": true
   },
@@ -3449,6 +3562,19 @@
   },
   {
     "count": 1,
+    "_comment": [
+      "IS3 introduced the 'optional floor' in is3",
+      "you can access this floor with 'Wander into Wonderland' node"
+    ],
+    "name": "Wander Into Wonderland key is3",
+    "category": [
+      "is3",
+      "optional floor"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "floor2 key is4",
     "category": [
       "is4"
@@ -3484,6 +3610,15 @@
     "name": "floor6 key is4",
     "category": [
       "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Bosky Passage key is4",
+    "category": [
+      "is4",
+      "optional floor"
     ],
     "progression": true
   },
@@ -3529,6 +3664,15 @@
   },
   {
     "count": 1,
+    "name": "Possibility key is5",
+    "category": [
+      "is5",
+      "optional floor"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "floor2 key is6",
     "category": [
       "is6"
@@ -3569,14 +3713,10 @@
   },
   {
     "count": 1,
-    "_comment": [
-      "IS3 introduced the 'optional floor' in is3",
-      "you can access this floor with 'Wander into Wonderland' node"
-    ],
-    "name": "Wander Into Wonderland key is3",
+    "name": "Wander into Wonderland key is6",
+    "_comment": "this is kinda the main gimmick in is6, so it isn't a optional thing anymore",
     "category": [
-      "is3",
-      "optional floor"
+      "is6"
     ],
     "progression": true
   }
