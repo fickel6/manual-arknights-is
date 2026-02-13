@@ -79,16 +79,33 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     # Use this hook to remove items from the item pool
-    itemNamesToRemove: list[str] = [] # List of item names
+    # 0 = is2
+    # 1 = is3
+    # 2 = is4
+    # 3 = is5
+    # 4 = is6
+    # starting_is = world.options.starting_region.value
+    # if starting_is == 1:
+    #     item = next(i for i in item_pool if i.name == "is3 key")
+    # elif starting_is == 2:
+    #     item = next(i for i in item_pool if i.name == "is4 key")
+    # elif starting_is == 3:
+    #     item = next(i for i in item_pool if i.name == "is5 key")
+    # elif starting_is == 4:
+    #     item = next(i for i in item_pool if i.name == "is6 key")
+    # #if otherwise not defined or starting_is is 0, the key should be for is2
+    # else:
+    #     item = next(i for i in item_pool if i.name == "is2 key")
+    
+    # multiworld.push_precollected(item)
+    # item_pool.remove(item)
+    # for item_name, count in item_pool.items():
+    #     item_data = world.item_name_to_item[item_name]
+    #     categories = item_data.get("category", [])
 
-    # Add your code here to calculate which items to remove.
-    #
-    # Because multiple copies of an item can exist, you need to add an item name
-    # to the list multiple times if you want to remove multiple copies of it.
-
-    for itemName in itemNamesToRemove:
-        item = next(i for i in item_pool if i.name == itemName)
-        remove_specific_item(item_pool, item)
+    # for itemName in itemNamesToRemove:
+    #     item = next(i for i in item_pool if i.name == itemName)
+    #     remove_specific_item(item_pool, item)
 
     return item_pool
 

@@ -779,7 +779,7 @@
     "category": [
       "is2"
     ],
-    "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2 OR |ending 4 unlock is2|)"
+    "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
   },
   {

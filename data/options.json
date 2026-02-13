@@ -66,7 +66,7 @@
             ],
             "values": {
                 "exu": 0,
-                "mytrle": 0
+                "mytrle": 1
             },
             "aliases": {
                 "you_know_that_purple_one": 1,
@@ -212,11 +212,11 @@
             "group": "Game Options",
             "description": [
                 "choose which is you want to start in",
-                "1 = is2",
-                "2 = is3",
-                "3 = is4",
-                "4 = is5",
-                "5 = is6"
+                "0 = is2",
+                "1 = is3",
+                "2 = is4",
+                "3 = is5",
+                "4 = is6"
             ],
             "values": {
                 "is2": 0,
