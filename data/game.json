@@ -4,25 +4,7 @@
   "creator": "Fickel",
   "filler_item_name": "LMD",
   "starting_items": [
-    {
-      "items": ["is2 key"],
-      "_comment": [
-        "deze key (region key) wordt later randomised",
-        "region key is ook gelijk  1st floor key"
-      ]
-    },
-    {
-      "item_categories": ["starting voucher"],
-      "_comment": "add logic for starting squads",
-      "random": 1
-    },
-    {
-      "_comment": [
-        "starting 6 star is a hook",
-        "starting squad is dependend on which region is chosen (option)",
-        "this should there for be a hook"
-      ]
-    }
+
   ],
   "_comment": "TODO: death link as an option",
   "death_link": false

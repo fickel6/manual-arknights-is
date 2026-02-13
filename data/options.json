@@ -22,10 +22,6 @@
         }
     },
     "user": {
-        "_commented_out_option":{
-            "type": "Toggle",
-            "default": true
-        },
         "include 6 stars":{
             "description": [
                 "include or exclude all six stars from the randomizer",
@@ -56,33 +52,11 @@
                 "spoiler"
             ]
         },
-        "exclude individual 6 stars": {
-            "type": "Choice",
-            "description": [
-                "if include 6 star is true, choose which 6 star should not be included in the randomizer",
-                "reasons for not inlcuding all the characters can be: ",
-                "1. you don't have the character",
-                "2. you don't want to play with him/her ever (to op, or just personal preference)"
-            ],
-            "values": {
-                "exu": 0,
-                "mytrle": 1
-            },
-            "aliases": {
-                "you_know_that_purple_one": 1,
-                "the_second_thing_bro": 2
-            },
-            "visibility": [
-                "template",
-                "simple_ui",
-                "complex_ui"
-            ]
-        },
         "include ed1": {
             "type": "Toggle",
             "default": true,
             "description": ["all the itmes and stages for ending 1 will also be randomized"],
-            "group": "Game Options",
+            "group": "Endings",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -93,7 +67,7 @@
             "type": "Toggle",
             "default": true,
             "description": ["all the itmes and stages for ending 2 will also be randomized"],
-            "group": "Game Options",
+            "group": "Endings",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -104,7 +78,7 @@
             "type": "Toggle",
             "default": true,
             "description": ["all the itmes and stages for ending 3 will also be randomized"],
-            "group": "Game Options",
+            "group": "Endings",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -115,14 +89,14 @@
             "type": "Toggle",
             "default": true,
             "description": ["all the itmes and stages for ending 4 will also be randomized"],
-            "group": "Game Options",
+            "group": "Endings",
             "visibility": [
                 "template",
                 "simple_ui",
                 "spoiler"
             ]
         },
-        "investment of ingots": {
+        "_investment of ingots": {
             "description": [
                 "how many ingots you need to invest to get a check",
                 "if this number is 0, then this location will be removed"
@@ -137,7 +111,7 @@
                 "spoiler"
             ]
         },
-        "get ingots from investment": {
+        "_get ingots from investment": {
             "description": [
                 "how many ingots you need to get from the investment to get a check",
                 "if this number is 0, then this location will be removed"

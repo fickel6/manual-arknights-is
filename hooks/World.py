@@ -78,34 +78,71 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    # Use this hook to remove items from the item pool
+    # choose which is you start with
     # 0 = is2
     # 1 = is3
     # 2 = is4
     # 3 = is5
     # 4 = is6
-    # starting_is = world.options.starting_region.value
-    # if starting_is == 1:
-    #     item = next(i for i in item_pool if i.name == "is3 key")
-    # elif starting_is == 2:
-    #     item = next(i for i in item_pool if i.name == "is4 key")
-    # elif starting_is == 3:
-    #     item = next(i for i in item_pool if i.name == "is5 key")
-    # elif starting_is == 4:
-    #     item = next(i for i in item_pool if i.name == "is6 key")
-    # #if otherwise not defined or starting_is is 0, the key should be for is2
-    # else:
-    #     item = next(i for i in item_pool if i.name == "is2 key")
+    starting_is = world.options.starting_region.value
+    if starting_is == 1:
+        item = next(i for i in item_pool if i.name == "is3 key")
+        starting_is = "is3"
+    elif starting_is == 2:
+        item = next(i for i in item_pool if i.name == "is4 key")
+        starting_is = "is4"
+    elif starting_is == 3:
+        item = next(i for i in item_pool if i.name == "is5 key")
+        starting_is = "is5"
+    elif starting_is == 4:
+        item = next(i for i in item_pool if i.name == "is6 key")
+        starting_is = "is6"
+    #if otherwise not defined or starting_is is 0, the key should be for is2
+    else:
+        item = next(i for i in item_pool if i.name == "is2 key")
     
-    # multiworld.push_precollected(item)
-    # item_pool.remove(item)
-    # for item_name, count in item_pool.items():
-    #     item_data = world.item_name_to_item[item_name]
-    #     categories = item_data.get("category", [])
+    multiworld.push_precollected(item)
+    item_pool.remove(item)
+    # choose a starting squad, voucher (3 rand. ops is later)
+    # added a random variable for future proofing 
+    # later the amount of starting squads + starting_vouchers can be randomised with options (needed?)
+    starting_items_choice = [
+        {
+            "item_categories": ["squad"],
+            "random":1
+        },
+        {
+            "item_categories": ["starting_voucher"],
+            "random":1
+        }
+    ]
+    starting_items
+    for starting in starting_items_choice:
+        possible_item_names = []
 
-    # for itemName in itemNamesToRemove:
-    #     item = next(i for i in item_pool if i.name == itemName)
-    #     remove_specific_item(item_pool, item)
+        for category in starting["item_categories"]:
+            possible_item_names.extend(
+                [name for name, i in world.item_name_to_item.items() if category in i.get("category", []) and starting_is in i.get("category", [])] #accounts for the key not existing
+            )
+
+        #there are is specific squads, so filter these out
+        print(possible_item_names)
+        possible_items = [
+            i for i in item_pool if i.name in possible_item_names 
+        ]
+        print(possible_items)
+        for _ in range(starting["random"]): 
+            random_starting_item = world.random.choice(possible_items)
+            multiworld.push_precollected(random_starting_item)
+            possible_items.remove(random_starting_item)
+            item_pool.remove(random_starting_item)
+            if starting["item_categories"] == "starting_voucher":
+                # use match case statements
+                if "First Move Advantage" in random_starting_item:
+                    starting_items = ["sniper", "specialist", "vanguard"]
+
+    # now that the starting_voucher is chosen, the class can be chosen
+    # randomly choose how many 6 star or 5 star you start with
 
     return item_pool
 
