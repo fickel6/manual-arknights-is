@@ -18,6 +18,8 @@ from ..Helpers import is_option_enabled, get_option_value, format_state_prog_ite
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
 
+#gen random combination for operator choices
+import itertools
 ########################################################################################
 ## Order of method calls when the world generates:
 ##    1. create_regions - Creates regions and locations
@@ -112,11 +114,10 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             "random":1
         },
         {
-            "item_categories": ["starting_voucher"],
+            "item_categories": ["starting voucher"],
             "random":1
         }
     ]
-    starting_items
     for starting in starting_items_choice:
         possible_item_names = []
 
@@ -125,25 +126,88 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 [name for name, i in world.item_name_to_item.items() if category in i.get("category", []) and starting_is in i.get("category", [])] #accounts for the key not existing
             )
 
-        #there are is specific squads, so filter these out
-        print(possible_item_names)
         possible_items = [
             i for i in item_pool if i.name in possible_item_names 
         ]
-        print(possible_items)
         for _ in range(starting["random"]): 
             random_starting_item = world.random.choice(possible_items)
             multiworld.push_precollected(random_starting_item)
             possible_items.remove(random_starting_item)
             item_pool.remove(random_starting_item)
-            if starting["item_categories"] == "starting_voucher":
-                # use match case statements
-                if "First Move Advantage" in random_starting_item:
+            match random_starting_item:
+                case "First Move Advantage":
+                    starting_items = ["sniper", "specialist", "vanguard"]
+                case "Slow and Steady Wins the Race":
+                    starting_items = ["Caster", "Defender", "Sniper"]
+                case "Overcoming your Weaknesses":
+                    starting_items = ["Guard", "Medic", "Supporter"]
+                case "Flexible Deployment":
+                    starting_items = ["Vanguard", "Supporter", "Specialist"]
+                case "Indestructible":
+                    starting_items = ["Defender", "Caster", "Medic"]
+                case _: # it will default to 'First Move Advantage' voucher I.E. begin with sniper, specialist and vanguard 
                     starting_items = ["sniper", "specialist", "vanguard"]
 
-    # now that the starting_voucher is chosen, the class can be chosen
-    # randomly choose how many 6 star or 5 star you start with
+    # now that the starting_voucher is chosen, the operators will be chosen
+    # amount of 5 stars is is dependent, because they changed the hope requirement
+    # the rest will be filled with 1 to 4 stars (not randomised)
+    # also randomise 4 and 3 stars?
+    max_amount_operators = 3
+    if starting_is == "is2" or "is3" or "is4":
+        random_variation = world.random.choice([[1,0], [0,2], [0,1]])
+    else: 
+        random_variation = world.random.choice([[1,0], [0,3], [0,2], [0, 1]])
+    # print("there are "+ str(random_variation[0])+" 6 stars and "+ str(random_variation[1]) + " 5 stars")
+    # print("chosen voucher is: [%s]" % ','.join(map(str, starting_items)))
+    if random_variation[0] >=1:
+        type_operator = world.random.randrange(0, 2)
+        possible_operators_choice = [name for name, i in world.item_name_to_item.items() if starting_items[type_operator] in i.get("category", []) and "6 star" in i.get("category", [])]
+        possible_operators = [i for i in item_pool if i.name in possible_operators_choice]
+        random_operator = world.random.choice(possible_operators)
+        multiworld.push_precollected(random_operator)
+        item_pool.remove(random_operator)
+    #if no six star, how should the amount of vouchers be distributed?)
+    else:
+        random_variation_5_star = [0,0,0]
+        for i in range(len(starting_items)):
+            if random_variation[1] >0:
+                random_variation_5_star[i] = 1
+                random_variation[1] -= 1
+            else:
+                random_variation_5_star[i] = 0
+        
+        random_variation_5_star = list(set(itertools.permutations(random_variation_5_star)))
+        random_variation_5_star = world.random.choice(random_variation_5_star)
+        starting_5_star = [
+            {
+                "item_categories": [starting_items[0]],
+                "random": random_variation_5_star[0]
+            },
+            {
+                "item_categories": [starting_items[1]],
+                "random": random_variation_5_star[1]
+            },
+            {
+                "item_categories": [starting_items[2]],
+                "random": random_variation_5_star[2]
+            },
+        ]
+        for starting in starting_5_star:
+            possible_operators_choice = []
+            for category in starting["item_categories"]:
+                possible_operators_choice.extend(
+                    [name for name, i in world.item_name_to_item.items() if category in i.get("category", []) and "5 star" in i.get("category", [])] #accounts for the key not existing
+                )
 
+            possible_operators = [
+                i for i in item_pool if i.name in possible_operators_choice 
+            ]
+            # print("[%s]"%", ".join(map(str, possible_operators)))
+            if starting["random"] == 1: 
+                random_starting_operator = world.random.choice(possible_operators)
+                # print("chosen 5 star: " + str(random_starting_operator))
+                multiworld.push_precollected(random_starting_operator)
+                item_pool.remove(random_starting_operator)
     return item_pool
 
     # Some other useful hook options:
