@@ -1592,7 +1592,7 @@
       "is3",
       "optional floor"
     ],
-    "requires": "|is3 key| AND |Wander Into Wonderland key is3|"
+    "requires": "|wander into wonderland unlock is3|"
   },
   {
     "name": "'Avoid Unsafe Roads' clear",
@@ -1601,7 +1601,7 @@
       "is3",
       "optional floor"
     ],
-    "requires": "|is3 key| AND |Wander Into Wonderland key is3|"
+    "requires": "|wander into wonderland unlock is3|"
   },
   {
     "name": "'Chilling Curse' clear",
@@ -1610,7 +1610,7 @@
       "is3",
       "optional floor"
     ],
-    "requires": "|is3 key| AND |Wander Into Wonderland key is3|"
+    "requires": "|wander into wonderland unlock is3|"
   },
   {
     "name": "'Hunting Group' clear",
@@ -1619,6 +1619,6 @@
       "is3",
       "optional floor"
     ],
-    "requires": "|is3 key| AND |Wander Into Wonderland key is3|"
+    "requires": "|wander into wonderland unlock is3|"
   }
 ]

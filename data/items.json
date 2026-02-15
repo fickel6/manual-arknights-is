@@ -3345,8 +3345,12 @@
   },
   {
     "count": 1,
-    "_comment": "this is for ending 4 of is3",
-    "name": "Vigil is3 collectible",
+    "_comment": [
+      "this is for ending 4 of is3",
+      "because Vigil is also a operator,",
+      "this name will be a bit different compared to the rest"
+    ],
+    "name": "Vigil collectible",
     "category": [
       "collectible",
       "is3"
@@ -3355,7 +3359,17 @@
   },
   {
     "count": 1,
-    "_comment": "this is for ending 3 of is3",
+    "_comment": "this is for ending 4 of is3",
+    "name": "Hesitation",
+    "category": [
+      "collectible",
+      "is3"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 3 of is4",
     "name": "Routeweave Net",
     "category": [
       "collectible",

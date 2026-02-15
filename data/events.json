@@ -4,111 +4,119 @@
         "category": "is2",
         "region": "is2",
         "requires": "|is2 key|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "floor2 unlock is2",
         "category": "is2",
         "region": "is2",
         "requires": "|floor1 unlock is2| AND |floor2 key is2|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "floor3 unlock is2",
         "category": "is2",
         "region": "is2",
         "requires": "|floor2 unlock is2| AND |floor3 key is2|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "floor4 unlock is2",
         "category": "is2",
         "region": "is2",
         "requires": "|floor3 unlock is2| AND |floor4 key is2|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "floor5 unlock is2",
         "category": "is2",
         "region": "is2",
         "requires": "|floor4 unlock is2| AND |floor5 key is2|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "floor6 unlock is2",
         "category": "is2",
         "region": "is2",
         "requires": "|floor5 unlock is2| AND |floor6 key is2|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "ending 3 unlock is2",
         "category": "is2",
         "region": "is2",
         "requires": "|Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "ending 4 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires": "|Dance of the condemned| AND |Act 1|",
-        "visible": false
+        "requires": "|Dance of the Condemned| AND |Act 1|",
+        "visible": true
     },
     {
         "name": "floor1 unlock is3",
         "category": "is3",
         "region": "is3",
         "requires": "|is3 key|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "floor2 unlock is3",
         "category": "is3",
         "region": "is3",
         "requires": "|floor1 unlock is3| AND |floor2 key is3|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "floor3 unlock is3",
         "category": "is3",
         "region": "is3",
         "requires": "|floor2 unlock is3| AND |floor3 key is3|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "floor4 unlock is3",
         "category": "is3",
         "region": "is3",
         "requires": "|floor3 unlock is3| AND |floor4 key is3|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "floor5 unlock is3",
         "category": "is3",
         "region": "is3",
         "requires": "|floor4 unlock is3| AND |floor5 key is3|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "floor6 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires": "|floor5 unlock is3| AND |floor6 key is3|",
-        "visible": false
+        "requires": "|floor5 unlock is3| AND |floor6 key is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|",
+        "visible": true
+    },
+    {
+        "name": "wander into wonderland unlock is3",
+        "category": "is3",
+        "region": "is3",
+        "_comment": "I don't think this node only appears from floor 3 onwards",
+        "requires": "|floor3 unlock is3| AND |Wander Into Wonderland key is3|",
+        "visible": true
     },
     {
         "name": "ending 3 unlock is3",
         "category": "is3",
         "region": "is3",
         "requires": "|Bishop's Research| AND |Caerula Animus|",
-        "visible": false
+        "visible": true
     },
     {
         "name": "ending 4 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires": "|Caerula Memory| AND (|Determination| OR |Vigil| OR |Hesitation|)",
-        "visible": false
+        "requires": "|Caerula Memory| AND (|Determination| OR |Vigil collectible| OR |Hesitation|)",
+        "visible": true
     }
 ]

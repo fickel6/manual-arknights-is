@@ -1,5 +1,5 @@
 {
-     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
     "6 star":{
         "_comment": "categories are for hiding certain categories for the player or enabling/disabling categories",
         "yaml_option": ["include 6 stars"],
@@ -23,6 +23,26 @@
     },
     "ed4": {
         "yaml_option": ["include ed4"],
+        "hidden": true
+    },
+    "is2": {
+        "yaml_option": ["include is2"],
+        "hidden": true
+    },
+    "is3": {
+        "yaml_option": ["include is3"],
+        "hidden": true
+    },
+    "is4": {
+        "yaml_option": ["include is4"],
+        "hidden": true
+    },
+    "is5": {
+        "yaml_option": ["include is5"],
+        "hidden": true
+    },
+    "is6": {
+        "yaml_option": ["include is6"],
         "hidden": true
     },
     "vanguard": {

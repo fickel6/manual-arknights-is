@@ -130,7 +130,7 @@
             "type": "Toggle",
             "default": true,
             "description": ["include IS2 for the randomizer"],
-            "group": "Game Options",
+            "group": "IS options",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -141,7 +141,7 @@
             "type": "Toggle",
             "default": true,
             "description": ["include IS3 for the randomizer"],
-            "group": "Game Options",
+            "group": "IS options",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -152,7 +152,7 @@
             "type": "Toggle",
             "default": true,
             "description": ["include IS4 for the randomizer"],
-            "group": "Game Options",
+            "group": "IS options",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -163,7 +163,7 @@
             "type": "Toggle",
             "default": true,
             "description": ["include IS5 for the randomizer"],
-            "group": "Game Options",
+            "group": "IS options",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -174,7 +174,7 @@
             "type": "Toggle",
             "default": true,
             "description": ["include IS6 for the randomizer"],
-            "group": "Game Options",
+            "group": "IS options",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -183,7 +183,7 @@
         },
         "starting region": {
             "type": "Choice",
-            "group": "Game Options",
+            "group": "IS options",
             "description": [
                 "choose which is you want to start in",
                 "0 = is2",
