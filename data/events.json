@@ -3,112 +3,112 @@
         "name": "floor1 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|is2 key|",
+        "requires": "|is2 key|",
         "visible": false
     },
     {
         "name": "floor2 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|floor1 unlock is2| AND |floor2 key is2|",
+        "requires": "|floor1 unlock is2| AND |floor2 key is2|",
         "visible": false
     },
     {
         "name": "floor3 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|floor2 unlock is2| AND |floor3 key is2|",
+        "requires": "|floor2 unlock is2| AND |floor3 key is2|",
         "visible": false
     },
     {
         "name": "floor4 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|floor3 unlock is2| AND |floor4 key is2|",
+        "requires": "|floor3 unlock is2| AND |floor4 key is2|",
         "visible": false
     },
     {
         "name": "floor5 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|floor4 unlock is2| AND |floor5 key is2|",
+        "requires": "|floor4 unlock is2| AND |floor5 key is2|",
         "visible": false
     },
     {
         "name": "floor6 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|floor5 unlock is2| AND |floor6 key is2|",
+        "requires": "|floor5 unlock is2| AND |floor6 key is2|",
         "visible": false
     },
     {
         "name": "ending 3 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|",
+        "requires": "|Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|",
         "visible": false
     },
     {
         "name": "ending 4 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|Dance of the condemned| AND |Act 1|",
+        "requires": "|Dance of the condemned| AND |Act 1|",
         "visible": false
     },
     {
         "name": "floor1 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|is3 key|",
+        "requires": "|is3 key|",
         "visible": false
     },
     {
         "name": "floor2 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|floor1 unlock is3| AND |floor2 key is3|",
+        "requires": "|floor1 unlock is3| AND |floor2 key is3|",
         "visible": false
     },
     {
         "name": "floor3 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|floor2 unlock is3| AND |floor3 key is3|",
+        "requires": "|floor2 unlock is3| AND |floor3 key is3|",
         "visible": false
     },
     {
         "name": "floor4 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|floor3 unlock is3| AND |floor4 key is3|",
+        "requires": "|floor3 unlock is3| AND |floor4 key is3|",
         "visible": false
     },
     {
         "name": "floor5 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|floor4 unlock is3| AND |floor5 key is3|",
+        "requires": "|floor4 unlock is3| AND |floor5 key is3|",
         "visible": false
     },
     {
         "name": "floor6 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|floor5 unlock is3| AND |floor6 key is3|",
+        "requires": "|floor5 unlock is3| AND |floor6 key is3|",
         "visible": false
     },
     {
         "name": "ending 3 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|Bishop's Research| AND |Caerula Animus|",
+        "requires": "|Bishop's Research| AND |Caerula Animus|",
         "visible": false
     },
     {
         "name": "ending 4 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|Caerula Memory| AND (|Determination| OR |Vigil| OR |Hesitation|)",
+        "requires": "|Caerula Memory| AND (|Determination| OR |Vigil| OR |Hesitation|)",
         "visible": false
     }
 ]

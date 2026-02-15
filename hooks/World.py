@@ -87,7 +87,10 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # 3 = is5
     # 4 = is6
     starting_is = world.options.starting_region.value
-    if starting_is == 1:
+    if starting_is == 0:
+        item = next(i for i in item_pool if i.name == "is2 key")
+        starting_is = "is2"
+    elif starting_is == 1:
         item = next(i for i in item_pool if i.name == "is3 key")
         starting_is = "is3"
     elif starting_is == 2:
@@ -101,7 +104,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         starting_is = "is6"
     #if otherwise not defined or starting_is is 0, the key should be for is2
     else:
-        item = next(i for i in item_pool if i.name == "is2 key")
+        raise Exception("not a valid starting is")
     
     multiworld.push_precollected(item)
     item_pool.remove(item)
@@ -159,7 +162,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         random_variation = world.random.choice([[1,0], [0,3], [0,2], [0, 1]])
     # print("there are "+ str(random_variation[0])+" 6 stars and "+ str(random_variation[1]) + " 5 stars")
     # print("chosen voucher is: [%s]" % ','.join(map(str, starting_items)))
-    if random_variation[0] >=1:
+    if random_variation[0] >=1 and world.options.include_6_stars == True:
         type_operator = world.random.randrange(0, 2)
         possible_operators_choice = [name for name, i in world.item_name_to_item.items() if starting_items[type_operator] in i.get("category", []) and "6 star" in i.get("category", [])]
         possible_operators = [i for i in item_pool if i.name in possible_operators_choice]
@@ -167,7 +170,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         multiworld.push_precollected(random_operator)
         item_pool.remove(random_operator)
     #if no six star, how should the amount of vouchers be distributed?)
-    else:
+    elif random_variation[1] >1 and world.options.include_5_stars == True:
         random_variation_5_star = [0,0,0]
         for i in range(len(starting_items)):
             if random_variation[1] >0:
@@ -208,6 +211,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 # print("chosen 5 star: " + str(random_starting_operator))
                 multiworld.push_precollected(random_starting_operator)
                 item_pool.remove(random_starting_operator)
+    
     return item_pool
 
     # Some other useful hook options:
