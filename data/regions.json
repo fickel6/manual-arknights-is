@@ -1,32 +1,22 @@
 {
   "is2": {
     "connects_to": [],
-    "requires": [
-      "is2 key"
-    ]
+    "requires": "|is2 key|"
   },
   "is3": {
     "connects_to": [],
-    "requires": [
-      "is3 key"
-    ]
+    "requires": "|is3 key|"
   },
   "is4": {
     "connects_to": [],
-    "requires": [
-      "is4 key"
-    ]
+    "requires": "|is4 key|"
   },
   "is5": {
     "connects_to": [],
-    "requires": [
-      "is5 key"
-    ]
+    "requires": "|is5 key|"
   },
   "is6": {
     "connects_to": [],
-    "requires": [
-      "is6 key"
-    ]
+    "requires": "|is6 key|"
   }
 }

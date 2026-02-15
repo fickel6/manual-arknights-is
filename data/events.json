@@ -3,294 +3,112 @@
         "name": "floor1 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|is2 key|",
-        "visible": true
+        "requires": "|is2 key|",
+        "visible": false
     },
     {
         "name": "floor2 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|floor1 unlock is2| AND |floor2 key is2|",
-        "visible": true
+        "requires": "|floor1 unlock is2| AND |floor2 key is2|",
+        "visible": false
     },
     {
         "name": "floor3 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|floor2 unlock is2| AND |floor3 key is2|",
-        "visible": true
+        "requires": "|floor2 unlock is2| AND |floor3 key is2|",
+        "visible": false
     },
     {
         "name": "floor4 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|floor3 unlock is2| AND |floor4 key is2|",
-        "visible": true
+        "requires": "|floor3 unlock is2| AND |floor4 key is2|",
+        "visible": false
     },
     {
         "name": "floor5 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|floor4 unlock is2| AND |floor5 key is2|",
-        "visible": true
+        "requires": "|floor4 unlock is2| AND |floor5 key is2|",
+        "visible": false
     },
     {
         "name": "floor6 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|floor5 unlock is2| AND |floor6 key is2|",
-        "visible": true
+        "requires": "|floor5 unlock is2| AND |floor6 key is2|",
+        "visible": false
     },
     {
         "name": "ending 3 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|",
-        "visible": true
+        "requires": "|Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|",
+        "visible": false
     },
     {
         "name": "ending 4 unlock is2",
         "category": "is2",
         "region": "is2",
-        "requires:": "|Dance of the condemned| AND |Act 1|",
-        "visible": true
+        "requires": "|Dance of the condemned| AND |Act 1|",
+        "visible": false
     },
     {
         "name": "floor1 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|is3 key|",
-        "visible": true
+        "requires": "|is3 key|",
+        "visible": false
     },
     {
         "name": "floor2 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|floor1 unlock is3| AND |floor2 key is3|",
-        "visible": true
+        "requires": "|floor1 unlock is3| AND |floor2 key is3|",
+        "visible": false
     },
     {
         "name": "floor3 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|floor2 unlock is3| AND |floor3 key is3|",
-        "visible": true
+        "requires": "|floor2 unlock is3| AND |floor3 key is3|",
+        "visible": false
     },
     {
         "name": "floor4 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|floor3 unlock is3| AND |floor4 key is3|",
-        "visible": true
+        "requires": "|floor3 unlock is3| AND |floor4 key is3|",
+        "visible": false
     },
     {
         "name": "floor5 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|floor4 unlock is3| AND |floor5 key is3|",
-        "visible": true
+        "requires": "|floor4 unlock is3| AND |floor5 key is3|",
+        "visible": false
     },
     {
         "name": "floor6 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|floor5 unlock is3| AND |floor6 key is3|",
-        "visible": true
+        "requires": "|floor5 unlock is3| AND |floor6 key is3|",
+        "visible": false
     },
     {
         "name": "ending 3 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|Bishop's Research| AND |Caerula Animus|",
-        "visible": true
+        "requires": "|Bishop's Research| AND |Caerula Animus|",
+        "visible": false
     },
     {
         "name": "ending 4 unlock is3",
         "category": "is3",
         "region": "is3",
-        "requires:": "|Caerula Memory| AND (|Determination| OR |Vigil| OR |Hesitation|)",
-        "visible": true
-    },
-    {
-        "name": "floor1 unlock is4",
-        "category": "is4",
-        "region": "is4",
-        "requires:": "|is4 key|",
-        "visible": true
-    },
-    {
-        "name": "floor2 unlock is4",
-        "category": "is4",
-        "region": "is4",
-        "requires:": "|floor1 unlock is4| AND |floor2 key is4|",
-        "visible": true
-    },
-    {
-        "name": "floor3 unlock is4",
-        "category": "is4",
-        "region": "is4",
-        "requires:": "|floor2 unlock is4| AND |floor3 key is4|",
-        "visible": true
-    },
-    {
-        "name": "floor4 unlock is4",
-        "category": "is4",
-        "region": "is4",
-        "requires:": "|floor3 unlock is4| AND |floor4 key is4|",
-        "visible": true
-    },
-    {
-        "name": "floor5 unlock is4",
-        "category": "is4",
-        "region": "is4",
-        "requires:": "|floor4 unlock is4| AND |floor5 key is4|",
-        "visible": true
-    },
-    {
-        "name": "floor6 unlock is4",
-        "category": "is4",
-        "region": "is4",
-        "requires:": "|floor5 unlock is4| AND |floor6 key is4|",
-        "visible": true
-    },
-    {
-        "name": "ending 3 unlock is4",
-        "category": "is4",
-        "region": "is4",
-        "requires:": "|Routeweave Net| AND |Boundless Gift|",
-        "visible": true
-    },
-    {
-        "name": "ending 4 unlock is4",
-        "category": "is4",
-        "region": "is4",
-        "requires:": "|Bosky Passage key| AND |Horizon Invitation| AND |Dimensional Fluid|",
-        "visible": true
-    },
-    {
-        "name": "floor1 unlock is5",
-        "category": "is5",
-        "region": "is5",
-        "requires:": "|is5 key|",
-        "visible": true
-    },
-    {
-        "name": "floor2 unlock is5",
-        "category": "is5",
-        "region": "is5",
-        "requires:": "|floor1 unlock is5| AND |floor2 key is5|",
-        "visible": true
-    },
-    {
-        "name": "floor3 unlock is5",
-        "category": "is5",
-        "region": "is5",
-        "requires:": "|floor2 unlock is5| AND |floor3 key is5|",
-        "visible": true
-    },
-    {
-        "name": "floor4 unlock is5",
-        "category": "is5",
-        "region": "is5",
-        "requires:": "|floor3 unlock is5| AND |floor4 key is5|",
-        "visible": true
-    },
-    {
-        "name": "floor5 unlock is5",
-        "category": "is5",
-        "region": "is5",
-        "requires:": "|floor4 unlock is5| AND |floor5 key is5|",
-        "visible": true
-    },
-    {
-        "name": "floor6 unlock is5",
-        "category": "is5",
-        "region": "is5",
-        "requires:": "|floor5 unlock is5| AND |floor6 key is5|",
-        "visible": true
-    },
-    {
-        "name": "ending 3 unlock is5",
-        "category": "is5",
-        "region": "is5",
-        "requires:": "|Prophet Horn| AND |Time and Light|",
-        "visible": true
-    },
-    {
-        "name": "ending 4 unlock is5",
-        "category": "is5",
-        "region": "is5",
-        "requires:": "|Petal| AND |Anasa's Karma|",
-        "visible": true
-    },
-    {
-        "name": "ending 5 unlock is5",
-        "category": "is5",
-        "region": "is5",
-        "requires:": "|Prophetic Image| AND |Despair| AND |Endless Key|",
-        "visible": true
-    },
-    {
-        "_comment": [
-            "this has higher dificulty build in to it(salvation and stasis lingerer)",
-            "I definitely can't do that, but should it be a option in the yaml?"
-        ]
-    },
-    {
-        "name": "floor1 unlock is6",
-        "category": "is6",
-        "region": "is6",
-        "requires:": "|is6 key|",
-        "visible": true
-    },
-    {
-        "name": "floor2 unlock is6",
-        "category": "is6",
-        "region": "is6",
-        "requires:": "|floor1 unlock is6| AND |floor2 key is6|",
-        "visible": true
-    },
-    {
-        "name": "floor3 unlock is6",
-        "category": "is6",
-        "region": "is6",
-        "requires:": "|floor2 unlock is6| AND |floor3 key is6|",
-        "visible": true
-    },
-    {
-        "name": "floor4 unlock is6",
-        "category": "is6",
-        "region": "is6",
-        "_comment": [
-            "the main gimmick in this is is the wander into wonderland.",
-            "I think it is reasonable to get to floor 3 without (much) use of this node.",
-            "getting further should be a requirement tho, so from floor 4 onwards, it is in the requires"
-        ],
-        "requires:": "|floor3 unlock is6| AND |floor4 key is6| AND |Wander into Wonderland key is6|",
-        "visible": true
-    },
-    {
-        "name": "floor5 unlock is6",
-        "category": "is6",
-        "region": "is6",
-        "requires:": "|floor4 unlock is6| AND |floor5 key is6| AND |Wander into Wonderland key is6|",
-        "visible": true
-    },
-    {
-        "name": "floor6 unlock is6",
-        "category": "is6",
-        "region": "is6",
-        "requires:": "|floor5 unlock is6| AND |floor6 key is6| AND |Wander into Wonderland key is6|",
-        "visible": true
-    },
-    {
-        "name": "ending 3 unlock is6",
-        "category": "is6",
-        "region": "is6",
-        "requires:": "|Unflinching Masterplan| AND |Cloud & Paint|",
-        "visible": true
-    },
-    {
-        "_comment": "is6 is still releasing! New endings will be released when they come out"
+        "requires": "|Caerula Memory| AND (|Determination| OR |Vigil| OR |Hesitation|)",
+        "visible": false
     }
 ]

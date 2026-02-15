@@ -3058,74 +3058,83 @@
     "useful": true
   },
   {
-    "count": "2",
+    "count": "1",
     "name": "leader squad",
     "category": [
-      "squad"
+      "squad",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
   {
-    "count": "2",
+    "count": "1",
     "name": "gathering squad",
     "category": [
-      "squad"
+      "squad",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
   {
-    "count": "2",
+    "count": "1",
     "name": "support squad",
     "category": [
-      "squad"
+      "squad",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
   {
-    "count": "2",
+    "count": "1",
     "name": "spearhead sqaud",
     "category": [
-      "squad"
+      "squad",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
   {
-    "count": "2",
+    "count": "1",
     "name": "tactical assault squad",
     "category": [
-      "squad"
+      "squad",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
   {
-    "count": "2",
+    "count": "1",
     "name": "tactical fortification squad",
     "category": [
-      "squad"
+      "squad",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
   {
-    "count": "2",
+    "count": "1",
     "name": "tactical ranged squad",
     "category": [
-      "squad"
+      "squad",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
   {
-    "count": "2",
+    "count": "1",
     "name": "tactical destruction squad",
     "category": [
-      "squad"
+      "squad",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
   {
-    "count": "2",
+    "count": "1",
     "name": "First-class squad",
     "category": [
-      "squad"
+      "squad",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
@@ -3133,7 +3142,8 @@
     "count": "1",
     "name": "Mind Over Matter squad",
     "category": [
-      "squad"
+      "squad",
+      "is3"
     ],
     "useful": true
   },
@@ -3141,7 +3151,8 @@
     "count": "1",
     "name": "Resourceful squad",
     "category": [
-      "squad"
+      "squad",
+      "is3"
     ],
     "useful": true
   },
@@ -3149,7 +3160,8 @@
     "count": "1",
     "name": "People-Oriented squad",
     "category": [
-      "squad"
+      "squad",
+      "is3"
     ],
     "useful": true
   },
@@ -3158,7 +3170,8 @@
     "name": "First Move Advantage",
     "category": [
       "starting voucher",
-      "voucher"
+      "voucher",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
@@ -3167,7 +3180,8 @@
     "name": "Slow and Steady Wins the Race",
     "category": [
       "starting voucher",
-      "voucher"
+      "voucher",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
@@ -3176,7 +3190,8 @@
     "name": "Overcoming Your Weaknesses",
     "category": [
       "starting voucher",
-      "voucher"
+      "voucher",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
@@ -3185,7 +3200,8 @@
     "name": "Flexible Deployment",
     "category": [
       "starting voucher",
-      "voucher"
+      "voucher",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
@@ -3194,7 +3210,8 @@
     "name": "Indestructible",
     "category": [
       "starting voucher",
-      "voucher"
+      "voucher",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
@@ -3202,13 +3219,14 @@
     "count": "1",
     "name": "As Your Heart Desiresd",
     "category": [
-      "voucher"
+      "voucher",
+      "is2", "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
   {
     "count": 1,
-    "_comment": "this is for ending 2 of is2",
+    "_comment": "this is for ending 1 of is2",
     "name": "Worn Out Puppet",
     "category": [
       "collectible"
@@ -3267,7 +3285,7 @@
   },
   {
     "count": 1,
-    "_comment": "this is for ending 2 of is3",
+    "_comment": "this is for ending 1 of is3",
     "name": "Breath of the Tide",
     "category": [
       "collectible",
@@ -3277,7 +3295,7 @@
   },
   {
     "count": 1,
-    "_comment": "this is for ending 2 of is3",
+    "_comment": "this is for ending 1 of is3",
     "name": "Fate's Favored Child",
     "category": [
       "collectible",
