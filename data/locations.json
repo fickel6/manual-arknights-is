@@ -2,49 +2,56 @@
   {
     "name": "invest 10 coins",
     "prehint": true,
-    "hint_entrance": "available in shops"
+    "hint_entrance": "available in shops",
+    "category": "shop"
   },
   {
     "name": "get 10 coins",
     "prehint": true,
-    "hint_entrance": "available in shops"
+    "hint_entrance": "available in shops",
+    "category": "shop"
   },
   {
     "name": "10 perfect operations is2",
     "region": "is2",
     "requires": "|is2 key| AND |floor3 key is2| AND |floor2 key is2|",
-    "hint_entrance": "clear 10 operations without leaks in a row in is3"
+    "hint_entrance": "clear 10 operations without leaks in a row in is3",
+    "category": "is2 floor"
   },
   {
     "name": "10 perfect operations is3",
     "region": "is3",
     "requires": "|floor3 unlock is3|",
-    "hint_entrance": "clear 10 operations without leaks in a row in is3"
+    "hint_entrance": "clear 10 operations without leaks in a row in is3",
+    "category": "is3 floor"
   },
   {
     "name": "10 perfect operations is4",
-    "region": "is2",
+    "region": "is4",
     "requires": "|is4 key| AND |floor3 key is4| AND |floor2 key is4|",
-    "hint_entrance": "clear 10 operations without leaks in a row in is3"
+    "hint_entrance": "clear 10 operations without leaks in a row in is4",
+    "category": "is4 floor"
   },
   {
     "name": "10 perfect operations is5",
-    "region": "is2",
+    "region": "is5",
     "requires": "|is5 key| AND |floor3 key is5| AND |floor2 key is5|",
-    "hint_entrance": "clear 10 operations without leaks in a row in is5"
+    "hint_entrance": "clear 10 operations without leaks in a row in is5",
+    "category": "is5 floor"
   },
   {
     "name": "10 perfect operations is6",
-    "region": "is2",
+    "region": "is6",
     "requires": "|is6 key| AND |floor3 key is6| AND |floor2 key is6|",
-    "hint_entrance": "clear 10 operations without leaks in a row in is6"
+    "hint_entrance": "clear 10 operations without leaks in a row in is6",
+    "category": "is6 floor"
   },
   {
     "name": "floor1 is2",
     "region": "is2",
     "category": [
       "is2",
-      "floor entrance"
+      "is2 floor entrance"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -53,7 +60,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 1"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -62,7 +69,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 1"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -71,7 +78,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 1"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -80,7 +87,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 1"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -89,7 +96,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 1"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -98,7 +105,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 1"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -107,7 +114,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 1"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -116,7 +123,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 1"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -125,7 +132,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 1"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -134,7 +141,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 1"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -143,7 +150,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor entrance"
+      "is2 floor entrance"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -152,7 +159,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 2"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -161,7 +168,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 2"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -170,7 +177,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 2"
     ],
     "requires": "|floor2 unlock is2|"
     
@@ -180,7 +187,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 2"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -189,7 +196,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 2"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -198,7 +205,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 2"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -207,7 +214,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 2"
     ],
     "requires": "|floor2 unlock is2|"
     
@@ -217,7 +224,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 2"
     ],
     "requires": "|floor2 unlock is2|"
     
@@ -227,7 +234,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 2"
     ],
     "requires": "|floor2 unlock is2|"
     
@@ -237,7 +244,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 2"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -246,7 +253,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor entrance"
+      "is2 floor entrance"
     ],
     "requires": "|floor3 unlock is2|"
   },
@@ -255,7 +262,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -265,7 +272,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -275,7 +282,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -285,7 +292,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -295,7 +302,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -305,7 +312,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -315,7 +322,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -325,7 +332,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -335,7 +342,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -345,9 +352,9 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 3"
     ],
-    "requires": "|is2 key| AND |floor2 key is2| AND |is2 key|"
+    "requires": "|floor3 unlock is2|"
     
   },
   {
@@ -355,7 +362,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -365,7 +372,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 3"
     ],
     "requires": "|floor3 unlock is2|"
   },
@@ -374,7 +381,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -384,7 +391,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -394,7 +401,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -404,7 +411,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 3"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -414,7 +421,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "boss"
+      "is2 boss"
     ],
     "requires": "|floor3 unlock is2|"
   },
@@ -423,7 +430,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "boss"
+      "is2 boss"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -433,7 +440,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "boss"
+      "is2 boss"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -443,7 +450,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "boss"
+      "is2 boss"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -453,7 +460,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "boss"
+      "is2 boss"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -463,7 +470,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor entrance"
+      "is2 floor entrance"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -472,7 +479,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -481,7 +488,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 4"
     ],
     "requires": "|floor4 unlock is2|"
 
@@ -491,7 +498,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -500,7 +507,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -509,7 +516,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -518,7 +525,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -527,7 +534,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -536,7 +543,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -545,7 +552,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -554,7 +561,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -563,7 +570,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -572,7 +579,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -581,7 +588,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -590,7 +597,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 4"
     ],
     "requires": "|floor4 unlock is2|"
     
@@ -600,7 +607,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 4"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -609,7 +616,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 4"
     ],
     "requires": "|floor4 unlock is2|"
     
@@ -619,7 +626,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 4"
     ],
     "requires": "|floor4 unlock is2| AND |floor5 key is2|"
   },
@@ -628,7 +635,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor entrance"
+      "is2 floor entrance"
     ],
     "requires": "|floor5 unlock is2|"
   },
@@ -637,7 +644,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 5"
     ],
     "requires": "|floor5 unlock is2|"
   },
@@ -646,7 +653,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -656,7 +663,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -666,7 +673,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -676,7 +683,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -686,7 +693,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -696,7 +703,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -706,7 +713,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -716,7 +723,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -726,7 +733,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -736,7 +743,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -746,7 +753,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -756,7 +763,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -766,7 +773,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -776,7 +783,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 5"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -786,7 +793,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "boss"
+      "is2 boss"
     ],
     "requires": "|floor5 unlock is2|"
     ,
@@ -797,7 +804,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "boss"
+      "is2 boss"
     ],
     "requires": "|floor5 unlock is2| AND |Worn Out Puppet|"
     ,
@@ -808,7 +815,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor entrance"
+      "is2 floor entrance"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
   },
@@ -817,7 +824,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 6"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -827,7 +834,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 6"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -837,7 +844,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "floor"
+      "is2 floor 6"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -847,7 +854,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency floor"
+      "is2 emergency floor 6"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -857,7 +864,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "boss"
+      "is2 boss"
     ],
     "requires": "|floor6 unlock is2| AND |ending 4 unlock is2|",
     "victory": true
@@ -867,7 +874,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "boss"
+      "is2 boss"
     ],
     "requires": "|floor6 unlock is2| AND |ending 3 unlock is2|",
     "victory": true
@@ -877,7 +884,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor entrance"
+      "is3 floor entrance"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -886,7 +893,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 1"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -895,7 +902,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 1"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -904,7 +911,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 1"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -913,7 +920,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 1"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -922,7 +929,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 1"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -931,7 +938,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 1"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -940,7 +947,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 1"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -949,7 +956,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 1"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -958,7 +965,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 1"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -967,7 +974,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 1"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -976,7 +983,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor entrance"
+      "is3 floor entrance"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -985,7 +992,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -994,7 +1001,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1003,7 +1010,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1012,7 +1019,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1021,7 +1028,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1030,7 +1037,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1039,7 +1046,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1048,7 +1055,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1057,7 +1064,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1066,7 +1073,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1075,7 +1082,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1084,7 +1091,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 2"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1093,7 +1100,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor entrance"
+      "is3 floor entrance"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1102,7 +1109,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1111,7 +1118,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1120,7 +1127,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1129,7 +1136,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1138,7 +1145,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1147,7 +1154,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1156,7 +1163,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1165,7 +1172,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1174,7 +1181,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1183,7 +1190,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1192,7 +1199,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1201,7 +1208,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1210,7 +1217,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1219,7 +1226,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1228,7 +1235,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1237,7 +1244,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 3"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1246,7 +1253,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "boss"
+      "is3 boss"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1255,7 +1262,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "boss"
+      "is3 boss"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1264,7 +1271,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "boss"
+      "is3 boss"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1273,7 +1280,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "boss"
+      "is3 boss"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1282,7 +1289,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "boss"
+      "is3 boss"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1291,7 +1298,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "boss"
+      "is3 boss"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1300,7 +1307,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor entrance"
+      "is3 floor entrance"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1309,7 +1316,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1318,7 +1325,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1327,7 +1334,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1336,7 +1343,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1345,7 +1352,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1354,7 +1361,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1363,7 +1370,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1372,7 +1379,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1381,7 +1388,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1390,7 +1397,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1399,7 +1406,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1408,7 +1415,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1417,7 +1424,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1426,7 +1433,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 4"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1435,7 +1442,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor entrance"
+      "is3 floor entrance"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1444,7 +1451,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1453,7 +1460,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1462,7 +1469,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1471,7 +1478,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1480,7 +1487,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1489,7 +1496,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1498,7 +1505,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1507,7 +1514,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1516,7 +1523,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1525,7 +1532,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1534,7 +1541,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1543,7 +1550,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1552,7 +1559,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1561,7 +1568,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1570,7 +1577,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1579,7 +1586,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 5"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1589,7 +1596,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "boss"
+      "is3 boss"
     ],
     "requires": "|floor5 unlock is3|",
     "victory": true
@@ -1600,7 +1607,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "boss"
+      "is3 boss"
     ],
     "requires": "|floor5 unlock is3| AND |Breath of the Tide|",
     "victory": true
@@ -1610,7 +1617,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor entrance"
+      "is3 floor entrance"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1619,7 +1626,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 6"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1628,7 +1635,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 6"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1637,7 +1644,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "floor"
+      "is3 floor 6"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1646,7 +1653,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency floor"
+      "is3 emergency floor 6"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1655,7 +1662,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "boss"
+      "is3 boss"
     ],
     "requires": "|floor6 unlock is3| AND |ending 3 unlock is3|"
   },
@@ -1664,7 +1671,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "boss"
+      "is3 boss"
     ],
     "requires": "|floor6 unlock is3| AND |ending 4 unlock is3|"
   },
@@ -1673,7 +1680,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "optional floor"
+      "indigo cradle floor"
     ],
     "requires": "|wander into wonderland unlock is3|"
   },
@@ -1682,7 +1689,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "optional floor"
+      "indigo cradle floor"
     ],
     "requires": "|wander into wonderland unlock is3|"
   },
@@ -1691,7 +1698,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "optional floor"
+      "indigo cradle floor"
     ],
     "requires": "|wander into wonderland unlock is3|"
   },
@@ -1700,7 +1707,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "optional floor"
+      "indigo cradle floor"
     ],
     "requires": "|wander into wonderland unlock is3|"
   }

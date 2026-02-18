@@ -45,29 +45,8 @@
         "yaml_option": ["include is6"],
         "hidden": true
     },
-    "vanguard": {
-        "hidden": true
-    },
-    "guard": {
-        "hidden": true
-    },
-    "defender": {
-        "hidden": true
-    },
-    "sniper": {
-        "hidden": true
-    },
-    "caster": {
-        "hidden": true
-    },
-    "supporter": {
-        "hidden": true
-    },
-    "medic": {
-        "hidden": true
-    },
-    "specialist": {
-        "hidden": true
+    "character": {
+        "hiddden": true
     },
     "alter": {
         "hidden": true

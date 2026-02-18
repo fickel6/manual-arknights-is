@@ -3229,7 +3229,8 @@
     "_comment": "this is for ending 1 of is2",
     "name": "Worn Out Puppet",
     "category": [
-      "collectible"
+      "is2 collectible",
+      "is2"
     ],
     "progression": true
   },
@@ -3238,7 +3239,7 @@
     "_comment": "this is for ending 3 of is2",
     "name": "Dance of the Condemned",
     "category": [
-      "collectible",
+      "is2 collectible",
       "is2"
     ],
     "progression": true
@@ -3248,7 +3249,7 @@
     "_comment": "this is for ending 3 of is2",
     "name": "Act 1",
     "category": [
-      "collectible",
+      "is2 collectible",
       "is2"
     ],
     "progression": true
@@ -3258,7 +3259,7 @@
     "_comment": "this is for ending 4 of is2",
     "name": "Mantle of the Wrongly Condemned",
     "category": [
-      "collectible",
+      "is2 collectible",
       "is2"
     ],
     "progression": true
@@ -3268,7 +3269,7 @@
     "_comment": "this is for ending 4 of is2",
     "name": "Stand-in Actor",
     "category": [
-      "collectible",
+      "is2 collectible",
       "is2"
     ],
     "progression": true
@@ -3278,7 +3279,7 @@
     "_comment": "this is for ending 4 of is2",
     "name": "Abrupt Realization",
     "category": [
-      "collectible",
+      "is2 collectible",
       "is2"
     ],
     "progression": true
@@ -3288,7 +3289,7 @@
     "_comment": "this is for ending 1 of is3",
     "name": "Breath of the Tide",
     "category": [
-      "collectible",
+      "is3 collectible",
       "is3"
     ],
     "progression": true
@@ -3298,7 +3299,7 @@
     "_comment": "this is for ending 1 of is3",
     "name": "Fate's Favored Child",
     "category": [
-      "collectible",
+      "is3 collectible",
       "is3"
     ],
     "progression": true
@@ -3308,7 +3309,7 @@
     "_comment": "this is for ending 3 of is3",
     "name": "Bishop's Research",
     "category": [
-      "collectible",
+      "is3 collectible",
       "is3"
     ],
     "progression": true
@@ -3318,7 +3319,7 @@
     "_comment": "this is for ending 3 of is3",
     "name": "Caerula Animus",
     "category": [
-      "collectible",
+      "is3 collectible",
       "is3"
     ],
     "progression": true
@@ -3328,7 +3329,7 @@
     "_comment": "this is for ending 4 of is3",
     "name": "Caerula Memory",
     "category": [
-      "collectible",
+      "is3 collectible",
       "is3"
     ],
     "progression": true
@@ -3338,7 +3339,7 @@
     "_comment": "this is for ending 4 of is3",
     "name": "Determination",
     "category": [
-      "collectible",
+      "is3 collectible",
       "is3"
     ],
     "progression": true
@@ -3352,7 +3353,7 @@
     ],
     "name": "Vigil collectible",
     "category": [
-      "collectible",
+      "is3 collectible",
       "is3"
     ],
     "progression": true
@@ -3362,7 +3363,7 @@
     "_comment": "this is for ending 4 of is3",
     "name": "Hesitation",
     "category": [
-      "collectible",
+      "is3 collectible",
       "is3"
     ],
     "progression": true
@@ -3372,8 +3373,8 @@
     "_comment": "this is for ending 3 of is4",
     "name": "Routeweave Net",
     "category": [
-      "collectible",
-      "is3"
+      "is4 collectible",
+      "is4"
     ],
     "progression": true
   },
@@ -3382,7 +3383,7 @@
     "_comment": "this is for ending 3 of is4",
     "name": "Boundless Gift",
     "category": [
-      "collectible",
+      "is4 collectible",
       "is4"
     ],
     "progression": true
@@ -3392,7 +3393,7 @@
     "_comment": "this is for ending 4 of is4",
     "name": "Horizon Invitation",
     "category": [
-      "collectible",
+      "is4 collectible",
       "is4"
     ],
     "progression": true
@@ -3402,7 +3403,7 @@
     "_comment": "this is for ending 4 of is4",
     "name": "Dimensional Fluid",
     "category": [
-      "collectible",
+      "is4 collectible",
       "is4"
     ],
     "progression": true
@@ -3412,7 +3413,7 @@
     "_comment": "this is for ending 3 of is5",
     "name": "Prophet Horn",
     "category": [
-      "collectible",
+      "is5 collectible",
       "is5"
     ],
     "progression": true
@@ -3422,7 +3423,7 @@
     "_comment": "this is for ending 4 of is5",
     "name": "Time and Light",
     "category": [
-      "collectible",
+      "is5 collectible",
       "is5"
     ],
     "progression": true
@@ -3432,7 +3433,7 @@
     "_comment": "this is for ending 4 of is5",
     "name": "Petal",
     "category": [
-      "collectible",
+      "is5 collectible",
       "is5"
     ],
     "progression": true
@@ -3442,7 +3443,7 @@
     "_comment": "this is for ending 4 of is5",
     "name": "Anasa's Karma",
     "category": [
-      "collectible",
+      "is5 collectible",
       "is5"
     ],
     "progression": true
@@ -3452,7 +3453,7 @@
     "_comment": "this is for ending 5 of is5",
     "name": "Prophetic Image",
     "category": [
-      "collectible",
+      "is5 collectible",
       "is5"
     ],
     "progression": true
@@ -3462,7 +3463,7 @@
     "_comment": "this is for ending 5 of is5",
     "name": "Despair",
     "category": [
-      "collectible",
+      "is5 collectible",
       "is5"
     ],
     "progression": true
@@ -3472,7 +3473,7 @@
     "_comment": "this is for ending 5 of is5",
     "name": "Endless Key",
     "category": [
-      "collectible",
+      "is5 collectible",
       "is5"
     ],
     "progression": true
@@ -3482,7 +3483,7 @@
     "_comment": "this is for ending 3 of is6",
     "name": "Unflinching Masterplan",
     "category": [
-      "collectible",
+      "is6 collectible",
       "is6"
     ],
     "progression": true
@@ -3492,7 +3493,7 @@
     "_comment": "this is for ending 3 of is6",
     "name": "Cloud & Paint",
     "category": [
-      "collectible",
+      "is6 collectible",
       "is6"
     ],
     "progression": true
@@ -3500,35 +3501,40 @@
   {
     "name": "is2 key",
     "category": [
-      "is2"
+      "is2",
+      "is2 key"
     ],
     "progression": true
   },
   {
     "name": "is3 key",
     "category": [
-      "is3"
+      "is3",
+      "is3 key"
     ],
     "progression": true
   },
   {
     "name": "is4 key",
     "category": [
-      "is4"
+      "is4",
+      "is4 key"
     ],
     "progression": true
   },
   {
     "name": "is5 key",
     "category": [
-      "is5"
+      "is5",
+      "is5 key"
     ],
     "progression": true
   },
   {
     "name": "is6 key",
     "category": [
-      "is6"
+      "is6",
+      "is6 key"
     ],
     "progression": true
   },
@@ -3536,7 +3542,8 @@
     "count": 1,
     "name": "floor2 key is2",
     "category": [
-      "is2"
+      "is2",
+      "is2 key"
     ],
     "progression": true
   },
@@ -3544,7 +3551,8 @@
     "count": 1,
     "name": "floor3 key is2",
     "category": [
-      "is2"
+      "is2",
+      "is2 key"
     ],
     "progression": true
   },
@@ -3552,7 +3560,8 @@
     "count": 1,
     "name": "floor4 key is2",
     "category": [
-      "is2"
+      "is2",
+      "is2 key"
     ],
     "progression": true
   },
@@ -3560,7 +3569,8 @@
     "count": 1,
     "name": "floor5 key is2",
     "category": [
-      "is2"
+      "is2",
+      "is2 key"
     ],
     "progression": true
   },
@@ -3568,7 +3578,8 @@
     "count": 1,
     "name": "floor6 key is2",
     "category": [
-      "is2"
+      "is2",
+      "is2 key"
     ],
     "progression": true
   },
@@ -3576,7 +3587,8 @@
     "count": 1,
     "name": "floor2 key is3",
     "category": [
-      "is3"
+      "is3",
+      "is3 key"
     ],
     "progression": true
   },
@@ -3584,7 +3596,8 @@
     "count": 1,
     "name": "floor3 key is3",
     "category": [
-      "is3"
+      "is3",
+      "is3 key"
     ],
     "progression": true
   },
@@ -3592,7 +3605,8 @@
     "count": 1,
     "name": "floor4 key is3",
     "category": [
-      "is3"
+      "is3",
+      "is3 key"
     ],
     "progression": true
   },
@@ -3600,7 +3614,8 @@
     "count": 1,
     "name": "floor5 key is3",
     "category": [
-      "is3"
+      "is3",
+      "is3 key"
     ],
     "progression": true
   },
@@ -3608,7 +3623,8 @@
     "count": 1,
     "name": "floor6 key is3",
     "category": [
-      "is3"
+      "is3",
+      "is3 key"
     ],
     "progression": true
   },
@@ -3621,7 +3637,8 @@
     "name": "Wander Into Wonderland key is3",
     "category": [
       "is3",
-      "optional floor"
+      "optional floor",
+      "is3 key"
     ],
     "progression": true
   },
@@ -3629,7 +3646,8 @@
     "count": 1,
     "name": "floor2 key is4",
     "category": [
-      "is4"
+      "is4",
+      "is4 key"
     ],
     "progression": true
   },
@@ -3637,7 +3655,8 @@
     "count": 1,
     "name": "floor3 key is4",
     "category": [
-      "is4"
+      "is4",
+      "is4 key"
     ],
     "progression": true
   },
@@ -3645,7 +3664,8 @@
     "count": 1,
     "name": "floor4 key is4",
     "category": [
-      "is4"
+      "is4",
+      "is4 key"
     ],
     "progression": true
   },
@@ -3653,7 +3673,8 @@
     "count": 1,
     "name": "floor5 key is4",
     "category": [
-      "is4"
+      "is4",
+      "is4 key"
     ],
     "progression": true
   },
@@ -3661,7 +3682,8 @@
     "count": 1,
     "name": "floor6 key is4",
     "category": [
-      "is4"
+      "is4",
+      "is4 key"
     ],
     "progression": true
   },
@@ -3670,7 +3692,8 @@
     "name": "Bosky Passage key is4",
     "category": [
       "is4",
-      "optional floor"
+      "optional floor",
+      "is4 key"
     ],
     "progression": true
   },
@@ -3678,7 +3701,8 @@
     "count": 1,
     "name": "floor2 key is5",
     "category": [
-      "is5"
+      "is5",
+      "is5 key"
     ],
     "progression": true
   },
@@ -3686,7 +3710,8 @@
     "count": 1,
     "name": "floor3 key is5",
     "category": [
-      "is5"
+      "is5",
+      "is5 key"
     ],
     "progression": true
   },
@@ -3694,7 +3719,8 @@
     "count": 1,
     "name": "floor4 key is5",
     "category": [
-      "is5"
+      "is5",
+      "is5 key"
     ],
     "progression": true
   },
@@ -3702,7 +3728,8 @@
     "count": 1,
     "name": "floor5 key is5",
     "category": [
-      "is5"
+      "is5",
+      "is5 key"
     ],
     "progression": true
   },
@@ -3710,7 +3737,8 @@
     "count": 1,
     "name": "floor6 key is5",
     "category": [
-      "is5"
+      "is5",
+      "is5 key"
     ],
     "progression": true
   },
@@ -3719,7 +3747,8 @@
     "name": "Possibility key is5",
     "category": [
       "is5",
-      "optional floor"
+      "optional floor",
+      "is5 key"
     ],
     "progression": true
   },
@@ -3727,7 +3756,8 @@
     "count": 1,
     "name": "floor2 key is6",
     "category": [
-      "is6"
+      "is6",
+      "is6 key"
     ],
     "progression": true
   },
@@ -3735,7 +3765,8 @@
     "count": 1,
     "name": "floor3 key is6",
     "category": [
-      "is6"
+      "is6",
+      "is6 key"
     ],
     "progression": true
   },
@@ -3743,7 +3774,8 @@
     "count": 1,
     "name": "floor4 key is6",
     "category": [
-      "is6"
+      "is6",
+      "is6 key"
     ],
     "progression": true
   },
@@ -3751,7 +3783,8 @@
     "count": 1,
     "name": "floor5 key is6",
     "category": [
-      "is6"
+      "is6",
+      "is6 key"
     ],
     "progression": true
   },
@@ -3759,7 +3792,8 @@
     "count": 1,
     "name": "floor6 key is6",
     "category": [
-      "is6"
+      "is6",
+      "is6 key"
     ],
     "progression": true
   },
@@ -3768,7 +3802,8 @@
     "name": "Wander Into Wonderland key is6",
     "_comment": "this is kinda the main gimmick in is6, so it isn't a optional floor anymore",
     "category": [
-      "is6"
+      "is6",
+      "is6 key"
     ],
     "progression": true
   }
