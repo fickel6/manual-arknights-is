@@ -3201,7 +3201,7 @@
     "category": [
       "starting voucher",
       "voucher",
-      "is2", "is3", "is4", "is5", "is6"
+      "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
@@ -3211,7 +3211,7 @@
     "category": [
       "starting voucher",
       "voucher",
-      "is2", "is3", "is4", "is5", "is6"
+      "is3", "is4", "is5", "is6"
     ],
     "useful": true
   },
@@ -3474,6 +3474,26 @@
     "category": [
       "collectible",
       "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 3 of is6",
+    "name": "Unflinching Masterplan",
+    "category": [
+      "collectible",
+      "is6"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 3 of is6",
+    "name": "Cloud & Paint",
+    "category": [
+      "collectible",
+      "is6"
     ],
     "progression": true
   },
@@ -3745,8 +3765,8 @@
   },
   {
     "count": 1,
-    "name": "Wander into Wonderland key is6",
-    "_comment": "this is kinda the main gimmick in is6, so it isn't a optional thing anymore",
+    "name": "Wander Into Wonderland key is6",
+    "_comment": "this is kinda the main gimmick in is6, so it isn't a optional floor anymore",
     "category": [
       "is6"
     ],

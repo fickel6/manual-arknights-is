@@ -199,6 +199,20 @@
                 "is5": 3,
                 "is6": 4
             }
+        },
+        "include optional floor": {
+            "type": "Toggle",
+            "default": true,
+            "description": [
+                "include optional floors for the randomizer",
+                "these are primarily the wander into wonderland and bosky passage locations"
+            ],
+            "group": "IS options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
         }
     }
 }

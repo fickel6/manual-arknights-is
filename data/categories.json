@@ -1,5 +1,5 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.categories.schema.json",
     "6 star":{
         "_comment": "categories are for hiding certain categories for the player or enabling/disabling categories",
         "yaml_option": ["include 6 stars"],
@@ -67,6 +67,21 @@
         "hidden": true
     },
     "specialist": {
+        "hidden": true
+    },
+    "alter": {
+        "hidden": true
+    },
+    "limited": {
+        "hidden": true
+    },
+    "starting voucher": {
+        "hidden": true
+    },
+    "wellfare": {
+        "hidden": true
+    },
+    "crossover": {
         "hidden": true
     }
 }

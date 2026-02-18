@@ -43,7 +43,8 @@
     "name": "floor1 is2",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor entrance"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -51,7 +52,8 @@
     "name": "'A date with slugs' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -60,7 +62,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -68,7 +70,8 @@
     "name": "'Accident' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -77,7 +80,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -85,7 +88,8 @@
     "name": "'Beast taming' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -94,7 +98,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -102,7 +106,8 @@
     "name": "'Fight to the death' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -111,7 +116,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -119,7 +124,8 @@
     "name": "'Gun Salute' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -128,7 +134,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor1 unlock is2|"
   },
@@ -136,7 +142,8 @@
     "name": "floor2 is2",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor entrance"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -144,7 +151,8 @@
     "name": "'Destitute Knight' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -153,7 +161,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -161,7 +169,8 @@
     "name": "'First Come, Last Served' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor2 unlock is2|"
     
@@ -171,7 +180,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -179,7 +188,8 @@
     "name": "'Patrol Squad' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -188,7 +198,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -196,7 +206,8 @@
     "name": "'The Grand Finale' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor2 unlock is2|"
     
@@ -206,7 +217,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor2 unlock is2|"
     
@@ -215,7 +226,8 @@
     "name": "'Unequal Split' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor2 unlock is2|"
     
@@ -225,7 +237,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor2 unlock is2|"
   },
@@ -233,7 +245,8 @@
     "name": "floor3 is2",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor entrance"
     ],
     "requires": "|floor3 unlock is2|"
   },
@@ -241,7 +254,8 @@
     "name": "'A Familiar Face' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -251,7 +265,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -260,7 +274,8 @@
     "name": "'Beast Fighting' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -270,7 +285,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -279,7 +294,8 @@
     "name": "'Justice' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -289,7 +305,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -298,7 +314,8 @@
     "name": "'Premiere' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -308,7 +325,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -317,7 +334,8 @@
     "name": "'Reform' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -327,7 +345,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|is2 key| AND |floor2 key is2| AND |is2 key|"
     
@@ -336,7 +354,8 @@
     "name": "'Sculptor And Statue' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -346,7 +365,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is2|"
   },
@@ -354,7 +373,8 @@
     "name": "'Vintage Transport' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -364,7 +384,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -373,7 +393,8 @@
     "name": "'With the Crowd' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -383,7 +404,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is2|"
     
@@ -441,7 +462,8 @@
     "name": "floor4 is2",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor entrance"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -449,7 +471,8 @@
     "name": "'A Dance Together' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -458,7 +481,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is2|"
 
@@ -467,7 +490,8 @@
     "name": "'Alpine Visitor' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -476,7 +500,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -484,7 +508,8 @@
     "name": "'Bob's beers' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -493,7 +518,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -501,7 +526,8 @@
     "name": "'Fireworks Show' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -510,7 +536,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -518,7 +544,8 @@
     "name": "'Pressing Ahead' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -527,7 +554,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -535,7 +562,8 @@
     "name": "'Shrouded in Clouds' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -544,7 +572,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -552,7 +580,8 @@
     "name": "'Traveler of Afar' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -561,7 +590,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is2|"
     
@@ -570,7 +599,8 @@
     "name": "'Unending' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor4 unlock is2|"
   },
@@ -579,7 +609,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is2|"
     
@@ -588,7 +618,8 @@
     "name": "'Absurd Trickeries' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor4 unlock is2| AND |floor5 key is2|"
   },
@@ -596,7 +627,8 @@
     "name": "floor5 is2",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor entrance"
     ],
     "requires": "|floor5 unlock is2|"
   },
@@ -605,16 +637,16 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is2|"
-    
   },
   {
     "name": "'Dangers Abound' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -624,7 +656,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -633,7 +665,8 @@
     "name": "'Drone Landing Zone' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -643,7 +676,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -652,7 +685,8 @@
     "name": "'From Afar' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -662,7 +696,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -671,7 +705,8 @@
     "name": "'Suprise Factory' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -681,7 +716,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -690,7 +725,8 @@
     "name": "'The Biting Cold' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -700,7 +736,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -709,7 +745,8 @@
     "name": "'The Night of Ritual' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -719,7 +756,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -728,7 +765,8 @@
     "name": "'The Red Mist' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -738,7 +776,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is2|"
     
@@ -769,7 +807,8 @@
     "name": "floor6 is2",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor entrance"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
   },
@@ -777,7 +816,8 @@
     "name": "'Sarkaz Desire' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -787,7 +827,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -796,7 +836,8 @@
     "name": "'Ursus Desire' clear",
     "region": "is2",
     "category": [
-      "is2"
+      "is2",
+      "floor"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -806,7 +847,7 @@
     "region": "is2",
     "category": [
       "is2",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -835,7 +876,8 @@
     "name": "floor1 is3",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor entrance"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -843,7 +885,8 @@
     "name": "'Cistern' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -852,7 +895,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -860,7 +903,8 @@
     "name": "'Insect Infestation' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -869,7 +913,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -877,7 +921,8 @@
     "name": "'Mutual Aid' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -886,7 +931,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -894,7 +939,8 @@
     "name": "'Sniper Squad' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -903,7 +949,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -911,7 +957,8 @@
     "name": "'Symbiosis' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -920,7 +967,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor1 unlock is3|"
   },
@@ -928,7 +975,8 @@
     "name": "floor2 is3",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor entrance"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -936,7 +984,8 @@
     "name": "'Ebb' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -945,7 +994,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -953,7 +1002,8 @@
     "name": "'Hunger and Thirst' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -962,7 +1012,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -970,7 +1020,8 @@
     "name": "'Leviathan Followers' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -979,7 +1030,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -987,7 +1038,8 @@
     "name": "'Malady' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -996,7 +1048,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1004,7 +1056,8 @@
     "name": "'Omen' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1013,7 +1066,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1021,7 +1074,8 @@
     "name": "'Voiceless Summons' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1030,7 +1084,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor2 unlock is3|"
   },
@@ -1038,7 +1092,8 @@
     "name": "floor3 is3",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor entrance"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1046,7 +1101,8 @@
     "name": "'Craft Brewer Killer' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1055,7 +1111,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1063,7 +1119,8 @@
     "name": "'Crime and Punishment' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1072,7 +1129,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1080,7 +1137,8 @@
     "name": "'Looking Forward, Looking Back' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1089,7 +1147,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1097,7 +1155,8 @@
     "name": "'Precarious Defense' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1106,7 +1165,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1114,7 +1173,8 @@
     "name": "'Sanguinarch's Legacy' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1123,7 +1183,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1131,7 +1191,8 @@
     "name": "'The Nest' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1140,7 +1201,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1148,7 +1209,8 @@
     "name": "'Troglodyte Tribe' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1157,7 +1219,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1165,7 +1227,8 @@
     "name": "'Vortex' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1174,7 +1237,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor3 unlock is3|"
   },
@@ -1236,7 +1299,8 @@
     "name": "floor4 is3",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor entrance"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1244,7 +1308,8 @@
     "name": "'Blaze of Glory' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1253,7 +1318,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1261,7 +1326,8 @@
     "name": "'Guns and Order' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1270,7 +1336,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1278,7 +1344,8 @@
     "name": "'Hunting Grounds' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1287,7 +1354,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1295,7 +1362,8 @@
     "name": "'Nethersea Brand Land' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1304,7 +1372,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1312,7 +1380,8 @@
     "name": "'Seacavern Sandstorm' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1321,7 +1390,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1329,7 +1398,8 @@
     "name": "'Territorial Tendencies' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1338,7 +1408,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1346,7 +1416,8 @@
     "name": "'The Revered Abyss' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1355,7 +1426,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor4 unlock is3|"
   },
@@ -1363,7 +1434,8 @@
     "name": "floor5 is3",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor entrance"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1371,7 +1443,8 @@
     "name": "'Ember Phalanx' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1380,7 +1453,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1388,7 +1461,8 @@
     "name": "'Mechanical Menace' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1397,7 +1471,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1405,7 +1479,8 @@
     "name": "'Out of Control' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1414,7 +1489,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1422,7 +1497,8 @@
     "name": "'Pool of Procreation' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1431,7 +1507,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1439,7 +1515,8 @@
     "name": "'The Faithul's Utopia' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1448,7 +1525,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1456,7 +1533,8 @@
     "name": "'The Piper's Call' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1465,7 +1543,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1473,7 +1551,8 @@
     "name": "'The Spread' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1482,7 +1561,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1490,7 +1569,8 @@
     "name": "'Ubi bona somnia' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1499,7 +1579,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor5 unlock is3|"
   },
@@ -1529,7 +1609,8 @@
     "name": "floor6 is3",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor entrance"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1537,7 +1618,8 @@
     "name": "'Deep Cognition' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1546,7 +1628,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1554,7 +1636,8 @@
     "name": "'Water and Fire Union' clear",
     "region": "is3",
     "category": [
-      "is3"
+      "is3",
+      "floor"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1563,7 +1646,7 @@
     "region": "is3",
     "category": [
       "is3",
-      "emergency"
+      "emergency floor"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },

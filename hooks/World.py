@@ -141,7 +141,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 case "First Move Advantage":
                     starting_items = ["sniper", "specialist", "vanguard"]
                 case "Slow and Steady Wins the Race":
-                    starting_items = ["Caster", "Defender", "Sniper"]
+                    starting_items = ["Caster", "Defender", "Sniper"] # bug where a 6 star specialist can be chosen
                 case "Overcoming your Weaknesses":
                     starting_items = ["Guard", "Medic", "Supporter"]
                 case "Flexible Deployment":
