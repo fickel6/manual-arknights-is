@@ -8,7 +8,12 @@
             ],
             "display_name": "The End Objective",
             "description": "How to End your Randomized playthrough.",
-            "aliases": {"easiest": 0},
+            "aliases": {"ending1 is2": 0, "ending2 is2": 1, "ending3 is2": 2, "ending4 is2": 3,
+                        "ending1 is3": 4, "ending2 is3": 5, "ending3 is3": 6, "ending4 is3": 7,
+                        "ending1 is4": 8, "ending2 is4": 9, "ending3 is4": 10, "ending4 is4": 11,
+                        "ending1 is5": 12, "ending2 is5": 13, "ending3 is5": 14, "ending4 is5": 15, "ending5 is5": 16,
+                        "ending1 is6": 17, "ending2 is6": 18
+                    },
             "hidden": false
         },
         "death_link": {
@@ -213,6 +218,27 @@
                 "simple_ui",
                 "spoiler"
             ]
+        },
+        "include perfect operation": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "perfect operations are clears of (emergency) operations without leaks.",
+                "When clearing a level, you will see a tekst if you have a perfect operation or not.",
+                "turning this on, every stage has an extra location where you need to get this perfect operation."
+            ],
+            "group": "IS options"
+        },
+        "include encounter operations": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "makes the run even more RNG.",
+                " when turned on, you will need to get the correct encounter on",
+                "the encounter node to get the operation.",
+                "when turned off, these operations won't be included."
+            ],
+            "group": "IS options"
         }
     }
 }

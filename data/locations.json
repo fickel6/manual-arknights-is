@@ -1710,5 +1710,828 @@
       "indigo cradle floor"
     ],
     "requires": "|wander into wonderland unlock is3|"
+  },
+  {
+    "name": "floor1 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "'Beasts Awaiting Slaughter' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "emergency 'Beasts Awaiting Slaughter' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "'Ghosts of the Resort' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "emergency 'Ghosts of the Resort' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "'Hands of Moss' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "emergency 'Hands of Moss' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "'No More Than Four' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "emergency 'No More Than Four' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "'Prisoners' Night' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "emergency 'Prisoners' Night' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "floor2 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Don't turn Around, Sluggies' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Don't turn Around, Sluggies' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Low-Altitude Manuevering' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Low-Altitude Manuevering' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Path with No End' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Path with No End' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Payback' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Payback' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Shadows With Ghosts' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Shadows With Ghosts' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Unwell' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Unwell' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "floor3 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Altar of Craving' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Altar of Craving' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Crafty Beasts' Nine-Caves' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Crafty Beasts' Nine-Caves' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Harass With Strength' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Harass With Strength' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Pretense Turned True' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Pretense Turned True' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Rational Fracture' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Rational Fracture' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Shady Frozen Sea' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Shady Frozen Sea' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'So Close and Yet So Far' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'So Close and Yet So Far' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Blade Signifier' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Breathing' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Nature's Wrath' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'New Tribe' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'The Earth Wakes' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Tree-Snatcher' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "floor4 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Collapsals' Afternoon' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Collapsals' Afternoon' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Company Entanglement' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Company Entanglement' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Defense Substituting Offense' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Defense Substituting Offense' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Noise Disturbance' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Noise Disturbance' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Practical Test' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Practical Test' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Restricted Zone' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Restricted Zone' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'The Big Migration' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'The Big Migration' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Where Ice Condenses' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Where Ice Condenses' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "floor5 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Confusing Appearance' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Confusing Appearance' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Instinct Contamination' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Instinct Contamination' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Manmade Carnival' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Manmade Carnival' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'March of the Dead' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'March of the Dead' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Musical Disaster' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Musical Disaster' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Requested Enemies Obtained' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Requested Enemies Obtained' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Stay Away From Strangers' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Stay Away From Strangers' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Where be No Mounts and Seas' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Where be No Mounts and Seas' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Lofty Silverfrost' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "victory": true,
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Sami's Entropy' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "victory": true,
+    "requires": "|floor5 unlock is4| AND |ending 2 unlock is4|"
+  },
+  {
+    "name": "floor6 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
+  },
+  {
+    "name": "'Frost and Sand' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 6"
+    ],
+    "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
+  },
+  {
+    "name": "emergency 'Frost and Sand' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 6"
+    ],
+    "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
+  },
+  {
+    "name": "'Terminus of Life' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 6"
+    ],
+    "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
+  },
+  {
+    "name": "emergency 'Terminus of Life' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 6"
+    ],
+    "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
+  },
+  {
+    "name": "'Gardener' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "victory": true,
+    "requires": "|floor6 unlock is4| AND |ending 3 unlock is4|"
+  },
+  {
+    "name": "'Sands of Time' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "victory": true,
+    "requires": "|floor6 unlock is4| AND |ending 4 unlock is4|"
+  },
+  {
+    "name": "Bosky Passage is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|Bosky Passage unlock is4|"
+  },
+  {
+    "name": "Possibility is5",
+    "region": "is5",
+    "_comment": "you can enter floor 4 from this floor (a certain encounter node). let this be Out of locig or option to make in logic?",
+    "category": [
+      "is5",
+      "is5 floor entrance"
+    ],
+    "requires": "|Possibility unlock is5|"
+  },
+  {
+    "name": "Shifei Border",
+    "category": [
+      "is6",
+      "is6 floor entrance"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
   }
 ]

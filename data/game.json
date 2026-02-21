@@ -3,10 +3,7 @@
   "game": "Arknights",
   "creator": "Fickel",
   "filler_item_name": "LMD",
-  "starting_items": [
-
-  ],
-  "_comment": "TODO: death link as an option",
-  "death_link": false
+  "starting_items": [],
+  "death_link": true
 
 }

@@ -165,7 +165,20 @@
         "name": "Bosky Passage unlock is4",
         "category": "is4",
         "region": "is4",
-        "requires": "|floor3 unlock is4| AND |Bosky Passage key is4|",
+        "_comment": [
+            "technically, you can enter a bosky passage from floor 1.",
+            "I don't think this is realistic, so this is changed.",
+            "I think, from floor 2 or 3 you will probably enter a bosky passage (and most likely, because it is easiest here)",
+            "So the requirement is floor 2 onwards (till floor 5)"
+        ],
+        "requires": "(|floor2 unlock is4| OR |floor3 unlock is4| OR |floor4 unlock is4| OR |floor5 unlock is4|) AND |Bosky Passage key is4|",
+        "visible": false
+    },
+    {
+        "name": "ending 2 unlock is4",
+        "category": "is4",
+        "region": "is4",
+        "requires": "|Treescar Helm| AND |Void| AND |Scar|",
         "visible": false
     },
     {
@@ -229,6 +242,13 @@
         "category": "is5",
         "region": "is5",
         "requires": "|floor3 unlock is5| AND |Possibility key is5|",
+        "visible": false
+    },
+    {
+        "name": "ending 2 unlock is5",
+        "category": "is5",
+        "region": "is5",
+        "requires": "|Pure-White Petals| AND |Wordless Deed| AND |Pledge of Babels|",
         "visible": false
     },
     {

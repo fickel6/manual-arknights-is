@@ -3071,7 +3071,7 @@
     "name": "gathering squad",
     "category": [
       "squad",
-      "is2", "is3", "is4", "is5", "is6"
+      "is2", "is3", "is4", "is5"
     ],
     "useful": true
   },
@@ -3131,6 +3131,15 @@
   },
   {
     "count": "1",
+    "name": "Research Squad",
+    "category": [
+      "squad",
+      "is2", "is3"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
     "name": "First-class squad",
     "category": [
       "squad",
@@ -3162,6 +3171,168 @@
     "category": [
       "squad",
       "is3"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Special Training Squad",
+    "category": [
+      "squad",
+      "is4"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Eternal Hunting Squad",
+    "category": [
+      "squad",
+      "is4"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Life Prioritizing Squad",
+    "category": [
+      "squad",
+      "is4"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Scientific Thinking Squad",
+    "category": [
+      "squad",
+      "is4"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Improvisation Squad",
+    "category": [
+      "squad",
+      "is5"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Soul Escort Squad",
+    "category": [
+      "squad",
+      "is5"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Erudite Squad",
+    "category": [
+      "squad",
+      "is5"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Blueprint Squad",
+    "category": [
+      "squad",
+      "is5"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Ingots Squad",
+    "category": [
+      "squad",
+      "is5"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Collection Squad",
+    "category": [
+      "squad",
+      "is5"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Mimic Squad",
+    "category": [
+      "squad",
+      "is5"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Top Gun Squad",
+    "category": [
+      "squad",
+      "is5"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Special Squad",
+    "category": [
+      "squad",
+      "is6"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "High Ground Breaching Operators",
+    "category": [
+      "squad",
+      "is6"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Ground Breaching Operators",
+    "category": [
+      "squad",
+      "is6"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Tourist Squad",
+    "category": [
+      "squad",
+      "is6"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Sui Regulator Squad",
+    "category": [
+      "squad",
+      "is6"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Tianshi Bureau Squad",
+    "category": [
+      "squad",
+      "is6"
     ],
     "useful": true
   },
@@ -3370,6 +3541,40 @@
   },
   {
     "count": 1,
+    "_comment": "this is for ending 2 of is4",
+    "name": "Scar",
+    "category": [
+      "is4 collectible",
+      "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": [
+      "this is for ending 2 of is4",
+      "this isn't a collectible, but idc.",
+      "maybe later it will be in 'follartaile"
+    ],
+    "name": "Void",
+    "category": [
+      "is4 collectible",
+      "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 2 of is4",
+    "name": "Treescar Helm",
+    "category": [
+      "is4 collectible",
+      "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "_comment": "this is for ending 3 of is4",
     "name": "Routeweave Net",
     "category": [
@@ -3405,6 +3610,52 @@
     "category": [
       "is4 collectible",
       "is4"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 2 of is5",
+    "name": "Rolling Ancestors",
+    "category": [
+      "is5 collectible",
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 2 of is5",
+    "name": "Rolling Ancestors",
+    "category": [
+      "is5 collectible",
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": [
+      "this is for ending 2 of is5",
+      "this also isn't really a collectible (but Lingerer)"
+    ],
+    "name": "Pure-White Petals",
+    "category": [
+      "is5 collectible",
+      "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": [
+      "this is for ending 2 of is5",
+      "this also isn't really a collectible (but Lingerer)"
+    ],
+    "name": "Wordless Deed",
+    "category": [
+      "is5 collectible",
+      "is5"
     ],
     "progression": true
   },
