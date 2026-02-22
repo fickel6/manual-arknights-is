@@ -3615,21 +3615,12 @@
   },
   {
     "count": 1,
-    "_comment": "this is for ending 2 of is5",
+    "_comment": "this is for an optional ending 1 or 2 of is5",
     "name": "Rolling Ancestors",
     "category": [
       "is5 collectible",
-      "is5"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "_comment": "this is for ending 2 of is5",
-    "name": "Rolling Ancestors",
-    "category": [
-      "is5 collectible",
-      "is5"
+      "is5",
+      "optional boss is5"
     ],
     "progression": true
   },
@@ -3726,6 +3717,26 @@
     "category": [
       "is5 collectible",
       "is5"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 2 of is6",
+    "name": "Ink of the Hidden Butterfly",
+    "category": [
+      "is6 collectible",
+      "is6"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": "this is for ending 2 of is6",
+    "name": "Carved Inkstick Remnant",
+    "category": [
+      "is6 collectible",
+      "is6"
     ],
     "progression": true
   },

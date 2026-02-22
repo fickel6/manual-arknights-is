@@ -12,7 +12,7 @@
                         "ending1 is3": 4, "ending2 is3": 5, "ending3 is3": 6, "ending4 is3": 7,
                         "ending1 is4": 8, "ending2 is4": 9, "ending3 is4": 10, "ending4 is4": 11,
                         "ending1 is5": 12, "ending2 is5": 13, "ending3 is5": 14, "ending4 is5": 15, "ending5 is5": 16,
-                        "ending1 is6": 17, "ending2 is6": 18
+                        "ending1 is6": 17, "ending2 is6": 18, "ending3 is6": 19
                     },
             "hidden": false
         },
@@ -22,8 +22,9 @@
         "filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
             "values": {
-                "recommended": 20
-            }
+                "recommended": 0
+            },
+            "hidden": true
         }
     },
     "user": {

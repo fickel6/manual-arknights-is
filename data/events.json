@@ -330,6 +330,13 @@
         "visible": false
     },
     {
+        "name": "ending 2 unlock is6",
+        "category": "is6",
+        "region": "is6",
+        "requires": "|Ink of the Hidden Butterfly| AND |Carved Inkstick Remnant|",
+        "visible": false
+    },
+    {
         "name": "ending 3 unlock is6",
         "category": "is6",
         "region": "is6",
