@@ -30,8 +30,10 @@
     "user": {
         "include 6 stars":{
             "description": [
-                "include or exclude all six stars from the randomizer",
-                "if excluded (false), you can't play any 6 stars. in all the runs"
+                "include or exclude all six stars from the randomizer.",
+                "if excluded (false), you can't play any 6 stars. in all the runs.",
+                "in the template yaml, you can also choose which individual 6 star should be removed.",
+                "This is done, becuase there is no way to do ti via the json file (yet)."
             ],
             "type": "Toggle",
             "default": true,
@@ -39,14 +41,15 @@
             "visibility": [
                 "template",
                 "simple_ui",
-                "complex_ui",
-                "spoiler"
+                "complex_ui"
             ]
         },
         "include 5 stars":{
             "description": [
                 "include or exclude all five stars from the randomizer",
-                "if excluded (false), you can't play any 5 stars. in all the runs"
+                "if excluded (false), you can't play any 5 stars. in all the runs",
+                "in the template yaml, you can also choose which individual 5 star should be removed.",
+                "This is done, becuase there is no way to do ti via the json file (yet)."
             ],
             "type": "Toggle",
             "default": true,
@@ -54,14 +57,13 @@
             "visibility": [
                 "template",
                 "simple_ui",
-                "complex_ui",
-                "spoiler"
+                "complex_ui"
             ]
         },
         "include ed1": {
             "type": "Toggle",
             "default": true,
-            "description": ["all the itmes and stages for ending 1 will also be randomized"],
+            "description": ["all the required items and stages for ending 1 will also be randomized"],
             "group": "Endings",
             "visibility": [
                 "template",
@@ -72,7 +74,7 @@
         "include ed2": {
             "type": "Toggle",
             "default": true,
-            "description": ["all the itmes and stages for ending 2 will also be randomized"],
+            "description": ["all the required items and stages for ending 2 will also be randomized"],
             "group": "Endings",
             "visibility": [
                 "template",
@@ -83,7 +85,7 @@
         "include ed3": {
             "type": "Toggle",
             "default": true,
-            "description": ["all the itmes and stages for ending 3 will also be randomized"],
+            "description": ["all the required items and stages for ending 3 will also be randomized"],
             "group": "Endings",
             "visibility": [
                 "template",
@@ -94,7 +96,18 @@
         "include ed4": {
             "type": "Toggle",
             "default": true,
-            "description": ["all the itmes and stages for ending 4 will also be randomized"],
+            "description": ["all the required items and stages for ending 4 will also be randomized"],
+            "group": "Endings",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include ed5": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["all the required items and stages for ending 5 will also be randomized"],
             "group": "Endings",
             "visibility": [
                 "template",
@@ -220,7 +233,7 @@
                 "spoiler"
             ]
         },
-        "include perfect operation": {
+        "_include perfect operation": {
             "type": "Toggle",
             "default": false,
             "description": [
@@ -230,7 +243,7 @@
             ],
             "group": "IS options"
         },
-        "include encounter operations": {
+        "_include encounter operations": {
             "type": "Toggle",
             "default": false,
             "description": [

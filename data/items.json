@@ -3401,7 +3401,8 @@
     "name": "Worn Out Puppet",
     "category": [
       "is2 collectible",
-      "is2"
+      "is2",
+      "ed2"
     ],
     "progression": true
   },
@@ -3471,7 +3472,8 @@
     "name": "Fate's Favored Child",
     "category": [
       "is3 collectible",
-      "is3"
+      "is3",
+      "ed2"
     ],
     "progression": true
   },
@@ -3545,7 +3547,8 @@
     "name": "Scar",
     "category": [
       "is4 collectible",
-      "is4"
+      "is4",
+      "ed2"
     ],
     "progression": true
   },
@@ -3559,7 +3562,8 @@
     "name": "Void",
     "category": [
       "is4 collectible",
-      "is4"
+      "is4",
+      "ed2"
     ],
     "progression": true
   },
@@ -3569,7 +3573,8 @@
     "name": "Treescar Helm",
     "category": [
       "is4 collectible",
-      "is4"
+      "is4",
+      "ed2"
     ],
     "progression": true
   },
@@ -3620,7 +3625,9 @@
     "category": [
       "is5 collectible",
       "is5",
-      "optional boss is5"
+      "optional boss is5",
+      "ed1",
+      "ed2"
     ],
     "progression": true
   },
@@ -3633,7 +3640,8 @@
     "name": "Pure-White Petals",
     "category": [
       "is5 collectible",
-      "is5"
+      "is5",
+      "ed2"
     ],
     "progression": true
   },
@@ -3646,7 +3654,21 @@
     "name": "Wordless Deed",
     "category": [
       "is5 collectible",
-      "is5"
+      "is5",
+      "ed2"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "_comment": [
+      "this is for ending 2 of is5"
+    ],
+    "name": "Pledge of Babels",
+    "category": [
+      "is5 collectible",
+      "is5",
+      "ed2"
     ],
     "progression": true
   },
@@ -3726,7 +3748,8 @@
     "name": "Ink of the Hidden Butterfly",
     "category": [
       "is6 collectible",
-      "is6"
+      "is6",
+      "ed2"
     ],
     "progression": true
   },
@@ -3736,7 +3759,8 @@
     "name": "Carved Inkstick Remnant",
     "category": [
       "is6 collectible",
-      "is6"
+      "is6",
+      "ed2"
     ],
     "progression": true
   },

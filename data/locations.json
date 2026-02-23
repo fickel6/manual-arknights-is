@@ -1,12 +1,12 @@
  [
   {
-    "name": "invest 10 coins",
+    "name": "invest x coins",
     "prehint": true,
     "hint_entrance": "available in shops",
     "category": "shop"
   },
   {
-    "name": "get 10 coins",
+    "name": "get x coins",
     "prehint": true,
     "hint_entrance": "available in shops",
     "category": "shop"
@@ -793,7 +793,8 @@
     "region": "is2",
     "category": [
       "is2",
-      "is2 boss"
+      "is2 boss",
+      "ed1"
     ],
     "requires": "|floor5 unlock is2|"
     ,
@@ -804,7 +805,8 @@
     "region": "is2",
     "category": [
       "is2",
-      "is2 boss"
+      "is2 boss",
+      "ed2"
     ],
     "requires": "|floor5 unlock is2| AND |Worn Out Puppet|"
     ,
@@ -815,7 +817,9 @@
     "region": "is2",
     "category": [
       "is2",
-      "is2 floor entrance"
+      "is2 floor entrance",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
   },
@@ -824,7 +828,9 @@
     "region": "is2",
     "category": [
       "is2",
-      "is2 floor 6"
+      "is2 floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -834,7 +840,9 @@
     "region": "is2",
     "category": [
       "is2",
-      "is2 emergency floor 6"
+      "is2 emergency floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -844,7 +852,9 @@
     "region": "is2",
     "category": [
       "is2",
-      "is2 floor 6"
+      "is2 floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -854,7 +864,9 @@
     "region": "is2",
     "category": [
       "is2",
-      "is2 emergency floor 6"
+      "is2 emergency floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -864,7 +876,8 @@
     "region": "is2",
     "category": [
       "is2",
-      "is2 boss"
+      "is2 boss",
+      "ed4"
     ],
     "requires": "|floor6 unlock is2| AND |ending 4 unlock is2|",
     "victory": true
@@ -874,7 +887,8 @@
     "region": "is2",
     "category": [
       "is2",
-      "is2 boss"
+      "is2 boss",
+      "ed3"
     ],
     "requires": "|floor6 unlock is2| AND |ending 3 unlock is2|",
     "victory": true
@@ -1596,18 +1610,20 @@
     "region": "is3",
     "category": [
       "is3",
-      "is3 boss"
+      "is3 boss",
+      "ed1"
     ],
     "requires": "|floor5 unlock is3|",
     "victory": true
   },
   {
-    "name": "'\"face's Favored Child\"' clear",
+    "name": "'\"fate's Favored Child\"' clear",
     "_comment": "this is ed2",
     "region": "is3",
     "category": [
       "is3",
-      "is3 boss"
+      "is3 boss",
+      "ed2"
     ],
     "requires": "|floor5 unlock is3| AND |Breath of the Tide|",
     "victory": true
@@ -1617,7 +1633,9 @@
     "region": "is3",
     "category": [
       "is3",
-      "is3 floor entrance"
+      "is3 floor entrance",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1626,7 +1644,9 @@
     "region": "is3",
     "category": [
       "is3",
-      "is3 floor 6"
+      "is3 floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1635,7 +1655,9 @@
     "region": "is3",
     "category": [
       "is3",
-      "is3 emergency floor 6"
+      "is3 emergency floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1644,7 +1666,9 @@
     "region": "is3",
     "category": [
       "is3",
-      "is3 floor 6"
+      "is3 floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1653,7 +1677,9 @@
     "region": "is3",
     "category": [
       "is3",
-      "is3 emergency floor 6"
+      "is3 emergency floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1662,8 +1688,10 @@
     "region": "is3",
     "category": [
       "is3",
-      "is3 boss"
+      "is3 boss",
+      "ed3"
     ],
+    "victory": true,
     "requires": "|floor6 unlock is3| AND |ending 3 unlock is3|"
   },
   {
@@ -1671,8 +1699,10 @@
     "region": "is3",
     "category": [
       "is3",
-      "is3 boss"
+      "is3 boss",
+      "ed4"
     ],
+    "victory": true,
     "requires": "|floor6 unlock is3| AND |ending 4 unlock is3|"
   },
   {
@@ -2427,7 +2457,8 @@
     "region": "is4",
     "category": [
       "is4",
-      "is4 boss"
+      "is4 boss",
+      "ed1"
     ],
     "victory": true,
     "requires": "|floor5 unlock is4|"
@@ -2437,7 +2468,8 @@
     "region": "is4",
     "category": [
       "is4",
-      "is4 boss"
+      "is4 boss",
+      "ed2"
     ],
     "victory": true,
     "requires": "|floor5 unlock is4| AND |ending 2 unlock is4|"
@@ -2447,7 +2479,9 @@
     "region": "is4",
     "category": [
       "is4",
-      "is4 floor entrance"
+      "is4 floor entrance",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
   },
@@ -2456,7 +2490,9 @@
     "region": "is4",
     "category": [
       "is4",
-      "is4 floor 6"
+      "is4 floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
   },
@@ -2465,7 +2501,9 @@
     "region": "is4",
     "category": [
       "is4",
-      "is4 emergency floor 6"
+      "is4 emergency floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
   },
@@ -2474,7 +2512,9 @@
     "region": "is4",
     "category": [
       "is4",
-      "is4 floor 6"
+      "is4 floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
   },
@@ -2483,7 +2523,9 @@
     "region": "is4",
     "category": [
       "is4",
-      "is4 emergency floor 6"
+      "is4 emergency floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
   },
@@ -2492,7 +2534,8 @@
     "region": "is4",
     "category": [
       "is4",
-      "is4 boss"
+      "is4 boss",
+      "ed3"
     ],
     "victory": true,
     "requires": "|floor6 unlock is4| AND |ending 3 unlock is4|"
@@ -2502,7 +2545,8 @@
     "region": "is4",
     "category": [
       "is4",
-      "is4 boss"
+      "is4 boss",
+      "ed4"
     ],
     "victory": true,
     "requires": "|floor6 unlock is4| AND |ending 4 unlock is4|"
@@ -3353,7 +3397,8 @@
     "category": [
       "is5",
       "is5 boss",
-      "optional boss is5"
+      "optional boss is5",
+      "ed1"
     ],
     "victory": true,
     "requires": "|floor5 unlock is5| AND |Rolling Ancestors|"
@@ -3364,7 +3409,8 @@
     "category": [
       "is5",
       "is5 boss",
-      "optional boss is5"
+      "optional boss is5",
+      "ed2"
     ],
     "victory": true,
     "requires": "|floor5 unlock is5| AND |Rolling Ancestors| AND |ending 2 unlock is5|"
@@ -3374,7 +3420,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 boss"
+      "is5 boss",
+      "ed2"
     ],
     "victory": true,
     "requires": "|floor5 unlock is5| AND |ending 2 unlock is5|"
@@ -3384,7 +3431,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 boss"
+      "is5 boss",
+      "ed1"
     ],
     "victory": true,
     "requires": "|floor5 unlock is5|"
@@ -3394,7 +3442,10 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 floor entrance"
+      "is5 floor entrance",
+      "ed3",
+      "ed4",
+      "ed5"
     ],
     "requires": "|floor6 unlock is5| AND (|ending 3 unlock is5| OR |ending 4 unlock is5| OR |ending 5 unlock is5|)"
   },
@@ -3403,7 +3454,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 floor 6"
+      "is5 floor 6",
+      "ed3"
     ],
     "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
@@ -3413,7 +3465,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 emergency floor 6"
+      "is5 emergency floor 6",
+      "ed3"
     ],
     "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
@@ -3423,7 +3476,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 floor 6"
+      "is5 floor 6",
+      "ed4"
     ],
     "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
@@ -3433,7 +3487,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 emergency floor 6"
+      "is5 emergency floor 6",
+      "ed4"
     ],
     "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
@@ -3443,7 +3498,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 floor 6"
+      "is5 floor 6",
+      "ed4"
     ],
     "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
@@ -3453,7 +3509,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 emergency floor 6"
+      "is5 emergency floor 6",
+      "ed4"
     ],
     "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
@@ -3463,7 +3520,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 floor 6"
+      "is5 floor 6",
+      "ed3"
     ],
     "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
@@ -3473,7 +3531,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 emergency floor 6"
+      "is5 emergency floor 6",
+      "ed3"
     ],
     "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
@@ -3483,7 +3542,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 boss"
+      "is5 boss",
+      "ed3"
     ],
     "victory": true,
     "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
@@ -3493,7 +3553,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 boss"
+      "is5 boss",
+      "ed4"
     ],
     "victory": true,
     "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
@@ -3503,7 +3564,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 boss"
+      "is5 boss",
+      "ed5"
     ],
     "victory": true,
     "requires": "|floor6 unlock is5| AND |ending 5 unlock is5|"
@@ -3523,7 +3585,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 boss"
+      "is5 boss",
+      "ed3"
     ],
     "requires": "|Possibility unlock is5| AND |Prophet Horn|"
   },
@@ -4193,7 +4256,8 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 boss"
+      "is6 boss",
+      "ed1"
     ],
     "victory": true,
     "requires": "|floor5 unlock is6|"
@@ -4203,7 +4267,8 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 boss"
+      "is6 boss",
+      "ed2"
     ],
     "victory": true,
     "requires": "|floor5 unlock is6| AND |ending 2 unlock is6|"
@@ -4213,7 +4278,9 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 floor entrance"
+      "is6 floor entrance",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
   },
@@ -4222,7 +4289,9 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 floor 6"
+      "is6 floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
   },
@@ -4231,7 +4300,9 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 emergency floor 6"
+      "is6 emergency floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
   },
@@ -4240,7 +4311,9 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 floor 6"
+      "is6 floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
   },
@@ -4249,7 +4322,9 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 emergency floor 6"
+      "is6 emergency floor 6",
+      "ed3",
+      "ed4"
     ],
     "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
   },
@@ -4258,7 +4333,8 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 boss"
+      "is6 boss",
+      "ed3"
     ],
     "victory": true,
     "requires": "|floor6 unlock is6| AND |ending 3 unlock is6|"
@@ -4268,6 +4344,51 @@
     "category": [
       "is6",
       "is6 floor entrance"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
+  },
+  {
+    "name": "'Against the Flood' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Wander into Wonderland floor"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
+  },
+  {
+    "name": "'Amidst Thunder' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Wander into Wonderland floor"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
+  },
+  {
+    "name": "'Defying Quakes' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Wander into Wonderland floor"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
+  },
+  {
+    "name": "'Slandering Heaven' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Wander into Wonderland floor"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
+  },
+  {
+    "name": "'To the Fall' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Wander into Wonderland floor"
     ],
     "requires": "|wander into wonderland unlock is6|"
   },

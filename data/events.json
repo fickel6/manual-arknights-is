@@ -43,7 +43,7 @@
     },
     {
         "name": "ending 3 unlock is2",
-        "category": "is2",
+        "category": ["is2", "ed3"],
         "region": "is2",
         "requires": "|Mantle of the Wrongly Condemned| AND |Stand-in Actor| AND |Abrupt Realization|",
         "visible": false
@@ -176,7 +176,7 @@
     },
     {
         "name": "ending 2 unlock is4",
-        "category": "is4",
+        "category": ["is4", "ed2"],
         "region": "is4",
         "requires": "|Treescar Helm| AND |Void| AND |Scar|",
         "visible": false
@@ -246,7 +246,7 @@
     },
     {
         "name": "ending 2 unlock is5",
-        "category": "is5",
+        "category": ["is5", "ed2"],
         "region": "is5",
         "requires": "|Pure-White Petals| AND |Wordless Deed| AND |Pledge of Babels|",
         "visible": false
@@ -331,7 +331,7 @@
     },
     {
         "name": "ending 2 unlock is6",
-        "category": "is6",
+        "category": ["is6", "ed2"],
         "region": "is6",
         "requires": "|Ink of the Hidden Butterfly| AND |Carved Inkstick Remnant|",
         "visible": false

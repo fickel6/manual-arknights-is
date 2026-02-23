@@ -25,6 +25,10 @@
         "yaml_option": ["include ed4"],
         "hidden": true
     },
+    "ed5": {
+        "yaml_option": ["include ed5"],
+        "hidden": true
+    },
     "is2": {
         "yaml_option": ["include is2"],
         "hidden": true

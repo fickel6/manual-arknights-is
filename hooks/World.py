@@ -62,6 +62,14 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             for location in list(region.locations):
                 if location.name in locationNamesToRemove:
                     region.locations.remove(location)
+    
+    location_names_to_remove = []
+    location_names_to_remove.extend([
+        name for name, l in world.location_name_to_location.items()
+            if "shop" in l.get('category', [])
+    ])
+    print("found locations: [%s]" % ', '.join(map(str, location_names_to_remove)))
+    raise Exception("quick test pause")
 
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
 # Valid item_config key/values:
