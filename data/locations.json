@@ -3595,7 +3595,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is5|"
@@ -3605,7 +3606,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3614,7 +3616,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3623,7 +3626,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is5|"
@@ -3633,7 +3637,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3642,7 +3647,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3651,7 +3657,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is5|"
@@ -3661,7 +3668,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3670,7 +3678,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3679,7 +3688,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is5|"
@@ -3689,7 +3699,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3698,7 +3709,8 @@
     "region": "is5",
     "category": [
       "is5",
-      "is5 Face-Off"
+      "is5 Face-Off",
+      "Face-Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -4397,7 +4409,8 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 Face-Off"
+      "is6 Face-Off",
+      "Face-Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"
@@ -4407,7 +4420,8 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 Face-Off"
+      "is6 Face-Off",
+      "Face-Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"
@@ -4417,7 +4431,8 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 Face-Off"
+      "is6 Face-Off",
+      "Face-Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"
@@ -4427,7 +4442,8 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 Face-Off"
+      "is6 Face-Off",
+      "Face-Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"
@@ -4437,7 +4453,8 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 Face-Off"
+      "is6 Face-Off",
+      "Face-Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"
@@ -4447,7 +4464,9 @@
     "region": "is6",
     "category": [
       "is6",
-      "is6 Face-Off"
+      "is6 Face-Off",
+      "Face-Off",
+      "Face-Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"

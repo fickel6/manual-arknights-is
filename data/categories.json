@@ -49,6 +49,14 @@
         "yaml_option": ["include is6"],
         "hidden": true
     },
+    "Face-Off": {
+        "yaml_option": ["include face-off nodes"],
+        "hidden": true
+    },
+    "optional floor": {
+        "yaml_option": ["include optional floor"],
+        "hidden": true
+    },
     "character": {
         "hiddden": true
     },

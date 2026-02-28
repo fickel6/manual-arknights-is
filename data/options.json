@@ -233,6 +233,20 @@
                 "spoiler"
             ]
         },
+        "include face-off nodes": {
+            "type": "Toggle",
+            "default": true,
+            "description": [
+                "include face-off for the randomizer",
+                "these are only found from is5 onward. This setting won't do anything in is2 to is4."
+            ],
+            "group": "IS options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
         "_include perfect operation": {
             "type": "Toggle",
             "default": false,
