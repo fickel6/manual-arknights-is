@@ -8,7 +8,12 @@
             ],
             "display_name": "The End Objective",
             "description": "How to End your Randomized playthrough.",
-            "aliases": {"easiest": 0},
+            "aliases": {"ending1 is2": 0, "ending2 is2": 1, "ending3 is2": 2, "ending4 is2": 3,
+                        "ending1 is3": 4, "ending2 is3": 5, "ending3 is3": 6, "ending4 is3": 7,
+                        "ending1 is4": 8, "ending2 is4": 9, "ending3 is4": 10, "ending4 is4": 11,
+                        "ending1 is5": 12, "ending2 is5": 13, "ending3 is5": 14, "ending4 is5": 15, "ending5 is5": 16,
+                        "ending1 is6": 17, "ending2 is6": 18, "ending3 is6": 19
+                    },
             "hidden": false
         },
         "death_link": {
@@ -17,66 +22,251 @@
         "filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
             "values": {
-                "recommended": 20
-            }
+                "recommended": 0
+            },
+            "hidden": true
         }
     },
     "user": {
-        "_commented_out_option":{
-            "type": "Toggle",
-            "default": true
-        },
-        "Example_Toggle":{
+        "include 6 stars":{
             "description": [
-                "This is a Toggle",
-                "A simple boolean, aka True or False set the initial value with \"default\""
+                "include or exclude all six stars from the randomizer.",
+                "if excluded (false), you can't play any 6 stars. in all the runs.",
+                "in the template yaml, you can also choose which individual 6 star should be removed.",
+                "This is done, becuase there is no way to do ti via the json file (yet)."
             ],
             "type": "Toggle",
-            "default": false,
-            "group": "Example Options"
+            "default": true,
+            "group": "characters options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "complex_ui"
+            ]
         },
-        "Example_Choice":{
-            "type": "Choice",
+        "include 5 stars":{
             "description": [
-                "This is a Choice",
-                "Let the user pick from a list of values",
-                "allow_custom_value let a player define their own text value",
-                "Currently the only use for Choice in Manual outside of hooks is the goal"
+                "include or exclude all five stars from the randomizer",
+                "if excluded (false), you can't play any 5 stars. in all the runs",
+                "in the template yaml, you can also choose which individual 5 star should be removed.",
+                "This is done, becuase there is no way to do ti via the json file (yet)."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "characters options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "complex_ui"
+            ]
+        },
+        "include ed1": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["all the required items and stages for ending 1 will also be randomized"],
+            "group": "Endings",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include ed2": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["all the required items and stages for ending 2 will also be randomized"],
+            "group": "Endings",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include ed3": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["all the required items and stages for ending 3 will also be randomized"],
+            "group": "Endings",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include ed4": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["all the required items and stages for ending 4 will also be randomized"],
+            "group": "Endings",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include ed5": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["all the required items and stages for ending 5 will also be randomized"],
+            "group": "Endings",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "_investment of ingots": {
+            "description": [
+                "how many ingots you need to invest to get a check",
+                "if this number is 0, then this location will be removed"
+            ],
+            "type": "Range",
+            "range_start": 1,
+            "default": 10,
+            "range_end": 50,
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "_get ingots from investment": {
+            "description": [
+                "how many ingots you need to get from the investment to get a check",
+                "if this number is 0, then this location will be removed"
+            ],
+            "type": "Range",
+            "range_start": 1,
+            "default": 5,
+            "range_end": 20,
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        }, 
+        "include is2": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["include IS2 for the randomizer"],
+            "group": "IS options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include is3": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["include IS3 for the randomizer"],
+            "group": "IS options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include is4": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["include IS4 for the randomizer"],
+            "group": "IS options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include is5": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["include IS5 for the randomizer"],
+            "group": "IS options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include is6": {
+            "type": "Toggle",
+            "default": true,
+            "description": ["include IS6 for the randomizer"],
+            "group": "IS options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "starting region": {
+            "type": "Choice",
+            "group": "IS options",
+            "description": [
+                "choose which is you want to start in",
+                "0 = is2",
+                "1 = is3",
+                "2 = is4",
+                "3 = is5",
+                "4 = is6"
             ],
             "values": {
-                "start":0,
-                "test":1
-             },
-            "default": 0,
-            "allow_custom_value": false,
-            "group": "Example Options"
+                "is2": 0,
+                "is3": 1,
+                "is4": 2,
+                "is5": 3,
+                "is6": 4
+            }
         },
-        "Example_Range":{
-            "type": "Range",
-            "description": [
-                "This is a Range",
-                "Allow the player to specify a value between 'start' and 'end'",
-                "if you include a \"values\" you can define the label for certain values",
-                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
-            ],
-            "range_start": 0,
-            "default": 1,
-            "range_end": 10,
-            "values": {"example": 2},
-            "group": "Example Options"
-        },
-
-        "DLC_enabled":{
-            "display_name": "DLC Enabled",
-            "description": "Is the Dlc enabled?",
+        "include optional floor": {
             "type": "Toggle",
-            "visibility": [
-                "simple_ui",
-                "complex_ui",
-                "template"
+            "default": true,
+            "description": [
+                "include optional floors for the randomizer",
+                "these are primarily the wander into wonderland and bosky passage locations"
             ],
-            "default": true
+            "group": "IS options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "include face-off nodes": {
+            "type": "Toggle",
+            "default": true,
+            "description": [
+                "include face-off for the randomizer",
+                "these are only found from is5 onward. This setting won't do anything in is2 to is4."
+            ],
+            "group": "IS options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "spoiler"
+            ]
+        },
+        "_include perfect operation": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "perfect operations are clears of (emergency) operations without leaks.",
+                "When clearing a level, you will see a tekst if you have a perfect operation or not.",
+                "turning this on, every stage has an extra location where you need to get this perfect operation."
+            ],
+            "group": "IS options"
+        },
+        "_include encounter operations": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "makes the run even more RNG.",
+                " when turned on, you will need to get the correct encounter on",
+                "the encounter node to get the operation.",
+                "when turned off, these operations won't be included."
+            ],
+            "group": "IS options"
         }
     }
-
 }

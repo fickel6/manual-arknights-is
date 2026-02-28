@@ -1,7 +1,9 @@
 {
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
-  "game": "arknights",
+  "game": "Arknights",
   "creator": "Fickel",
-  "filler_item_name": "Filler",
-  "starting_items": []
+  "filler_item_name": "LMD",
+  "starting_items": [],
+  "death_link": true
+
 }

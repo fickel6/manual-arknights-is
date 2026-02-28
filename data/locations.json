@@ -1,147 +1,4474 @@
-[
+ [
+  {
+    "name": "invest x coins",
+    "prehint": true,
+    "hint_entrance": "available in shops",
+    "category": "shop"
+  },
+  {
+    "name": "get x coins",
+    "prehint": true,
+    "hint_entrance": "available in shops",
+    "category": "shop"
+  },
+  {
+    "name": "10 perfect operations is2",
+    "region": "is2",
+    "requires": "|is2 key| AND |floor3 key is2| AND |floor2 key is2|",
+    "hint_entrance": "clear 10 operations without leaks in a row in is3",
+    "category": "is2 floor"
+  },
+  {
+    "name": "10 perfect operations is3",
+    "region": "is3",
+    "requires": "|floor3 unlock is3|",
+    "hint_entrance": "clear 10 operations without leaks in a row in is3",
+    "category": "is3 floor"
+  },
+  {
+    "name": "10 perfect operations is4",
+    "region": "is4",
+    "requires": "|is4 key| AND |floor3 key is4| AND |floor2 key is4|",
+    "hint_entrance": "clear 10 operations without leaks in a row in is4",
+    "category": "is4 floor"
+  },
+  {
+    "name": "10 perfect operations is5",
+    "region": "is5",
+    "requires": "|is5 key| AND |floor3 key is5| AND |floor2 key is5|",
+    "hint_entrance": "clear 10 operations without leaks in a row in is5",
+    "category": "is5 floor"
+  },
+  {
+    "name": "10 perfect operations is6",
+    "region": "is6",
+    "requires": "|is6 key| AND |floor3 key is6| AND |floor2 key is6|",
+    "hint_entrance": "clear 10 operations without leaks in a row in is6",
+    "category": "is6 floor"
+  },
   {
     "name": "floor1 is2",
     "region": "is2",
     "category": [
-      "floor"
+      "is2",
+      "is2 floor entrance"
     ],
-    "requires": [],
-    "place_item_category": [
-      "key"
-    ]
+    "requires": "|floor1 unlock is2|"
+  },
+  {
+    "name": "'A date with slugs' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 1"
+    ],
+    "requires": "|floor1 unlock is2|"
+  },
+  {
+    "name": "emergency 'A date with slugs' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is2|"
+  },
+  {
+    "name": "'Accident' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 1"
+    ],
+    "requires": "|floor1 unlock is2|"
+  },
+  {
+    "name": "emergency 'Accident' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is2|"
+  },
+  {
+    "name": "'Beast taming' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 1"
+    ],
+    "requires": "|floor1 unlock is2|"
+  },
+  {
+    "name": "emergency 'Beast taming' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is2|"
+  },
+  {
+    "name": "'Fight to the death' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 1"
+    ],
+    "requires": "|floor1 unlock is2|"
+  },
+  {
+    "name": "emergency 'Fight to the death' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is2|"
+  },
+  {
+    "name": "'Gun Salute' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 1"
+    ],
+    "requires": "|floor1 unlock is2|"
+  },
+  {
+    "name": "emergency 'Gun Salute' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is2|"
   },
   {
     "name": "floor2 is2",
     "region": "is2",
     "category": [
-      "floor"
+      "is2",
+      "is2 floor entrance"
     ],
-    "requires": "|floor2 key is2|",
-    "place_item_category": [
-      "key"
-    ]
+    "requires": "|floor2 unlock is2|"
+  },
+  {
+    "name": "'Destitute Knight' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 2"
+    ],
+    "requires": "|floor2 unlock is2|"
+  },
+  {
+    "name": "emergency 'Destitute Knight' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is2|"
+  },
+  {
+    "name": "'First Come, Last Served' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 2"
+    ],
+    "requires": "|floor2 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'First Come, Last Served' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is2|"
+  },
+  {
+    "name": "'Patrol Squad' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 2"
+    ],
+    "requires": "|floor2 unlock is2|"
+  },
+  {
+    "name": "emergency 'Patrol Squad' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is2|"
+  },
+  {
+    "name": "'The Grand Finale' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 2"
+    ],
+    "requires": "|floor2 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'The Grand Finale' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is2|"
+    
+  },
+  {
+    "name": "'Unequal Split' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 2"
+    ],
+    "requires": "|floor2 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'Unequal Split' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is2|"
   },
   {
     "name": "floor3 is2",
     "region": "is2",
     "category": [
-      "floor"
+      "is2",
+      "is2 floor entrance"
     ],
-    "requires": "|floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": [
-      "key"
-    ]
+    "requires": "|floor3 unlock is2|"
+  },
+  {
+    "name": "'A Familiar Face' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'A Familiar Face' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "'Beast Fighting' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'Beast fighting' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "'Justice' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'Justice' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "'Premiere' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'Premiere' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "'Reform' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'Reform' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "'Sculptor And Statue' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'Sculptor And Statue' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+  },
+  {
+    "name": "'Vintage Transport' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'Vintage Transport' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "'With the Crowd' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'With the Crowd' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "'A Cold Separation' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 boss"
+    ],
+    "requires": "|floor3 unlock is2|"
+  },
+  {
+    "name": "'Fatal melodies' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 boss"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "'Mind the Doors' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 boss"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "'Terrifying Legends' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 boss"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
+  },
+  {
+    "name": "'Theft From Above' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 boss"
+    ],
+    "requires": "|floor3 unlock is2|"
+    
   },
   {
     "name": "floor4 is2",
     "region": "is2",
     "category": [
-      "floor"
+      "is2",
+      "is2 floor entrance"
     ],
-    "requires": "|floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": [
-      "key"
-    ]
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "'A Dance Together' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "emergency 'A Dance Together' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+
+  },
+  {
+    "name": "'Alpine Visitor' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "emergency 'Alpine Visitor' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "'Bob's beers' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "emergency 'Bob's beers' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "'Fireworks Show' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "emergency 'Fireworks Show' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "'Pressing Ahead' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "emergency 'Pressing Ahead' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "'Shrouded in Clouds' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "emergency 'Shrouded in Clouds' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "'Traveler of Afar' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "emergency 'Traveler of Afar' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+    
+  },
+  {
+    "name": "'Unending' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+  },
+  {
+    "name": "emergency 'Unending' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is2|"
+    
+  },
+  {
+    "name": "'Absurd Trickeries' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 4"
+    ],
+    "requires": "|floor4 unlock is2| AND |floor5 key is2|"
   },
   {
     "name": "floor5 is2",
     "region": "is2",
     "category": [
-      "floor"
+      "is2",
+      "is2 floor entrance"
     ],
-    "requires": "|floor5 key is2| AND |floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": [
-      "key"
-    ]
+    "requires": "|floor5 unlock is2|"
+  },
+  {
+    "name": "emergency 'Absurd Trickeries' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+  },
+  {
+    "name": "'Dangers Abound' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'Dangers Abound' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "'Drone Landing Zone' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'Drone Landing Zone' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "'From Afar' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'From Afar' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "'Suprise Factory' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'Suprise Factory' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "'The Biting Cold' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'The Biting Cold' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "'The Night of Ritual' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'The Night of Ritual' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "'The Red Mist' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "emergency 'The Red Mist' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is2|"
+    
+  },
+  {
+    "name": "'All I Ask of You' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 boss",
+      "ed1"
+    ],
+    "requires": "|floor5 unlock is2|"
+    ,
+    "victory": true
+  },
+  {
+    "name": "'The Point of No Return' clear",
+    "region": "is2",
+    "category": [
+      "is2",
+      "is2 boss",
+      "ed2"
+    ],
+    "requires": "|floor5 unlock is2| AND |Worn Out Puppet|"
+    ,
+    "victory": true
   },
   {
     "name": "floor6 is2",
     "region": "is2",
     "category": [
-      "floor"
+      "is2",
+      "is2 floor entrance",
+      "ed3",
+      "ed4"
     ],
-    "requires": "(|floor6 key is2| AND (Abrupt Realization OR Act 1)) AND |floor5 key is2| AND |floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": [
-      "key",
-      "6 star"
-    ]
+    "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
   },
   {
-    "name": "dif2 floor1 is2",
+    "name": "'Sarkaz Desire' clear",
     "region": "is2",
     "category": [
-      "floor",
-      "dif2"
+      "is2",
+      "is2 floor 6",
+      "ed3",
+      "ed4"
     ],
-    "requires": "|dificulty key is2: 1|",
-    "place_item_category": [
-      "key",
-      "6 star"
-    ]
+    "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
+    
   },
   {
-    "name": "dif2 floor2 is2",
+    "name": "emergency 'Sarkaz Desire' clear",
     "region": "is2",
     "category": [
-      "floor",
-      "dif2"
+      "is2",
+      "is2 emergency floor 6",
+      "ed3",
+      "ed4"
     ],
-    "requires": "|dificulty key is2: 1| AND |floor2 key is2|",
-    "place_item_category": [
-      "key",
-      "6 star"
-    ]
+    "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
+    
   },
   {
-    "name": "dif2 floor3 is2",
+    "name": "'Ursus Desire' clear",
     "region": "is2",
     "category": [
-      "floor",
-      "dif2"
+      "is2",
+      "is2 floor 6",
+      "ed3",
+      "ed4"
     ],
-    "requires": "|dificulty key is2: 1| AND |floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": [
-      "key",
-      "6 star"
-    ]
+    "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
+    
   },
   {
-    "name": "dif2 floor4 is2",
+    "name": "emergency 'Ursus Desire' clear",
     "region": "is2",
     "category": [
-      "floor",
-      "dif2"
+      "is2",
+      "is2 emergency floor 6",
+      "ed3",
+      "ed4"
     ],
-    "requires": "|dificulty key is2: 1| AND |floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": [
-      "key",
-      "6 star"
-    ]
+    "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
+    
   },
   {
-    "name": "dif2 floor5 is2",
+    "name": "'New Chapter' clear",
     "region": "is2",
     "category": [
-      "floor",
-      "dif2"
+      "is2",
+      "is2 boss",
+      "ed4"
     ],
-    "requires": "|dificulty key is2: 1| AND |floor5 key is2| AND |floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": [
-      "key",
-      "6 star"
-    ]
+    "requires": "|floor6 unlock is2| AND |ending 4 unlock is2|",
+    "victory": true
   },
   {
-    "name": "dif2 floor6 is2",
+    "name": "'Twisted Every Way' clear",
     "region": "is2",
     "category": [
-      "floor",
-      "dif2"
+      "is2",
+      "is2 boss",
+      "ed3"
     ],
-    "requires": "(|dificulty key is2: 1| AND |floor6 key is2| AND (Abrupt Realization OR Act 1)) AND |floor5 key is2| AND |floor4 key is2| AND |floor3 key is2| AND |floor2 key is2|",
-    "place_item_category": [
-      "key",
-      "6 star"
-    ]
+    "requires": "|floor6 unlock is2| AND |ending 3 unlock is2|",
+    "victory": true
+  },
+  {
+    "name": "floor1 is3",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor entrance"
+    ],
+    "requires": "|floor1 unlock is3|"
+  },
+  {
+    "name": "'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 1"
+    ],
+    "requires": "|floor1 unlock is3|"
+  },
+  {
+    "name": "emergency 'Cistern' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is3|"
+  },
+  {
+    "name": "'Insect Infestation' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 1"
+    ],
+    "requires": "|floor1 unlock is3|"
+  },
+  {
+    "name": "emergency 'Insect Infestation' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is3|"
+  },
+  {
+    "name": "'Mutual Aid' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 1"
+    ],
+    "requires": "|floor1 unlock is3|"
+  },
+  {
+    "name": "emergency 'Mutual Aid' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is3|"
+  },
+  {
+    "name": "'Sniper Squad' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 1"
+    ],
+    "requires": "|floor1 unlock is3|"
+  },
+  {
+    "name": "emergency 'Sniper Squad' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is3|"
+  },
+  {
+    "name": "'Symbiosis' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 1"
+    ],
+    "requires": "|floor1 unlock is3|"
+  },
+  {
+    "name": "emergency 'Symbiosis' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is3|"
+  },
+  {
+    "name": "floor2 is3",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor entrance"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "'Ebb' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "emergency 'Ebb' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "'Hunger and Thirst' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "emergency 'Hunger and Thirst' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "'Leviathan Followers' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "emergency 'Leviathan Followers' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "'Malady' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "emergency 'Malady' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "'Omen' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "emergency 'Omen' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "'Voiceless Summons' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "emergency 'Voiceless Summons' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is3|"
+  },
+  {
+    "name": "floor3 is3",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor entrance"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Craft Brewer Killer' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'Craft Brewer Killer' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Crime and Punishment' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'Crime and Punishment' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Looking Forward, Looking Back' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'Looking Forward, Looking Back' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Precarious Defense' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'Precarious Defense' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Sanguinarch's Legacy' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'Sanguinarch's Legacy' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'The Nest' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'The Nest' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Troglodyte Tribe' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'Troglodyte Tribe' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Vortex' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "emergency 'Vortex' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Course Correction' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Eternal Wrath' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Requiem Aeternam' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Route Revision' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Separation and Unity' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "'Two Forms, One Heart' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 boss"
+    ],
+    "requires": "|floor3 unlock is3|"
+  },
+  {
+    "name": "floor4 is3",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor entrance"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Blaze of Glory' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Blaze of Glory' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Guns and Order' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Guns and Order' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Hunting Grounds' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Hunting Grounds' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Nethersea Brand Land' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Nethersea Brand Land' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Seacavern Sandstorm' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Seacavern Sandstorm' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'Territorial Tendencies' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Territorial Tendencies' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "'The Revered Abyss' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "emergency 'Underground Ascension' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is3|"
+  },
+  {
+    "name": "floor5 is3",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor entrance"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Ember Phalanx' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'Ember Phalanx' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Mechanical Menace' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'Mechanical Menace' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Out of Control' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'Out of Control' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Pool of Procreation' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'Pool of Procreation' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'The Faithul's Utopia' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'The Faithul's Utopia' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'The Piper's Call' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'The Piper's Call' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'The Spread' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'The Spread' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Ubi bona somnia' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "emergency 'Ubi bona somnia' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is3|"
+  },
+  {
+    "name": "'Curse of Cognition' clear",
+    "_comment": "this is ed1",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 boss",
+      "ed1"
+    ],
+    "requires": "|floor5 unlock is3|",
+    "victory": true
+  },
+  {
+    "name": "'\"fate's Favored Child\"' clear",
+    "_comment": "this is ed2",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 boss",
+      "ed2"
+    ],
+    "requires": "|floor5 unlock is3| AND |Breath of the Tide|",
+    "victory": true
+  },
+  {
+    "name": "floor6 is3",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor entrance",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
+  },
+  {
+    "name": "'Deep Cognition' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
+  },
+  {
+    "name": "emergency 'Deep Cognition' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
+  },
+  {
+    "name": "'Water and Fire Union' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
+  },
+  {
+    "name": "emergency 'Water and Fire Union' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 emergency floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
+  },
+  {
+    "name": "'Destiny of We Many' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 boss",
+      "ed3"
+    ],
+    "victory": true,
+    "requires": "|floor6 unlock is3| AND |ending 3 unlock is3|"
+  },
+  {
+    "name": "'Glory of Humanity' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "is3 boss",
+      "ed4"
+    ],
+    "victory": true,
+    "requires": "|floor6 unlock is3| AND |ending 4 unlock is3|"
+  },
+  {
+    "name": "Indigo Cradle is3",
+    "region": "is3",
+    "category": [
+      "is3",
+      "indigo cradle floor"
+    ],
+    "requires": "|wander into wonderland unlock is3|"
+  },
+  {
+    "name": "'Avoid Unsafe Roads' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "indigo cradle floor"
+    ],
+    "requires": "|wander into wonderland unlock is3|"
+  },
+  {
+    "name": "'Chilling Curse' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "indigo cradle floor"
+    ],
+    "requires": "|wander into wonderland unlock is3|"
+  },
+  {
+    "name": "'Hunting Group' clear",
+    "region": "is3",
+    "category": [
+      "is3",
+      "indigo cradle floor"
+    ],
+    "requires": "|wander into wonderland unlock is3|"
+  },
+  {
+    "name": "floor1 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "'Beasts Awaiting Slaughter' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "emergency 'Beasts Awaiting Slaughter' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "'Ghosts of the Resort' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "emergency 'Ghosts of the Resort' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "'Hands of Moss' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "emergency 'Hands of Moss' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "'No More Than Four' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "emergency 'No More Than Four' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "'Prisoners' Night' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "emergency 'Prisoners' Night' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is4|"
+  },
+  {
+    "name": "floor2 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Don't turn Around, Sluggies' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Don't turn Around, Sluggies' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Low-Altitude Manuevering' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Low-Altitude Manuevering' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Path with No End' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Path with No End' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Payback' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Payback' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Shadows With Ghosts' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Shadows With Ghosts' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "'Unwell' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "emergency 'Unwell' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is4|"
+  },
+  {
+    "name": "floor3 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Altar of Craving' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Altar of Craving' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Crafty Beasts' Nine-Caves' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Crafty Beasts' Nine-Caves' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Harass With Strength' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Harass With Strength' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Pretense Turned True' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Pretense Turned True' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Rational Fracture' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Rational Fracture' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Shady Frozen Sea' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'Shady Frozen Sea' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'So Close and Yet So Far' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "emergency 'So Close and Yet So Far' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Blade Signifier' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Breathing' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Nature's Wrath' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'New Tribe' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'The Earth Wakes' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "'Tree-Snatcher' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss"
+    ],
+    "requires": "|floor3 unlock is4|"
+  },
+  {
+    "name": "floor4 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Collapsals' Afternoon' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Collapsals' Afternoon' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Company Entanglement' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Company Entanglement' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Defense Substituting Offense' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Defense Substituting Offense' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Noise Disturbance' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Noise Disturbance' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Practical Test' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Practical Test' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Restricted Zone' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Restricted Zone' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'The Big Migration' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'The Big Migration' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "'Where Ice Condenses' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "emergency 'Where Ice Condenses' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is4|"
+  },
+  {
+    "name": "floor5 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Confusing Appearance' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Confusing Appearance' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Instinct Contamination' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Instinct Contamination' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Manmade Carnival' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Manmade Carnival' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'March of the Dead' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'March of the Dead' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Musical Disaster' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Musical Disaster' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Requested Enemies Obtained' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Requested Enemies Obtained' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Stay Away From Strangers' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Stay Away From Strangers' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Where be No Mounts and Seas' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "emergency 'Where be No Mounts and Seas' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Lofty Silverfrost' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss",
+      "ed1"
+    ],
+    "victory": true,
+    "requires": "|floor5 unlock is4|"
+  },
+  {
+    "name": "'Sami's Entropy' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss",
+      "ed2"
+    ],
+    "victory": true,
+    "requires": "|floor5 unlock is4| AND |ending 2 unlock is4|"
+  },
+  {
+    "name": "floor6 is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
+  },
+  {
+    "name": "'Frost and Sand' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
+  },
+  {
+    "name": "emergency 'Frost and Sand' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
+  },
+  {
+    "name": "'Terminus of Life' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
+  },
+  {
+    "name": "emergency 'Terminus of Life' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 emergency floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
+  },
+  {
+    "name": "'Gardener' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss",
+      "ed3"
+    ],
+    "victory": true,
+    "requires": "|floor6 unlock is4| AND |ending 3 unlock is4|"
+  },
+  {
+    "name": "'Sands of Time' clear",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 boss",
+      "ed4"
+    ],
+    "victory": true,
+    "requires": "|floor6 unlock is4| AND |ending 4 unlock is4|"
+  },
+  {
+    "name": "Bosky Passage is4",
+    "region": "is4",
+    "category": [
+      "is4",
+      "is4 floor entrance"
+    ],
+    "requires": "|Bosky Passage unlock is4|"
+  },
+  {
+    "name": "floor1 is5",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor entrance"
+    ],
+    "requires": "|floor1 unlock is5|"
+  },
+  {
+    "name": "'Bad Neighbors' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 1"
+    ],
+    "requires": "|floor1 unlock is5|"
+  },
+  {
+    "name": "emergency 'Bad Neighbors' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is5|"
+  },
+  {
+    "name": "'Ice Age' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 1"
+    ],
+    "requires": "|floor1 unlock is5|"
+  },
+  {
+    "name": "emergency 'Ice Age' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is5|"
+  },
+  {
+    "name": "'Hasty Escape' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 1"
+    ],
+    "requires": "|floor1 unlock is5|"
+  },
+  {
+    "name": "emergency 'Hasty Escape' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is5|"
+  },
+  {
+    "name": "'Safety Inspection' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 1"
+    ],
+    "requires": "|floor1 unlock is5|"
+  },
+  {
+    "name": "emergency 'Safety Inspection' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is5|"
+  },
+  {
+    "name": "'Vermin' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 1"
+    ],
+    "requires": "|floor1 unlock is5|"
+  },
+  {
+    "name": "emergency 'Vermin' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is5|"
+  },
+  {
+    "name": "floor2 is5",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor entrance"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "'Clear the Crowd' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "emergency 'Clear the Crowd' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "'Dense Jungle' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "emergency 'Dense Jungle' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "'Dissuasion Seminar' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "emergency 'Dissuasion Seminar' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "'Exhaust Vents' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "emergency 'Exhaust Vents' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "'Furnace Volunteers' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "emergency 'Furnace Volunteers' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "'Kaz Falls' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "emergency 'Kaz Falls' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "'Temporary Patchup' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "emergency 'Temporary Patchup' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is5|"
+  },
+  {
+    "name": "floor3 is5",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor entrance"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Bloodline Debates' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "emergency 'Bloodline Debates' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Blotted Sky' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "emergency 'Blotted Sky' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Careless Magic' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "emergency 'Careless Magic' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Firepower Squad' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "emergency 'Firepower Squad' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Lottery Fight' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "emergency 'Lottery Fight' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Motorized Squad' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "emergency 'Motorized Squad' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Morning Labor' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "emergency 'Morning Labor' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Simulated Skrimish' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "emergency 'Simulated Skrimish' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Battle of Survival' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Brave Souls Marching' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss"
+    ],
+    "hint_entrance": "A chance of getting this boss after the 'Eve of Defense' encounter",
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Courtyard of Farewells' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss"
+    ],
+    "hint_entrance": "A chance of getting this boss after the 'Eve of Defense' encounter",
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Decapitation' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Devoted Warrior' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'River Watcher' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Silent Guardian' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Under The Crown' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss"
+    ],
+    "hint_entrance": "A chance of getting this boss after the 'Eve of Defense' encounter",
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Veil of Probability' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "floor4 is5",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor entrance"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "'Chaos' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "emergency 'Chaos' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "'Crimson Corridor' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "emergency 'Crimson Corridor' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "'Elusive Merc' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "emergency 'Elusive Merc' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "'Epochal Gaps' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "emergency 'Epochal Gaps' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "'Frequent Dispute' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "emergency 'Frequent Dispute' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "'Ghost City' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "emergency 'Ghost City' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "'Past the Aquapit' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "emergency 'Past the Aquapit' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "'Rules of Modern Warfare' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "emergency 'Rules of Modern Warfare' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "'Sordid Surveillance' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "emergency 'Sordid Surveillance' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "'Timeworn Tensions' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "emergency 'Timeworn Tensions' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is5|"
+  },
+  {
+    "name": "floor5 is5",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor entrance"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "'Aerial Assault' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "emergency 'Aerial Assault' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "'Guiltless Paradise' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "emergency 'Guiltless Paradise' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "'Land Reclamation' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "emergency 'Land Reclamation' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "'Passage Blockade' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "emergency 'Passage Blockade' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "'Regular Army' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "emergency 'Regular Army' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "'Rhine Guardians' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "emergency 'Rhine Guardians' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "'Rogue Mercenary' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "emergency 'Rogue Mercenary' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "'Witch-Curse Alliance' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "emergency 'Witch-Curse Alliance' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "'Wrecked Academy' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "emergency 'Wrecked Academy' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "'Cognitive Correction' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss",
+      "optional boss is5",
+      "ed1"
+    ],
+    "victory": true,
+    "requires": "|floor5 unlock is5| AND |Rolling Ancestors|"
+  },
+  {
+    "name": "'The Court of Souls' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss",
+      "optional boss is5",
+      "ed2"
+    ],
+    "victory": true,
+    "requires": "|floor5 unlock is5| AND |Rolling Ancestors| AND |ending 2 unlock is5|"
+  },
+  {
+    "name": "'Court Visit' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss",
+      "ed2"
+    ],
+    "victory": true,
+    "requires": "|floor5 unlock is5| AND |ending 2 unlock is5|"
+  },
+  {
+    "name": "'Emergency Lecture' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss",
+      "ed1"
+    ],
+    "victory": true,
+    "requires": "|floor5 unlock is5|"
+  },
+  {
+    "name": "floor6 is5",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor entrance",
+      "ed3",
+      "ed4",
+      "ed5"
+    ],
+    "requires": "|floor6 unlock is5| AND (|ending 3 unlock is5| OR |ending 4 unlock is5| OR |ending 5 unlock is5|)"
+  },
+  {
+    "name": "'Divine Desire' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 6",
+      "ed3"
+    ],
+    "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
+    "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
+  },
+  {
+    "name": "emergency 'Divine Desire' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 6",
+      "ed3"
+    ],
+    "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
+    "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
+  },
+  {
+    "name": "'Heavenly Paradise' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 6",
+      "ed4"
+    ],
+    "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
+    "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
+  },
+  {
+    "name": "emergency 'Heavenly Paradise' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 6",
+      "ed4"
+    ],
+    "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
+    "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
+  },
+  {
+    "name": "'\"Heretics\"' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 6",
+      "ed4"
+    ],
+    "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
+    "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
+  },
+  {
+    "name": "emergency '\"Heretics\"' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 6",
+      "ed4"
+    ],
+    "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
+    "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
+  },
+  {
+    "name": "'Quest For Consensus' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 floor 6",
+      "ed3"
+    ],
+    "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
+    "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
+  },
+  {
+    "name": "emergency 'Quest For Consensus' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 emergency floor 6",
+      "ed3"
+    ],
+    "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
+    "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
+  },
+  {
+    "name": "'Holy City' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss",
+      "ed3"
+    ],
+    "victory": true,
+    "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
+  },
+  {
+    "name": "'The Dharma Sermon' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss",
+      "ed4"
+    ],
+    "victory": true,
+    "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
+  },
+  {
+    "name": "'Fate's Finale' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss",
+      "ed5"
+    ],
+    "victory": true,
+    "requires": "|floor6 unlock is5| AND |ending 5 unlock is5|"
+  },
+  {
+    "name": "Possibility is5",
+    "region": "is5",
+    "_comment": "you can enter floor 4 from this floor (a certain encounter node). let this be Out of locig or option to make in logic?",
+    "category": [
+      "is5",
+      "is5 floor entrance"
+    ],
+    "requires": "|Possibility unlock is5|"
+  },
+  {
+    "name": "'Victory Rewind' clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 boss",
+      "ed3"
+    ],
+    "requires": "|Possibility unlock is5| AND |Prophet Horn|"
+  },
+  {
+    "name": "'Eye For an Eye' easy clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "_comment": "I think face-off is available from floor 3?",
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Eye For an Eye' medium clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Eye For an Eye' hard clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Narrow Path' easy clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "_comment": "I think face-off is available from floor 3?",
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Narrow Path' medium clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Narrow Path' hard clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'The Boat Home' easy clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "_comment": "I think face-off is available from floor 3?",
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'The Boat Home' medium clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'The Boat Home' hard clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Twin Gargoyles' easy clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "_comment": "I think face-off is available from floor 3?",
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Twin Gargoyles' medium clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "'Twin Gargoyles' hard clear",
+    "region": "is5",
+    "category": [
+      "is5",
+      "is5 Face-Off",
+      "Face-Off"
+    ],
+    "requires": "|floor3 unlock is5|"
+  },
+  {
+    "name": "floor1 is6",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor entrance"
+    ],
+    "requires": "|floor1 unlock is6|"
+  },
+  {
+    "name": "'Serious Business' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 1"
+    ],
+    "requires": "|floor1 unlock is6|"
+  },
+  {
+    "name": "emergency 'Serious Business' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is6|"
+  },
+  {
+    "name": "'To Market' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 1"
+    ],
+    "requires": "|floor1 unlock is6|"
+  },
+  {
+    "name": "emergency 'To Market' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is6|"
+  },
+  {
+    "name": "'Veteran Actor' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 1"
+    ],
+    "requires": "|floor1 unlock is6|"
+  },
+  {
+    "name": "emergency 'Veteran Actor' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is6|"
+  },
+  {
+    "name": "'Whack-A-Mus' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 1"
+    ],
+    "requires": "|floor1 unlock is6|"
+  },
+  {
+    "name": "emergency 'Whack-A-Mus' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 1"
+    ],
+    "requires": "|floor1 unlock is6|"
+  },
+  {
+    "name": "floor2 is6",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor entrance"
+    ],
+    "requires": "|floor2 unlock is6|"
+  },
+  {
+    "name": "'Daylight Robbery' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 2"
+    ],
+    "requires": "|floor2 unlock is6|"
+  },
+  {
+    "name": "emergency 'Daylight Robbery' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is6|"
+  },
+  {
+    "name": "'Guardian of Justice' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 2"
+    ],
+    "requires": "|floor2 unlock is6|"
+  },
+  {
+    "name": "emergency 'Guardian of Justice' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is6|"
+  },
+  {
+    "name": "'Learning for All' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 2"
+    ],
+    "requires": "|floor2 unlock is6|"
+  },
+  {
+    "name": "emergency 'Learning for All' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is6|"
+  },
+  {
+    "name": "'Look Out Above' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 2"
+    ],
+    "requires": "|floor2 unlock is6|"
+  },
+  {
+    "name": "emergency 'Look Out Above' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 2"
+    ],
+    "requires": "|floor2 unlock is6|"
+  },
+  {
+    "name": "floor3 is6",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor entrance"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Away, Hui!' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 3"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "emergency 'Away, Hui!' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Feng Shui' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 3"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "emergency 'Feng Shui' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Hook, Line, and Sinker' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 3"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "emergency 'Hook, Line, and Sinker' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Return to Your Roots' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 3"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "emergency 'Return to Your Roots' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Stopping the Advance' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 3"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "emergency 'Stopping the Advance' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 3"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Cold Moonlight' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 boss"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Compassion, Justice, Valor' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 boss"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Enlightenment' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 boss"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Memories of Dusk Beauty' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 boss"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Seeking the Way' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 boss"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Sword, Glaive, Spear' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 boss"
+    ],
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "floor4 is6",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor entrance"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "'Beware the Shadows' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "emergency 'Beware the Shadows' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "'Cultured' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "emergency 'Cultured' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "'Exemplary Service' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "emergency 'Exemplary Service' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "'Shanhaizhong Scramble' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "emergency 'Shanhaizhong Scramble' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "'Sugared Bait' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "emergency 'Sugared Bait' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "'Take the Stage' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "emergency 'Take the Stage' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 4"
+    ],
+    "requires": "|floor4 unlock is6|"
+  },
+  {
+    "name": "floor5 is6",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor entrance"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "'A Humble Gift' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "emergency 'A Humble Gift' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "'Departing Inspection' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "emergency 'Departing Inspection' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "'Green Hills Speak Not' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "emergency 'Green Hills Speak Not' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "'Mangshan Town Records' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "emergency 'Mangshan Town Records' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "'Muted Past' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "emergency 'Muted Past' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "'Unlit Sparks' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "emergency 'Unlit Sparks' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 5"
+    ],
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "'The Suppression of Sui' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 boss",
+      "ed1"
+    ],
+    "victory": true,
+    "requires": "|floor5 unlock is6|"
+  },
+  {
+    "name": "'Words Past Like Smoke' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 boss",
+      "ed2"
+    ],
+    "victory": true,
+    "requires": "|floor5 unlock is6| AND |ending 2 unlock is6|"
+  },
+  {
+    "name": "floor6 is6",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor entrance",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
+  },
+  {
+    "name": "'Garrison' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
+  },
+  {
+    "name": "emergency 'Garrison' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
+  },
+  {
+    "name": "'Inferno' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
+  },
+  {
+    "name": "emergency 'Inferno' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 emergency floor 6",
+      "ed3",
+      "ed4"
+    ],
+    "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
+  },
+  {
+    "name": "'The Sui Strategist' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 boss",
+      "ed3"
+    ],
+    "victory": true,
+    "requires": "|floor6 unlock is6| AND |ending 3 unlock is6|"
+  },
+  {
+    "name": "Shifei Border",
+    "category": [
+      "is6",
+      "is6 floor entrance"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
+  },
+  {
+    "name": "'Against the Flood' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Wander into Wonderland floor"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
+  },
+  {
+    "name": "'Amidst Thunder' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Wander into Wonderland floor"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
+  },
+  {
+    "name": "'Defying Quakes' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Wander into Wonderland floor"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
+  },
+  {
+    "name": "'Slandering Heaven' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Wander into Wonderland floor"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
+  },
+  {
+    "name": "'To the Fall' clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Wander into Wonderland floor"
+    ],
+    "requires": "|wander into wonderland unlock is6|"
+  },
+  {
+    "name": "'Bout by the Dusk River' easy clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Face-Off",
+      "Face-Off"
+    ],
+    "_comment": "I think face-off is available from floor 3?",
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Bout by the Dusk River' medium clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Face-Off",
+      "Face-Off"
+    ],
+    "_comment": "I think face-off is available from floor 3?",
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Bout by the Dusk River' hard clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Face-Off",
+      "Face-Off"
+    ],
+    "_comment": "I think face-off is available from floor 3?",
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Heroes of Nanwu' easy clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Face-Off",
+      "Face-Off"
+    ],
+    "_comment": "I think face-off is available from floor 3?",
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Heroes of Nanwu' medium clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Face-Off",
+      "Face-Off"
+    ],
+    "_comment": "I think face-off is available from floor 3?",
+    "requires": "|floor3 unlock is6|"
+  },
+  {
+    "name": "'Heroes of Nanwu' hard clear",
+    "region": "is6",
+    "category": [
+      "is6",
+      "is6 Face-Off",
+      "Face-Off",
+      "Face-Off"
+    ],
+    "_comment": "I think face-off is available from floor 3?",
+    "requires": "|floor3 unlock is6|"
   }
 ]
