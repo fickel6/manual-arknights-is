@@ -62,14 +62,6 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             for location in list(region.locations):
                 if location.name in locationNamesToRemove:
                     region.locations.remove(location)
-    
-    location_names_to_remove = []
-    location_names_to_remove.extend([
-        name for name, l in world.location_name_to_location.items()
-            if "shop" in l.get('category', [])
-    ])
-    print("found locations: [%s]" % ', '.join(map(str, location_names_to_remove)))
-    raise Exception("quick test pause")
 
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
 # Valid item_config key/values:
@@ -94,28 +86,38 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # 2 = is4
     # 3 = is5
     # 4 = is6
+    item = []
     starting_is = world.options.starting_region.value
     if starting_is == 0:
-        item = next(i for i in item_pool if i.name == "is2 key")
+        item.append(next(i for i in item_pool if i.name == "is2 key"))
+        if world.options.quick_start == True:
+            item.append(next(i for i in item_pool if i.name == "floor2 key is2"))
         starting_is = "is2"
     elif starting_is == 1:
-        item = next(i for i in item_pool if i.name == "is3 key")
+        item.append(next(i for i in item_pool if i.name == "is3 key"))
+        if world.options.quick_start == True:
+            item.append(next(i for i in item_pool if i.name == "floor2 key is3"))
         starting_is = "is3"
     elif starting_is == 2:
-        item = next(i for i in item_pool if i.name == "is4 key")
+        item.append(next(i for i in item_pool if i.name == "is4 key"))
+        if world.options.quick_start == True:
+            item.append(next(i for i in item_pool if i.name == "floor2 key is4"))
         starting_is = "is4"
     elif starting_is == 3:
-        item = next(i for i in item_pool if i.name == "is5 key")
+        item.append(next(i for i in item_pool if i.name == "is5 key"))
+        if world.options.quick_start == True:
+            item.append(next(i for i in item_pool if i.name == "floor2 key is5"))
         starting_is = "is5"
     elif starting_is == 4:
-        item = next(i for i in item_pool if i.name == "is6 key")
+        item.append(next(i for i in item_pool if i.name == "is6 key"))
+        if world.options.quick_start == True:
+            item.append(next(i for i in item_pool if i.name == "floor2 key is6"))
         starting_is = "is6"
-    #if otherwise not defined or starting_is is 0, the key should be for is2
     else:
         raise Exception("not a valid starting is")
-    
-    multiworld.push_precollected(item)
-    item_pool.remove(item)
+    for i in item:
+        multiworld.push_precollected(i)
+        item_pool.remove(i)
     # choose a starting squad, voucher (3 rand. ops is later)
     # added a random variable for future proofing 
     # later the amount of starting squads + starting_vouchers can be randomised with options (needed?)
@@ -163,6 +165,23 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # amount of 5 stars is is dependent, because they changed the hope requirement
     # the rest will be filled with 1 to 4 stars (not randomised)
     # also randomise 4 and 3 stars?
+    if world.options.include_5_stars == 0:
+        item_pool.remove(next(i for i in item_pool if i.name == "progressive 5 star"))
+        item_pool.remove(next(i for i in item_pool if i.name == "progressive 5 star"))
+    elif world.options.include_5_stars == 1:
+        delete_character = []
+        delete_character.extend([name for name, i in world.item_name_to_item.items() if "5 star" in i.get("category", [])])
+        delete_character = [i for i in item_pool if i.name in delete_character]
+        for name in delete_character:
+            item_pool.remove(name)
+    else:
+        delete_all = []
+        delete_all.extend([name for name, i in world.item_name_to_item.items() if "5 star" in i.get("category", [])])
+        delete_all.extend([name for name, i in world.item_name_to_item.items() if "progressive 5 star" in i.get("category", [])])
+        delete_all = [i for i in item_pool if i.name in delete_all]
+        for name in delete_all:
+            item_pool.remove(name)
+
     max_amount_operators = 3
     if starting_is == "is2" or "is3" or "is4":
         random_variation = world.random.choice([[1,0], [0,2], [0,1]])
@@ -178,7 +197,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         multiworld.push_precollected(random_operator)
         item_pool.remove(random_operator)
     #if no six star, how should the amount of vouchers be distributed?)
-    elif random_variation[1] >1 and world.options.include_5_stars == True:
+    elif random_variation[1] >1 and world.options.include_5_stars == 0:
         random_variation_5_star = [0,0,0]
         for i in range(len(starting_items)):
             if random_variation[1] >0:

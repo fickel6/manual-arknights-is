@@ -1,12 +1,12 @@
  [
   {
-    "name": "invest x coins",
+    "name": "invest 5 coins",
     "prehint": true,
     "hint_entrance": "available in shops",
     "category": "shop"
   },
   {
-    "name": "get x coins",
+    "name": "get 5 coins",
     "prehint": true,
     "hint_entrance": "available in shops",
     "category": "shop"
@@ -3596,7 +3596,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is5|"
@@ -3607,7 +3607,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3617,7 +3617,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3627,7 +3627,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is5|"
@@ -3638,7 +3638,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3648,7 +3648,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3658,7 +3658,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is5|"
@@ -3669,7 +3669,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3679,7 +3679,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3689,7 +3689,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is5|"
@@ -3700,7 +3700,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -3710,7 +3710,7 @@
     "category": [
       "is5",
       "is5 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "requires": "|floor3 unlock is5|"
   },
@@ -4410,7 +4410,7 @@
     "category": [
       "is6",
       "is6 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"
@@ -4421,7 +4421,7 @@
     "category": [
       "is6",
       "is6 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"
@@ -4432,7 +4432,7 @@
     "category": [
       "is6",
       "is6 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"
@@ -4443,7 +4443,7 @@
     "category": [
       "is6",
       "is6 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"
@@ -4454,7 +4454,7 @@
     "category": [
       "is6",
       "is6 Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"
@@ -4465,8 +4465,7 @@
     "category": [
       "is6",
       "is6 Face-Off",
-      "Face-Off",
-      "Face-Off"
+      "Face Off"
     ],
     "_comment": "I think face-off is available from floor 3?",
     "requires": "|floor3 unlock is6|"

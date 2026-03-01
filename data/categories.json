@@ -6,7 +6,6 @@
         "hidden": true
     },
     "5 star":{
-        "yaml_option": ["include 6 stars"],
         "hidden": true
     },
     "ed1": {
@@ -49,8 +48,8 @@
         "yaml_option": ["include is6"],
         "hidden": true
     },
-    "Face-Off": {
-        "yaml_option": ["include face-off nodes"],
+    "Face Off": {
+        "yaml_option": ["include face off nodes"],
         "hidden": true
     },
     "optional floor": {

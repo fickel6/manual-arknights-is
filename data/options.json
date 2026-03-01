@@ -46,13 +46,53 @@
         },
         "include 5 stars":{
             "description": [
-                "include or exclude all five stars from the randomizer",
-                "if excluded (false), you can't play any 5 stars. in all the runs",
-                "in the template yaml, you can also choose which individual 5 star should be removed.",
-                "This is done, becuase there is no way to do ti via the json file (yet)."
+                "how the 5 stars will be randomised",
+                "'as individual items': all 5 stars are individual items. When you get this, you instantly get access to e2",
+                "'progressive items': all 5 stars are progressive items. first item, you unlock all 5 stars. Second progressive item unlocks e2",
+                "'exclude': no 5 stars will be included. Alternatively could be used as you can always use 5 stars"
             ],
-            "type": "Toggle",
-            "default": true,
+            "type": "Choice",
+            "values": {
+                "as individual items": 0,
+                "progressive items": 1,
+                "exclude": 2
+            },
+            "group": "characters options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "complex_ui"
+            ]
+        },
+        "_include 4 stars":{
+            "description": [
+                "how the 4 stars will be randomised",
+                "'progressive items': all 4 stars are progressive items. first item, you unlock all 4 stars. Second progressive item unlocks e2",
+                "'exclude': no 4 stars will be included. Alternatively could be used as you can always use 4 stars"
+            ],
+            "type": "Choice",
+            "values": {
+                "progressive items": 0,
+                "exclude": 1
+            },
+            "group": "characters options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "complex_ui"
+            ]
+        },
+        "_include 3 stars":{
+            "description": [
+                "how the 3 stars will be randomised",
+                "'progressive items': all 3 stars are progressive items. first item, you unlock all 3 stars. Second progressive item unlocks e2",
+                "'exclude': no 3 stars will be included. Alternatively could be used as you can always use 3 stars"
+            ],
+            "type": "Choice",
+            "values": {
+                "progressive items": 0,
+                "exclude": 1
+            },
             "group": "characters options",
             "visibility": [
                 "template",
@@ -219,7 +259,7 @@
                 "is6": 4
             }
         },
-        "include optional floor": {
+        "_include optional floor": {
             "type": "Toggle",
             "default": true,
             "description": [
@@ -233,7 +273,7 @@
                 "spoiler"
             ]
         },
-        "include face-off nodes": {
+        "include face off nodes": {
             "type": "Toggle",
             "default": true,
             "description": [
@@ -265,6 +305,28 @@
                 " when turned on, you will need to get the correct encounter on",
                 "the encounter node to get the operation.",
                 "when turned off, these operations won't be included."
+            ],
+            "group": "IS options"
+        },
+        "_include higher difficulty": {
+            "type": "Range",
+            "range_start": 1,
+            "range_end": 15,
+            "default": 1,
+            "description": [
+                "include different difficulties in the randomizer.",
+                "if set to 1, you can start on any difficulty you choose.",
+                "if set to a higher value, Start from the lowest difficulty and progress",
+                "if you get the required key for the difficulty"
+            ],
+            "group": "IS options"
+        },
+        "quick start": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "When true, starting a ap you can immediately go to floor 3.",
+                "when false, You must unlock floor 2 and 3 like normal."
             ],
             "group": "IS options"
         }
