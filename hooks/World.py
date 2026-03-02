@@ -94,6 +94,15 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
         locationNamesToRemove.extend([
             name for name, i in world.location_name_to_location.items() if "ed5" in i.get("category", [])
         ])
+    if world.options.include_ed3 == False and world.options.include_ed4 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "floor 6 checks" in i.get("category", [])
+        ])
+    if world.options.include_ed3 == False and world.options.include_ed4 == False and world.options.include_ed5 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "floor 6 is5" in i.get("category", [])
+        ])
+
     print("found locations to remove: [%s]" % ', '.join(map(str, locationNamesToRemove)))
     #should only be unique locations, also because there are only 1 location and there is a chance there are doubles
     locationNamesToRemove = list(set(locationNamesToRemove))
@@ -280,18 +289,11 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 # print("chosen 5 star: " + str(random_starting_operator))
                 multiworld.push_precollected(random_starting_operator)
                 item_pool.remove(random_starting_operator)
-    
-    #add a random amount of random unlockable items
-    if world.options.include_random_operators <=0:
+    # remove the amount of random unlockable items
+    max_amount_random_unlock = 20
+    for _ in range(max_amount_random_unlock - world.options.include_random_operators):
         item_pool.remove(next(i for i in item_pool if i.name == "random unit unlock"))
-    elif world.options.include_random_operators >1:
-        #there is already one item defined, so we need to add defined amount-1
-        for _ in range(world.options.include_random_operators-1):
-            item_pool.append("random unit unlock")
 
-    #test a yaml option instead of a option.json
-    print("listed option: [%s]" % ', '.join(map(str, world.options.test_list)))
-    raise Exception("test exception. there is a chance that nothing is wrong")
     return item_pool
 
     # Some other useful hook options:

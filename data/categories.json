@@ -53,5 +53,11 @@
     },
     "crossover": {
         "hidden": true
+    },
+    "floor 6 checks": {
+        "hidden": true
+    },
+    "floor 6 is5": {
+        "hidden": true
     }
 }

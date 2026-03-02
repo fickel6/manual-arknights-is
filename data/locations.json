@@ -816,8 +816,7 @@
     "category": [
       "is2",
       "is2 floor entrance",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
   },
@@ -827,8 +826,7 @@
     "category": [
       "is2",
       "is2 floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -839,8 +837,7 @@
     "category": [
       "is2",
       "is2 emergency floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -851,8 +848,7 @@
     "category": [
       "is2",
       "is2 floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -863,8 +859,7 @@
     "category": [
       "is2",
       "is2 emergency floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is2| AND (|ending 3 unlock is2| OR |ending 4 unlock is2|)"
     
@@ -874,7 +869,8 @@
     "region": "is2",
     "category": [
       "is2 boss",
-      "ed4"
+      "ed4",
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is2| AND |ending 4 unlock is2|",
     "victory": true
@@ -884,7 +880,8 @@
     "region": "is2",
     "category": [
       "is2 boss",
-      "ed3"
+      "ed3",
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is2| AND |ending 3 unlock is2|",
     "victory": true
@@ -1628,8 +1625,7 @@
     "category": [
       "is3",
       "is3 floor entrance",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1639,8 +1635,7 @@
     "category": [
       "is3",
       "is3 floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1650,8 +1645,7 @@
     "category": [
       "is3",
       "is3 emergency floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1661,8 +1655,7 @@
     "category": [
       "is3",
       "is3 floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1672,8 +1665,7 @@
     "category": [
       "is3",
       "is3 emergency floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is3| AND (|ending 3 unlock is3| OR |ending 4 unlock is3|)"
   },
@@ -1682,7 +1674,8 @@
     "region": "is3",
     "category": [
       "is3 boss",
-      "ed3"
+      "ed3",
+      "floor 6 checks"
     ],
     "victory": true,
     "requires": "|floor6 unlock is3| AND |ending 3 unlock is3|"
@@ -1692,7 +1685,8 @@
     "region": "is3",
     "category": [
       "is3 boss",
-      "ed4"
+      "ed4",
+      "floor 6 checks"
     ],
     "victory": true,
     "requires": "|floor6 unlock is3| AND |ending 4 unlock is3|"
@@ -2470,8 +2464,7 @@
     "category": [
       "is4",
       "is4 floor entrance",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
   },
@@ -2481,8 +2474,7 @@
     "category": [
       "is4",
       "is4 floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
   },
@@ -2492,8 +2484,7 @@
     "category": [
       "is4",
       "is4 emergency floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
   },
@@ -2503,8 +2494,7 @@
     "category": [
       "is4",
       "is4 floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
   },
@@ -2514,8 +2504,7 @@
     "category": [
       "is4",
       "is4 emergency floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is4| AND (|ending 3 unlock is4| OR |ending 4 unlock is4|)"
   },
@@ -2524,7 +2513,8 @@
     "region": "is4",
     "category": [
       "is4 boss",
-      "ed3"
+      "ed3",
+      "floor 6 checks"
     ],
     "victory": true,
     "requires": "|floor6 unlock is4| AND |ending 3 unlock is4|"
@@ -2534,7 +2524,8 @@
     "region": "is4",
     "category": [
       "is4 boss",
-      "ed4"
+      "ed4",
+      "floor 6 checks"
     ],
     "victory": true,
     "requires": "|floor6 unlock is4| AND |ending 4 unlock is4|"
@@ -3380,28 +3371,6 @@
     "requires": "|floor5 unlock is5|"
   },
   {
-    "name": "'Cognitive Correction' clear",
-    "region": "is5",
-    "category": [
-      "is5 boss",
-      "optional boss is5",
-      "ed1"
-    ],
-    "victory": true,
-    "requires": "|floor5 unlock is5| AND |Rolling Ancestors|"
-  },
-  {
-    "name": "'The Court of Souls' clear",
-    "region": "is5",
-    "category": [
-      "is5 boss",
-      "optional boss is5",
-      "ed2"
-    ],
-    "victory": true,
-    "requires": "|floor5 unlock is5| AND |Rolling Ancestors| AND |ending 2 unlock is5|"
-  },
-  {
     "name": "'Court Visit' clear",
     "region": "is5",
     "category": [
@@ -3427,9 +3396,7 @@
     "category": [
       "is5",
       "is5 floor entrance",
-      "ed3",
-      "ed4",
-      "ed5"
+      "floor 6 is5"
     ],
     "requires": "|floor6 unlock is5| AND (|ending 3 unlock is5| OR |ending 4 unlock is5| OR |ending 5 unlock is5|)"
   },
@@ -3439,7 +3406,8 @@
     "category": [
       "is5",
       "is5 floor 6",
-      "ed3"
+      "ed3",
+      "floor 6 is5"
     ],
     "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
@@ -3450,7 +3418,8 @@
     "category": [
       "is5",
       "is5 emergency floor 6",
-      "ed3"
+      "ed3",
+      "floor 6 is5"
     ],
     "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
@@ -3461,7 +3430,8 @@
     "category": [
       "is5",
       "is5 floor 6",
-      "ed4"
+      "ed4",
+      "floor 6 is5"
     ],
     "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
@@ -3472,7 +3442,8 @@
     "category": [
       "is5",
       "is5 emergency floor 6",
-      "ed4"
+      "ed4",
+      "floor 6 is5"
     ],
     "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
@@ -3483,7 +3454,8 @@
     "category": [
       "is5",
       "is5 floor 6",
-      "ed4"
+      "ed4",
+      "floor 6 is5"
     ],
     "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
@@ -3494,7 +3466,8 @@
     "category": [
       "is5",
       "is5 emergency floor 6",
-      "ed4"
+      "ed4",
+      "floor 6 is5"
     ],
     "_comment": "this stage looks like it fits ending 4, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
@@ -3505,7 +3478,8 @@
     "category": [
       "is5",
       "is5 floor 6",
-      "ed3"
+      "ed3",
+      "floor 6 is5"
     ],
     "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
@@ -3516,7 +3490,8 @@
     "category": [
       "is5",
       "is5 emergency floor 6",
-      "ed3"
+      "ed3",
+      "floor 6 is5"
     ],
     "_comment": "this stage looks like it fits ending 3, so probably only playable if this ending is unlocked",
     "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
@@ -3526,7 +3501,8 @@
     "region": "is5",
     "category": [
       "is5 boss",
-      "ed3"
+      "ed3",
+      "floor 6 is5"
     ],
     "victory": true,
     "requires": "|floor6 unlock is5| AND |ending 3 unlock is5|"
@@ -3536,7 +3512,8 @@
     "region": "is5",
     "category": [
       "is5 boss",
-      "ed4"
+      "ed4",
+      "floor 6 is5"
     ],
     "victory": true,
     "requires": "|floor6 unlock is5| AND |ending 4 unlock is5|"
@@ -3546,7 +3523,8 @@
     "region": "is5",
     "category": [
       "is5 boss",
-      "ed5"
+      "ed5",
+      "floor 6 is5"
     ],
     "victory": true,
     "requires": "|floor6 unlock is5| AND |ending 5 unlock is5|"
@@ -4270,8 +4248,7 @@
     "category": [
       "is6",
       "is6 floor entrance",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
   },
@@ -4281,8 +4258,7 @@
     "category": [
       "is6",
       "is6 floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
   },
@@ -4292,8 +4268,7 @@
     "category": [
       "is6",
       "is6 emergency floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
   },
@@ -4303,8 +4278,7 @@
     "category": [
       "is6",
       "is6 floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
   },
@@ -4314,8 +4288,7 @@
     "category": [
       "is6",
       "is6 emergency floor 6",
-      "ed3",
-      "ed4"
+      "floor 6 checks"
     ],
     "requires": "|floor6 unlock is6| AND (|ending 3 unlock is6|)"
   },
