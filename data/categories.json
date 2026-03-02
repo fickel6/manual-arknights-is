@@ -8,26 +8,6 @@
     "5 star":{
         "hidden": true
     },
-    "ed1": {
-        "yaml_option": ["include ed1"],
-        "hidden": true
-    },
-    "ed2": {
-        "yaml_option": ["include ed2"],
-        "hidden": true
-    },
-    "ed3": {
-        "yaml_option": ["include ed3"],
-        "hidden": true
-    },
-    "ed4": {
-        "yaml_option": ["include ed4"],
-        "hidden": true
-    },
-    "ed5": {
-        "yaml_option": ["include ed5"],
-        "hidden": true
-    },
     "is2": {
         "yaml_option": ["include is2"],
         "hidden": true

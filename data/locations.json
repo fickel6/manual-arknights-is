@@ -792,7 +792,6 @@
     "name": "'All I Ask of You' clear",
     "region": "is2",
     "category": [
-      "is2",
       "is2 boss",
       "ed1"
     ],
@@ -804,7 +803,6 @@
     "name": "'The Point of No Return' clear",
     "region": "is2",
     "category": [
-      "is2",
       "is2 boss",
       "ed2"
     ],
@@ -875,7 +873,6 @@
     "name": "'New Chapter' clear",
     "region": "is2",
     "category": [
-      "is2",
       "is2 boss",
       "ed4"
     ],
@@ -886,7 +883,6 @@
     "name": "'Twisted Every Way' clear",
     "region": "is2",
     "category": [
-      "is2",
       "is2 boss",
       "ed3"
     ],
@@ -1609,7 +1605,6 @@
     "_comment": "this is ed1",
     "region": "is3",
     "category": [
-      "is3",
       "is3 boss",
       "ed1"
     ],
@@ -1621,7 +1616,6 @@
     "_comment": "this is ed2",
     "region": "is3",
     "category": [
-      "is3",
       "is3 boss",
       "ed2"
     ],
@@ -1687,7 +1681,6 @@
     "name": "'Destiny of We Many' clear",
     "region": "is3",
     "category": [
-      "is3",
       "is3 boss",
       "ed3"
     ],
@@ -1698,7 +1691,6 @@
     "name": "'Glory of Humanity' clear",
     "region": "is3",
     "category": [
-      "is3",
       "is3 boss",
       "ed4"
     ],
@@ -2456,7 +2448,6 @@
     "name": "'Lofty Silverfrost' clear",
     "region": "is4",
     "category": [
-      "is4",
       "is4 boss",
       "ed1"
     ],
@@ -2467,7 +2458,6 @@
     "name": "'Sami's Entropy' clear",
     "region": "is4",
     "category": [
-      "is4",
       "is4 boss",
       "ed2"
     ],
@@ -2533,7 +2523,6 @@
     "name": "'Gardener' clear",
     "region": "is4",
     "category": [
-      "is4",
       "is4 boss",
       "ed3"
     ],
@@ -2544,7 +2533,6 @@
     "name": "'Sands of Time' clear",
     "region": "is4",
     "category": [
-      "is4",
       "is4 boss",
       "ed4"
     ],
@@ -3395,7 +3383,6 @@
     "name": "'Cognitive Correction' clear",
     "region": "is5",
     "category": [
-      "is5",
       "is5 boss",
       "optional boss is5",
       "ed1"
@@ -3407,7 +3394,6 @@
     "name": "'The Court of Souls' clear",
     "region": "is5",
     "category": [
-      "is5",
       "is5 boss",
       "optional boss is5",
       "ed2"
@@ -3419,7 +3405,6 @@
     "name": "'Court Visit' clear",
     "region": "is5",
     "category": [
-      "is5",
       "is5 boss",
       "ed2"
     ],
@@ -3430,7 +3415,6 @@
     "name": "'Emergency Lecture' clear",
     "region": "is5",
     "category": [
-      "is5",
       "is5 boss",
       "ed1"
     ],
@@ -3541,7 +3525,6 @@
     "name": "'Holy City' clear",
     "region": "is5",
     "category": [
-      "is5",
       "is5 boss",
       "ed3"
     ],
@@ -3552,7 +3535,6 @@
     "name": "'The Dharma Sermon' clear",
     "region": "is5",
     "category": [
-      "is5",
       "is5 boss",
       "ed4"
     ],
@@ -3563,7 +3545,6 @@
     "name": "'Fate's Finale' clear",
     "region": "is5",
     "category": [
-      "is5",
       "is5 boss",
       "ed5"
     ],
@@ -4267,7 +4248,6 @@
     "name": "'The Suppression of Sui' clear",
     "region": "is6",
     "category": [
-      "is6",
       "is6 boss",
       "ed1"
     ],
@@ -4278,7 +4258,6 @@
     "name": "'Words Past Like Smoke' clear",
     "region": "is6",
     "category": [
-      "is6",
       "is6 boss",
       "ed2"
     ],
@@ -4344,7 +4323,6 @@
     "name": "'The Sui Strategist' clear",
     "region": "is6",
     "category": [
-      "is6",
       "is6 boss",
       "ed3"
     ],

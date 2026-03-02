@@ -54,7 +54,49 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = [] # List of location names
-
+    if world.options.include_is2 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "is2 boss" in i.get("category", [])
+        ])
+    if world.options.include_is3 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "is3 boss" in i.get("category", [])
+        ])
+    if world.options.include_is4 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "is4 boss" in i.get("category", [])
+        ])
+    if world.options.include_is5 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "is5 boss" in i.get("category", [])
+        ])
+    if world.options.include_is6 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "is6 boss" in i.get("category", [])
+        ])
+    if world.options.include_ed1 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "ed1" in i.get("category", [])
+        ])
+    if world.options.include_ed2 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "ed2" in i.get("category", [])
+        ])
+    if world.options.include_ed3 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "ed3" in i.get("category", [])
+        ])
+    if world.options.include_ed4 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "ed4" in i.get("category", [])
+        ])
+    if world.options.include_ed5 == False:
+        locationNamesToRemove.extend([
+            name for name, i in world.location_name_to_location.items() if "ed5" in i.get("category", [])
+        ])
+    print("found locations to remove: [%s]" % ', '.join(map(str, locationNamesToRemove)))
+    #should only be unique locations, also because there are only 1 location and there is a chance there are doubles
+    locationNamesToRemove = list(set(locationNamesToRemove))
     # Add your code here to calculate which locations to remove
 
     for region in multiworld.regions:
@@ -239,6 +281,17 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 multiworld.push_precollected(random_starting_operator)
                 item_pool.remove(random_starting_operator)
     
+    #add a random amount of random unlockable items
+    if world.options.include_random_operators <=0:
+        item_pool.remove(next(i for i in item_pool if i.name == "random unit unlock"))
+    elif world.options.include_random_operators >1:
+        #there is already one item defined, so we need to add defined amount-1
+        for _ in range(world.options.include_random_operators-1):
+            item_pool.append("random unit unlock")
+
+    #test a yaml option instead of a option.json
+    print("listed option: [%s]" % ', '.join(map(str, world.options.test_list)))
+    raise Exception("test exception. there is a chance that nothing is wrong")
     return item_pool
 
     # Some other useful hook options:

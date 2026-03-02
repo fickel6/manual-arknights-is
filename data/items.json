@@ -3058,6 +3058,14 @@
     "useful": true
   },
   {
+    "count": "0",
+    "name": "random unit unlock",
+    "category": [
+      "character unlock"
+    ],
+    "useful": true
+  },
+  {
     "count": "2",
     "name": "progressive 5 star",
     "category": [

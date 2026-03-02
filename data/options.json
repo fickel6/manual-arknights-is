@@ -37,7 +37,7 @@
             ],
             "type": "Toggle",
             "default": true,
-            "group": "characters options",
+            "group": "operator options",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -57,7 +57,7 @@
                 "progressive items": 1,
                 "exclude": 2
             },
-            "group": "characters options",
+            "group": "operator options",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -75,7 +75,7 @@
                 "progressive items": 0,
                 "exclude": 1
             },
-            "group": "characters options",
+            "group": "operator options",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -93,7 +93,7 @@
                 "progressive items": 0,
                 "exclude": 1
             },
-            "group": "characters options",
+            "group": "operator options",
             "visibility": [
                 "template",
                 "simple_ui",
@@ -245,6 +245,7 @@
             "group": "IS options",
             "description": [
                 "choose which is you want to start in",
+                "make sure that the chosen region is also one you enabled, otherwise the gen will fail.",
                 "0 = is2",
                 "1 = is3",
                 "2 = is4",
@@ -295,7 +296,7 @@
                 "When clearing a level, you will see a tekst if you have a perfect operation or not.",
                 "turning this on, every stage has an extra location where you need to get this perfect operation."
             ],
-            "group": "IS options"
+            "group": "sanities"
         },
         "_include encounter operations": {
             "type": "Toggle",
@@ -306,7 +307,7 @@
                 "the encounter node to get the operation.",
                 "when turned off, these operations won't be included."
             ],
-            "group": "IS options"
+            "group": "sanities"
         },
         "_include higher difficulty": {
             "type": "Range",
@@ -319,7 +320,7 @@
                 "if set to a higher value, Start from the lowest difficulty and progress",
                 "if you get the required key for the difficulty"
             ],
-            "group": "IS options"
+            "group": "sanities"
         },
         "quick start": {
             "type": "Toggle",
@@ -329,6 +330,18 @@
                 "when false, You must unlock floor 2 and 3 like normal."
             ],
             "group": "IS options"
+        },
+        "include random operators": {
+            "type": "Range",
+            "default": 1,
+            "range_start": 0,
+            "range_end": 20,
+            "description": [
+                "add a item for unlocking random operators.",
+                "use websites like https://akgcc.github.io/randomizer/ to choose what operator you can use.",
+                "alternatively, use this as 'unlock a character you want' item"
+            ],
+            "group": "operator options"
         }
     }
 }
