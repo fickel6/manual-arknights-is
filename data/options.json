@@ -37,8 +37,12 @@
                 "in the template yaml, you can also choose which individual 6 star should be removed.",
                 "This is done, becuase there is no way to do ti via the json file (yet)."
             ],
-            "type": "Toggle",
-            "default": true,
+            "type": "Choice",
+            "values": {
+                "as individual items": 0,
+                "progressive items": 1,
+                "exclude": 2
+            },
             "group": "operator options",
             "visibility": [
                 "template",

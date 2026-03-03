@@ -231,6 +231,23 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         delete_all = [i for i in item_pool if i.name in delete_all]
         for name in delete_all:
             item_pool.remove(name)
+            
+    if world.options.include_6_stars == 0:
+        item_pool.remove(next(i for i in item_pool if i.name == "progressive 6 star"))
+        item_pool.remove(next(i for i in item_pool if i.name == "progressive 6 star"))
+    elif world.options.include_6_stars == 1:
+        delete_character = []
+        delete_character.extend([name for name, i in world.item_name_to_item.items() if "6 star" in i.get("category", [])])
+        delete_character = [i for i in item_pool if i.name in delete_character]
+        for name in delete_character:
+            item_pool.remove(name)
+    else:
+        delete_all = []
+        delete_all.extend([name for name, i in world.item_name_to_item.items() if "6 star" in i.get("category", [])])
+        delete_all.extend([name for name, i in world.item_name_to_item.items() if "progressive 6 star" in i.get("category", [])])
+        delete_all = [i for i in item_pool if i.name in delete_all]
+        for name in delete_all:
+            item_pool.remove(name)
 
     max_amount_operators = 3
     if starting_is == "is2" or "is3" or "is4":
@@ -239,7 +256,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         random_variation = world.random.choice([[1,0], [0,3], [0,2], [0, 1]])
     # print("there are "+ str(random_variation[0])+" 6 stars and "+ str(random_variation[1]) + " 5 stars")
     # print("chosen voucher is: [%s]" % ','.join(map(str, starting_items)))
-    if random_variation[0] >=1 and world.options.include_6_stars == True:
+    if random_variation[0] >=1 and world.options.include_6_stars == 0:
         type_operator = world.random.randrange(0, 2)
         possible_operators_choice = [name for name, i in world.item_name_to_item.items() if starting_items[type_operator] in i.get("category", []) and "6 star" in i.get("category", [])]
         possible_operators = [i for i in item_pool if i.name in possible_operators_choice]
