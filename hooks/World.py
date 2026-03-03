@@ -103,7 +103,6 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             name for name, i in world.location_name_to_location.items() if "floor 6 is5" in i.get("category", [])
         ])
 
-    print("found locations to remove: [%s]" % ', '.join(map(str, locationNamesToRemove)))
     #should only be unique locations, also because there are only 1 location and there is a chance there are doubles
     locationNamesToRemove = list(set(locationNamesToRemove))
     # Add your code here to calculate which locations to remove
@@ -286,7 +285,6 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             # print("[%s]"%", ".join(map(str, possible_operators)))
             if starting["random"] == 1: 
                 random_starting_operator = world.random.choice(possible_operators)
-                # print("chosen 5 star: " + str(random_starting_operator))
                 multiworld.push_precollected(random_starting_operator)
                 item_pool.remove(random_starting_operator)
     # remove the amount of random unlockable items
