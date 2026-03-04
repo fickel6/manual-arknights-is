@@ -32,10 +32,10 @@
     "user": {
         "include 6 stars":{
             "description": [
-                "include or exclude all six stars from the randomizer.",
-                "if excluded (false), you can't play any 6 stars. in all the runs.",
-                "in the template yaml, you can also choose which individual 6 star should be removed.",
-                "This is done, becuase there is no way to do ti via the json file (yet)."
+                "how the 6 stars will be randomised",
+                "'as individual items': all 6 stars are individual items. When you get this, you instantly get access to e2",
+                "'progressive items': all 6 stars are progressive items. first item, you unlock all 6 stars. Second progressive item unlocks e2",
+                "'exclude': no 6 stars will be included. Alternatively could be used as you can always use 6 stars"
             ],
             "type": "Choice",
             "values": {
