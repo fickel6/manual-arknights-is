@@ -3517,8 +3517,136 @@
     ],
     "useful": true
   },
-
-
+  {
+    "count": "1",
+    "name": "Quartz",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Roberta",
+    "category": [
+      "character",
+      "4 star",
+      "supporter"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Rope",
+    "category": [
+      "character",
+      "4 star",
+      "specialist"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Scavenger",
+    "category": [
+      "character",
+      "4 star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Shaw",
+    "category": [
+      "character",
+      "4 star",
+      "specialist"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Shirayuki",
+    "category": [
+      "character",
+      "4 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Sussurro",
+    "category": [
+      "character",
+      "4 star",
+      "medic"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Totter",
+    "category": [
+      "character",
+      "4 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Utage",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Verdant",
+    "category": [
+      "character",
+      "4 star",
+      "specialist"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Vermeil",
+    "category": [
+      "character",
+      "4 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Vigna",
+    "category": [
+      "character",
+      "4 star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Windscoot",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
   {
     "count": "20",
     "name": "random unit unlock",

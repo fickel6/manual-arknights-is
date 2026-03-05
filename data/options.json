@@ -43,6 +43,7 @@
                 "progressive items": 1,
                 "exclude": 2
             },
+            "default": 0,
             "group": "operator options",
             "visibility": [
                 "template",
@@ -63,6 +64,7 @@
                 "progressive items": 1,
                 "exclude": 2
             },
+            "default": 0,
             "group": "operator options",
             "visibility": [
                 "template",
@@ -70,7 +72,7 @@
                 "complex_ui"
             ]
         },
-        "_include 4 stars":{
+        "include 4 stars":{
             "description": [
                 "how the 4 stars will be randomised",
                 "'progressive items': all 4 stars are progressive items. first item, you unlock all 4 stars. Second progressive item unlocks e2",
@@ -78,9 +80,11 @@
             ],
             "type": "Choice",
             "values": {
-                "progressive items": 0,
-                "exclude": 1
+                "as individual items": 0,
+                "progressive items": 1,
+                "exclude": 2
             },
+            "default": 1,
             "group": "operator options",
             "visibility": [
                 "template",
@@ -96,9 +100,11 @@
             ],
             "type": "Choice",
             "values": {
-                "progressive items": 0,
-                "exclude": 1
+                "as individual items": 0,
+                "progressive items": 1,
+                "exclude": 2
             },
+            "default": 2,
             "group": "operator options",
             "visibility": [
                 "template",
