@@ -237,9 +237,9 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     remove_character("progressive 6 star", "6 star", 2, world.options.include_6_stars)
     remove_character("progressive 5 star", "5 star", 2, world.options.include_5_stars)
     remove_character("progressive 4 star", "4 star", 2, world.options.include_4_stars)
-    remove_character("progressive 3 star", "3 star", 2, world.options.include_3_stars)
-    remove_character("progressive low star", "low star", 2, world.options.include_1_and_2_stars)
-    
+    remove_character("progressive 3 star", "3 star", 1, world.options.include_3_stars)
+    remove_character("progressive low star", "low star", 1, world.options.include_1_and_2_stars)
+
     max_amount_operators = 3
     if starting_is == "is2" or "is3" or "is4":
         random_variation = world.random.choice([[1,0], [0,2], [0,1]])
