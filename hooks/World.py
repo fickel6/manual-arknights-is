@@ -312,6 +312,18 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
 # The complete item pool prior to being set for generation is provided here, in case you want to make changes to it
 def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    #traps are automatically added to the pool
+    #What this hook must do:
+    # . check how many traps there are. 
+    # . based on the option do something
+    #   . no traps = remove all traps
+    #   . manual traps = don't do anything basically. manual does it automatically for us
+    #   . even traps = remove all the traps and calc how many items we can put in the manual
+    #   .  if it can't be devided in to equal pieces, do the traps in random
+    #options:
+    # . no traps (same effect as trap percentage = 0)
+    # . manual traps. all the traps are done as manual wanted
+    # . even traps. There are about the same amount of all the traps.
     return item_pool
 
 # Called before rules for accessing regions and locations are created. Not clear why you'd want this, but it's here.
