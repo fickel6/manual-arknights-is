@@ -5039,5 +5039,51 @@
       "is6 key"
     ],
     "progression": true
+  },
+  {
+    "count": 10,
+    "name": "-1 deployment unit",
+    "category": [
+      "trap",
+      "deployment limit trap"
+    ],
+    "trap": true
+  },
+  {
+    "count": 10,
+    "name": "-1 squad limit",
+    "category":[
+      "trap",
+      "squad limit trap"
+    ],
+    "trap": true
+  },
+  {
+    "count": 10,
+    "name": "remove usable operator",
+    "category": [
+      "trap",
+      "character trap"
+    ],
+    "trap": true
+  },
+  {
+    "count": 10,
+    "name": "force 3 snipers",
+    "category": [
+      "trap",
+      "nice niche knights"
+    ],
+    "trap": true
+  },
+  {
+    "count": 10,
+    "_comment": "add all the other classes and all the rarities",
+    "name": "force 3 caster",
+    "category": [
+      "trap",
+      "nice niche knights"
+    ],
+    "trap": true
   }
 ]
