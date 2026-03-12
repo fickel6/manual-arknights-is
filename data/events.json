@@ -323,7 +323,8 @@
         "category": "is6",
         "region": "is6",
         "_comment": [
-            "is the main gimmick of this is. unlocked this late, because it is technically possible",
+            "is the main gimmick of this is. unlocked later, because it is technically possible",
+            "to do this IS without interacting with it for some time",
             "make a option to change this requirement?"
         ],
         "requires": "|floor3 unlock is6| AND |Wander Into Wonderland key is6|",
