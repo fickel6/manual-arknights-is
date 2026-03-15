@@ -239,7 +239,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 case "First Move Advantage":
                     starting_items = ["sniper", "specialist", "vanguard"]
                 case "Slow and Steady Wins the Race":
-                    starting_items = ["Caster", "Defender", "Sniper"] # bug where a 6 star specialist can be chosen
+                    starting_items = ["Caster", "Defender", "Sniper"]
                 case "Overcoming your Weaknesses":
                     starting_items = ["Guard", "Medic", "Supporter"]
                 case "Flexible Deployment":
@@ -264,7 +264,9 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     if random_variation[0] >=1 and world.options.include_6_stars == 0:
         type_operator = world.random.randrange(0, 2)
         possible_operators_choice = [name for name, i in world.item_name_to_item.items() if starting_items[type_operator] in i.get("category", []) and "6 star" in i.get("category", [])]
-        possible_operators = [i for i in item_pool if i.name in possible_operators_choice]
+        possible_operators = [
+            i for i in item_pool if i.name in possible_operators_choice
+            ]
         random_operator = world.random.choice(possible_operators)
         multiworld.push_precollected(random_operator)
         item_pool.remove(random_operator)
