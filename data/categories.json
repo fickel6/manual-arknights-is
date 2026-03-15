@@ -2,7 +2,6 @@
     "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.categories.schema.json",
     "6 star":{
         "_comment": "categories are for hiding certain categories for the player or enabling/disabling categories",
-        "yaml_option": ["include 6 stars"],
         "hidden": true
     },
     "5 star":{
@@ -28,6 +27,21 @@
         "yaml_option": ["include is6"],
         "hidden": true
     },
+    "is2 collectible": {
+        "yaml_option": ["include is2"]
+    },
+    "is3 collectible": {
+        "yaml_option": ["include is3"]
+    },
+    "is4 collectible": {
+        "yaml_option": ["include is4"]
+    },
+    "is5 collectible": {
+        "yaml_option": ["include is5"]
+    },
+    "is6 collectible": {
+        "yaml_option": ["include is6"]
+    },
     "Face Off": {
         "yaml_option": ["include face off nodes"],
         "hidden": true
@@ -37,6 +51,21 @@
         "hidden": true
     },
     "character": {
+        "hiddden": true
+    },
+    "ed1": {
+        "hiddden": true
+    },
+    "ed2": {
+        "hiddden": true
+    },
+    "ed3": {
+        "hiddden": true
+    },
+    "ed4": {
+        "hiddden": true
+    },
+    "ed5": {
         "hiddden": true
     },
     "alter": {

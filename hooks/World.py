@@ -126,6 +126,44 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    #remove all the excluded operators
+    if world.options.include_5_stars == 0:
+        item_pool.remove(next(i for i in item_pool if i.name == "progressive 5 star"))
+        item_pool.remove(next(i for i in item_pool if i.name == "progressive 5 star"))
+    elif world.options.include_5_stars == 1:
+        delete_character = []
+        delete_character.extend([name for name, i in world.item_name_to_item.items() if "5 star" in i.get("category", [])])
+        delete_character = [i for i in item_pool if i.name in delete_character]
+        for name in delete_character:
+            item_pool.remove(name)
+    else:
+        delete_all = []
+        delete_all.extend([name for name, i in world.item_name_to_item.items() if "5 star" in i.get("category", [])])
+        delete_all.extend([name for name, i in world.item_name_to_item.items() if "progressive 5 star" in i.get("category", [])])
+        delete_all = [i for i in item_pool if i.name in delete_all]
+        for name in delete_all:
+            item_pool.remove(name)
+            
+    if world.options.include_6_stars == 0:
+        item_pool.remove(next(i for i in item_pool if i.name == "progressive 6 star"))
+        item_pool.remove(next(i for i in item_pool if i.name == "progressive 6 star"))
+    elif world.options.include_6_stars == 1:
+        delete_character = []
+        delete_character.extend([name for name, i in world.item_name_to_item.items() if "6 star" in i.get("category", [])])
+        delete_character = [i for i in item_pool if i.name in delete_character]
+        for name in delete_character:
+            item_pool.remove(name)
+    else:
+        delete_all = []
+        delete_all.extend([name for name, i in world.item_name_to_item.items() if "6 star" in i.get("category", [])])
+        delete_all.extend([name for name, i in world.item_name_to_item.items() if "progressive 6 star" in i.get("category", [])])
+        delete_all = [i for i in item_pool if i.name in delete_all]
+        for name in delete_all:
+            item_pool.remove(name)
+    # remove the amount of random unlockable items
+    max_amount_random_unlock = 20
+    for _ in range(max_amount_random_unlock - world.options.include_random_operators):
+        item_pool.remove(next(i for i in item_pool if i.name == "random unit unlock"))
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
@@ -201,7 +239,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 case "First Move Advantage":
                     starting_items = ["sniper", "specialist", "vanguard"]
                 case "Slow and Steady Wins the Race":
-                    starting_items = ["Caster", "Defender", "Sniper"] # bug where a 6 star specialist can be chosen
+                    starting_items = ["Caster", "Defender", "Sniper"]
                 case "Overcoming your Weaknesses":
                     starting_items = ["Guard", "Medic", "Supporter"]
                 case "Flexible Deployment":
@@ -250,7 +288,9 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     if random_variation[0] >=1 and world.options.include_6_stars == 0:
         type_operator = world.random.randrange(0, 2)
         possible_operators_choice = [name for name, i in world.item_name_to_item.items() if starting_items[type_operator] in i.get("category", []) and "6 star" in i.get("category", [])]
-        possible_operators = [i for i in item_pool if i.name in possible_operators_choice]
+        possible_operators = [
+            i for i in item_pool if i.name in possible_operators_choice
+            ]
         random_operator = world.random.choice(possible_operators)
         multiworld.push_precollected(random_operator)
         item_pool.remove(random_operator)
@@ -295,10 +335,6 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 random_starting_operator = world.random.choice(possible_operators)
                 multiworld.push_precollected(random_starting_operator)
                 item_pool.remove(random_starting_operator)
-    # remove the amount of random unlockable items
-    max_amount_random_unlock = 20
-    for _ in range(max_amount_random_unlock - world.options.include_random_operators):
-        item_pool.remove(next(i for i in item_pool if i.name == "random unit unlock"))
 
     return item_pool
 

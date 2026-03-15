@@ -2019,7 +2019,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist"
+      "supporter"
     ],
     "useful": true
   },
@@ -4011,6 +4011,7 @@
     "category": [
       "squad"
     ],
+    "sort-key": "squad 1",
     "useful": true
   },
   {
@@ -4019,6 +4020,7 @@
     "category": [
       "squad"
     ],
+    "sort-key": "squad 2",
     "useful": true
   },
   {
@@ -4027,6 +4029,7 @@
     "category": [
       "squad"
     ],
+    "sort-key": "squad 4",
     "useful": true
   },
   {
@@ -4035,6 +4038,7 @@
     "category": [
       "squad"
     ],
+    "sort-key": "squad 5",
     "useful": true
   },
   {
@@ -4043,6 +4047,7 @@
     "category": [
       "squad"
     ],
+    "sort-key": "squad 6",
     "useful": true
   },
   {
@@ -4051,6 +4056,7 @@
     "category": [
       "squad"
     ],
+    "sort-key": "squad 7",
     "useful": true
   },
   {
@@ -4059,6 +4065,7 @@
     "category": [
       "squad"
     ],
+    "sort-key": "squad 8",
     "useful": true
   },
   {
@@ -4067,6 +4074,7 @@
     "category": [
       "squad"
     ],
+    "sort-key": "squad 9",
     "useful": true
   },
   {
@@ -4076,6 +4084,7 @@
       "squad",
       "is2", "is3"
     ],
+    "sort-key": "squad 10",
     "useful": true
   },
   {
@@ -4084,6 +4093,8 @@
     "category": [
       "squad"
     ],
+    
+    "sort-key": "squad 11",
     "useful": true
   },
   {
@@ -4093,6 +4104,7 @@
       "squad",
       "is3"
     ],
+    "sort-key": "squad 12",
     "useful": true
   },
   {
@@ -4102,6 +4114,7 @@
       "squad",
       "is3"
     ],
+    "sort-key": "squad 13",
     "useful": true
   },
   {
@@ -4111,6 +4124,8 @@
       "squad",
       "is3"
     ],
+    
+    "sort-key": "squad 14",
     "useful": true
   },
   {
@@ -4120,6 +4135,7 @@
       "squad",
       "is4"
     ],
+    "sort-key": "squad 15",
     "useful": true
   },
   {
@@ -4129,6 +4145,7 @@
       "squad",
       "is4"
     ],
+    "sort-key": "squad 16",
     "useful": true
   },
   {
@@ -4138,6 +4155,7 @@
       "squad",
       "is4"
     ],
+    "sort-key": "squad 17",
     "useful": true
   },
   {
@@ -4147,6 +4165,7 @@
       "squad",
       "is4"
     ],
+    "sort-key": "squad 18",
     "useful": true
   },
   {
@@ -4156,6 +4175,7 @@
       "squad",
       "is5"
     ],
+    "sort-key": "squad 19",
     "useful": true
   },
   {
@@ -4165,6 +4185,7 @@
       "squad",
       "is5"
     ],
+    "sort-key": "squad 20",
     "useful": true
   },
   {
@@ -4174,6 +4195,7 @@
       "squad",
       "is5"
     ],
+    "sort-key": "squad 21",
     "useful": true
   },
   {
@@ -4183,6 +4205,7 @@
       "squad",
       "is5"
     ],
+    "sort-key": "squad 22",
     "useful": true
   },
   {
@@ -4192,6 +4215,7 @@
       "squad",
       "is5"
     ],
+    "sort-key": "squad 23",
     "useful": true
   },
   {
@@ -4201,6 +4225,7 @@
       "squad",
       "is5"
     ],
+    "sort-key": "squad 24",
     "useful": true
   },
   {
@@ -4210,6 +4235,8 @@
       "squad",
       "is5"
     ],
+    
+    "sort-key": "squad 25",
     "useful": true
   },
   {
@@ -4219,6 +4246,7 @@
       "squad",
       "is5"
     ],
+    "sort-key": "squad 26",
     "useful": true
   },
   {
@@ -4228,6 +4256,7 @@
       "squad",
       "is6"
     ],
+    "sort-key": "squad 3",
     "useful": true
   },
   {
@@ -4237,6 +4266,7 @@
       "squad",
       "is6"
     ],
+    "sort-key": "squad 27",
     "useful": true
   },
   {
@@ -4246,6 +4276,7 @@
       "squad",
       "is6"
     ],
+    "sort-key": "squad 28",
     "useful": true
   },
   {
@@ -4255,6 +4286,7 @@
       "squad",
       "is6"
     ],
+    "sort-key": "squad 29",
     "useful": true
   },
   {
@@ -4264,6 +4296,7 @@
       "squad",
       "is6"
     ],
+    "sort-key": "squad 30",
     "useful": true
   },
   {
@@ -4273,6 +4306,7 @@
       "squad",
       "is6"
     ],
+    "sort-key": "squad 31",
     "useful": true
   },
   {
